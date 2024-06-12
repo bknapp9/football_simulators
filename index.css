@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'myriad-pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background: #000040;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/cl-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #000040;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #000040;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #c6ac8f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+}
+.header-text p {
+    font-size: 20px;
+    color: gray;
+}
+
+.simulators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+
+.simulators a {
+    display: block;
+    height: 380px;
+    width: 320px;
+    /* margin-top: 150px; */
+    margin: 150px 90px;
+}
+
+.card-div {
+    transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    height: 390px;
+    width: 320px;
+    background-color: white;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+    padding: 0;
+    box-shadow: inset 0 0 0 1px rgba(221,238,255,.1);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-div .card-content {
+    transition: all;
+    position: absolute;
+    bottom: 0;
+    background-color: #2929cc;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color: #ffc300;
+}
+
+.card-div .simulator-title {
+    font-size: 20px;
+}
+
+.simulators a:hover .card-div {
+    border-color: yellow;
+    transform: translateY(-5px); /* Mueve el elemento hacia arriba */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+}
+
+.simulators a:hover .card-div .card-content {
+    color: yellow;
+}
