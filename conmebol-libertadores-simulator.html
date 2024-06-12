@@ -1,0 +1,3753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Sorteo de Champions League</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" -->
+    <!-- integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zrd1rxn.css">
+</head>
+
+<body>
+    <!-- Bolas para extraer de los bombos -->
+    <header class="header">
+        <h1>Conmebol Libertadores Simulator</h1>
+    </header>
+    <div class="button-header">
+        <button class="btn" id="startDraw">Start Draw</button>
+        <button class="btn" id="fastDraw">Fast Draw</button>
+        <button class="btn" id="continueFromOriginal">Continue From Original Draw</button>
+        <button class="btn hide" id="continueDrawBtn">Continue Draw</button>
+        <button class="btn hide" id="generateFixturesBtn">Generate Fixtures</button>
+        <button class="btn hide" id="simulateMatchdayBtn">Simulate Matchday 1</button>
+        <button class="btn hide" id="continueToKO">Continue to RO16</button>
+        <button class="btn hide" id="continueFromOriginalRO16">Continue From Original Draw</button>
+        <button class="btn hide" id="simulateKOBtn">Simulate 1st Leg</button>
+    </div>
+
+    <section>
+        <div class="tabs-container hide">
+            <ul class="tabs">
+                <li data-index="0" class="active">
+                    <a href="">Group A</a>
+                </li>
+                <li data-index="1">
+                    <a href="">Group B</a>
+                </li>
+                <li data-index="2">
+                    <a href="">Group C</a>
+                </li>
+                <li data-index="3">
+                    <a href="">Group D</a>
+                </li>
+                <li data-index="4">
+                    <a href="">Group E</a>
+                </li>
+                <li data-index="5">
+                    <a href="">Group F</a>
+                </li>
+                <li data-index="6">
+                    <a href="">Group G</a>
+                </li>
+                <li data-index="7">
+                    <a href="">Group H</a>
+                </li>
+                <li data-index="8">
+                    <a href="">Scorers</a>
+                </li>
+            </ul>
+            <hr style="margin-top: 7px;">
+        </div>
+    </section>
+
+    <section>
+        <div class="tabs-container hide" id="tabsContainerRO16">
+            <ul class="tabs" id="tabsRO16">
+                <li data-index="0" class="active">
+                    <a href="">Section 1</a>
+                </li>
+                <li data-index="1">
+                    <a href="">Section 2</a>
+                </li>
+                <li data-index="2">
+                    <a href="">Scorers</a>
+                </li>
+            </ul>
+            <hr style="margin-top: 7px;">
+        </div>
+        <hr class="hr">
+    </section>
+
+    <section>
+        <div class="tabs-container hide" id="tabsContainerKO">
+            <ul class="tabs" id="tabsKO">
+                <li data-index="0" class="active">
+                    <a href="">Matches</a>
+                </li>
+                <li data-index="1">
+                    <a href="">Scorers</a>
+                </li>
+            </ul>
+            <hr style="margin-top: 7px;">
+        </div>
+    </section>
+
+    <section class="pots" id="potsTable">
+        <div><br></div>
+        <div>
+            <table class="potsTable" id="potsATable">
+                <thead>
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Pot 1</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="potsTeam">
+                        <td><img src="images/Fluminense.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Fluminense</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Palmeiras.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Palmeiras</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/RiverPlate.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">River Plate</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Flamengo.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Flamengo</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Gremio.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Gremio</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Penarol.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Peñarol</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/SaoPaulo.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">São Paulo</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/LDUQuito.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">LDU Quito</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="potsTable" id="potsBTable">
+                <thead>
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Pot 2</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="potsTeam" class="potsTeam">
+                        <td><img src="images/AtleticoMG.png" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName">Atlético MG</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/IndDelValle.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Ind Del Valle</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Libertad.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Libertad</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/CerroPorteno.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Cerro Porteño</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Estudiantes.png" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName">Estudiantes</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/BarcelonaSC.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Barcelona SC</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Bolivar.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Bolivar</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Junior.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Junior</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="potsTable" id="potsCTable">
+                <thead>
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Pot 3</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="potsTeam">
+                        <td><img src="images/SanLorenzo.png" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName">San Lorenzo</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/TheStrongest.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">The Strongest</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Universitario.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Universitario</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/DeportivoTachira.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Deportivo Táchira</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/RosarioCentral.png" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName">Rosario Central</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/AlianzaLima.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Alianza Lima</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Millonarios.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Millonarios</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Talleres.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Talleres</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="potsTable" id="potsDTable">
+                <thead>
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Pot 4</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="potsTeam">
+                        <td><img src="images/Caracas.png" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName">Caracas</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Liverpool.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Liverpool</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Huachipato.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Huachipato </td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Cobresal.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Cobresal</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Botafogo.png" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName">Botafogo</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Palestino.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Palestino</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/Nacional.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Nacional</td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="images/ColoColo.png" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName">Colo Colo </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="potsTable hide" id="potsRO16A">
+                <thead>
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Pot 1</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"> </td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="potsTable hide" id="potsRO16B">
+                <thead>
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Pot 2</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"> </td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="potsTable hide" id="potsQF">
+                <thead>
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Pot</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"> </td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs">
+                        </td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                    <tr class="potsTeam">
+                        <td><img src="" alt="" class="teamsImgs"></td>
+                        <td class="potsTeamName"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    </div>
+
+    <section class="GSTables" id="GSTables">
+        <div>
+            <table class="groupStageTable table" id="groupATable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group A</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="1">
+        </div>
+        <div>
+            <table class="groupStageTable table" id="groupBTable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group B</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="2">
+        </div>
+        <div>
+            <table class="groupStageTable table" id="groupCTable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group C</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="3">
+        </div>
+        <div>
+            <table class="groupStageTable table" id="groupDTable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group D</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="4">
+        </div>
+        <div>
+            <table class="groupStageTable table" id="groupETable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group E</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="5">
+        </div>
+        <div>
+            <table class="groupStageTable table" id="groupFTable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group F</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="6">
+        </div>
+        <div>
+            <table class="groupStageTable table" id="groupGTable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group G</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="7">
+        </div>
+        <div>
+            <table class="groupStageTable table" id="groupATable">
+                <thead class="tableHeader">
+                    <tr>
+                        <th class="tableHeaders"></th>
+                        <th class="tableTeamName"><b>Group H</b></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                    <tr class="stats hideTable">
+                        <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
+                        </td>
+                        <td class="GSTeamName"></td>
+                        <td class="matchesPlayed" id="matchesPlayed"><span>0</span></td>
+                        <td class="wins" id="gamesWon"><span>0</span></td>
+                        <td class="draws" id="gamesDrawn"><span>0</span></td>
+                        <td class="looses" id="gamesLost"><span>0</span></td>
+                        <td class="goalDifference" id="goalDifference"><span>0</span></td>
+                        <td class="totalPts" id="totalPts"><span>0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="groupSpacing hide" data-index="8">
+    </section>
+
+
+    <hr class="groupSpacing hide" data-index="0">
+    <section class="groupStageMatches hide" id="GSATableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupAMatches">
+                <tbody class="groupMatches">
+                    <tr class="expandableRow">
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="expandedInfo">
+                        <td colspan="3">
+                            1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupAMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupAMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupAMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupAMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupAMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="groupStageMatches hide" id="GSBTableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupBMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupBMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupBMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupBMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupBMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupBMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="groupStageMatches hide" id="GSCTableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupCMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupCMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupCMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupCMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupCMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupCMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="groupStageMatches hide" id="GSDTableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupDMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupDMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupDMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupDMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupDMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupDMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="groupStageMatches hide" id="GSETableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupEMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupEMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupEMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupEMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupEMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupEMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="groupStageMatches hide" id="GSFTableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupFMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupFMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupFMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupFMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupFMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupFMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="groupStageMatches hide" id="GSGTableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupGMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupGMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupGMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupGMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupGMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupGMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="groupStageMatches hide" id="GSHTableMatches">
+        <div>
+            <table class="GSTableMatches" id="groupHMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupHMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupHMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupHMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupHMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="GSTableMatches" id="groupHMatches">
+                <tbody class="groupMatches">
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fixtureRow">
+                            <div class="homeTeam">
+                                <div class="homeTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                                <div class="homeTeamName"></div>
+                                <div class="homeTeamScore"></div>
+                            </div>
+                            <div class="fixtureVS">VS</div>
+                            <div class="awayTeam">
+                                <div class="awayTeamScore"></div>
+                                <div class="awayTeamName"></div>
+                                <div class="awayTeamLogo">
+                                    <img src="" alt="" class="teamsImgs">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="scorers hide">
+        <h2>Top 10 Scorers</h2>
+        <div class="tableContainer">
+            <table class="topScorersTable" id="topScorersTable">
+                <thead>
+                    <tr>
+                        <th class="statsTHeader">#</th>
+                        <th class="statsTHeader">Player</th>
+                        <th class="statsTHeader">Team</th>
+                        <th class="statsTHeader">Goals</th>
+                    </tr>
+                </thead>
+                <tbody class="topScorers">
+                    <tr>
+                        <td class="topScorerRank">1</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">2</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">3</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">4</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">5</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">6</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">7</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">8</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">9</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                    <tr>
+                        <td class="topScorerRank">10</td>
+                        <td class="topScorerName"></td>
+                        <td class="topScorerTeam"></td>
+                        </td>
+                        <td class="topScorerGoals"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <main id="RO16Matches" class="hide">
+        <section class="RO16Matches" id="RO16MatchesA">
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableA">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableA">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableA">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableA">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+        </section>
+        <section class="RO16Matches" id="RO16MatchesB">
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableB">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableB">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableB">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="RO16MatchesTableB">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="RO16TeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="RO16TeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="RO16TeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="QFMatches activeTable">
+            <div>
+                <table class="GSTableMatches" id="QFMatchesTable">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="QFMatchesTable">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="QFMatchesTable">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="QFMatchesTable">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="QFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="QFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="QFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="SFMatches">
+            <div>
+                <table class="GSTableMatches" id="SFMatchesTable">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="SFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="SFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="SFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="SFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="GSTableMatches" id="SFMatchesTable">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="SFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="SFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="SFTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">VS</div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="SFTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="SFTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="finalMatch">
+            <div>
+                <table class="GSTableMatches" id="FinalMatchesTable">
+                    <tbody class="groupMatches">
+                        <tr>
+                            <td class="fixtureRow">
+                                <div class="homeTeam">
+                                    <div class="homeTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="finalTeamsImgs">
+                                    </div>
+                                    <div class="homeTeamName" id="finalTeamName"></div>
+                                    <div class="homeTeamScore"></div>
+                                </div>
+                                <div class="fixtureVS">
+                                    <div>VS</div>
+                                </div>
+                                <div class="awayTeam">
+                                    <div class="awayTeamScore"></div>
+                                    <div class="awayTeamName" id="finalTeamName"></div>
+                                    <div class="awayTeamLogo">
+                                        <img src="" alt="" class="teamsImgs" id="finalTeamsImgs">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="globalScore hide">Agg: <span class="globalScoreValue"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="gifsContainer hide" id="gifContainer">
+        <img src="images/drawing.gif" alt="" class="drawingGif">
+    </div>
+    <section class="potsContainer" id="potsContainer">
+        <div class="potsBalls">
+            <div id="potsBall" class="potsBall"></div>
+            <div id="potsBall" class="potsBall"></div>
+            <div id="potsBall" class="potsBall"></div>
+            <div id="potsBall" class="potsBall"></div>
+            <div id="potsBall" class="potsBall"></div>
+            <div id="potsBall" class="potsBall"></div>
+            <div id="potsBall" class="potsBall"></div>
+            <div id="potsBall" class="potsBall"></div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

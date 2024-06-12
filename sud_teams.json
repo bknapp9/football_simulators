@@ -1,0 +1,3935 @@
+{
+    "Teams": {
+        "Team": [
+            {
+                "Team": "Fluminense",
+                "TeamCountry": "Brazil",
+                "TeamRating": 88,
+                "CCLWins": 1,
+                "TeamRating2": 98,
+                "TeamRating3": 64,
+                "Stadium": [
+                    {
+                        "Name": "Estadio de Maracaná",
+                        "Capacity": 78838,
+                        "FilledPercentageGS": 80,
+                        "FilledPercentageKS": 83
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 0,
+                        "FirstName": "German",
+                        "LastName": "Cano",
+                        "ScoringChance": 30
+                    },
+                    {
+                        "PlayerId": 1,
+                        "FirstName": "Jhon",
+                        "LastName": "Arias",
+                        "ScoringChance": 10,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 2,
+                        "FirstName": "Keno",
+                        "LastName": "",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 3,
+                        "FirstName": "Ganso",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 4,
+                        "FirstName": "Martinelli",
+                        "LastName": "",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 5,
+                        "FirstName": "Andre",
+                        "LastName": "",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 6,
+                        "FirstName": "Marcelo",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 7,
+                        "FirstName": "Felipe",
+                        "LastName": "Melo",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 8,
+                        "FirstName": "Thiago",
+                        "LastName": "Santos",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 9,
+                        "FirstName": "Guga",
+                        "LastName": "Arias",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 10,
+                        "FirstName": "Lele",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 11,
+                        "FirstName": "Marquinhos",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 12,
+                        "FirstName": "Douglas",
+                        "LastName": "Costa",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 13,
+                        "FirstName": "Vinicius",
+                        "LastName": "Lima",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 14,
+                        "FirstName": "David",
+                        "LastName": "Terens",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 15,
+                        "FirstName": "Gabriel",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 16,
+                        "FirstName": "Renato",
+                        "LastName": "Augusto",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 17,
+                        "FirstName": "Alexsander",
+                        "LastName": "Gomes",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 18,
+                        "FirstName": "Antonio",
+                        "LastName": "Carlos",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 19,
+                        "FirstName": "Marlon",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 20,
+                        "FirstName": "Diogo",
+                        "LastName": "Barboas",
+                        "ScoringChance": 1
+                    }
+                ]
+            },
+            {
+                "Team": "Palmeiras",
+                "TeamCountry": "Brazil",
+                "TeamRating": 100,
+                "TeamRating2": 100,
+                "TeamRating3": 96,
+                "CCLWins": 3,
+                "Stadium": [
+                    {
+                        "Name": "Allianz Parque",
+                        "Capacity": 43713,
+                        "FilledPercentageGS": 76,
+                        "FilledPercentageKS": 92
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 21,
+                        "FirstName": "Jose",
+                        "LastName": "Lopez",
+                        "ScoringChance": 15
+                    },
+                    {
+                        "PlayerId": 22,
+                        "FirstName": "Ze",
+                        "LastName": "Rafael",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 23,
+                        "FirstName": "Raphael",
+                        "LastName": "Veiga",
+                        "ScoringChance": 15,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 24,
+                        "FirstName": "Joaquin",
+                        "LastName": "Piquerez",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 25,
+                        "FirstName": "Anibal",
+                        "LastName": "Moreno",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 26,
+                        "FirstName": "Richard",
+                        "LastName": "Rios",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 27,
+                        "FirstName": "Endrick",
+                        "LastName": "",
+                        "ScoringChance": 19
+                    },
+                    {
+                        "PlayerId": 28,
+                        "FirstName": "Murilo",
+                        "LastName": "Cerqueira",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 29,
+                        "FirstName": "Luan",
+                        "LastName": "Garcia",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 30,
+                        "FirstName": "Marcos",
+                        "LastName": "Rocha",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 31,
+                        "FirstName": "Rony",
+                        "LastName": "",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 32,
+                        "FirstName": "Lazaro",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 33,
+                        "FirstName": "Breno",
+                        "LastName": "Lopes",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 34,
+                        "FirstName": "Fabinho",
+                        "LastName": "",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 35,
+                        "FirstName": "Luis",
+                        "LastName": "Guilherme",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 36,
+                        "FirstName": "Kaiky",
+                        "LastName": "Navas",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 37,
+                        "FirstName": "Gabriel",
+                        "LastName": "Menino",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 38,
+                        "FirstName": "Caio",
+                        "LastName": "Paulista",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 39,
+                        "FirstName": "Mayke",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 40,
+                        "FirstName": "Vanderlan",
+                        "LastName": "",
+                        "ScoringChance": 1
+                    }
+                ]
+            },
+            {
+                "Team": "River Plate",
+                "TeamCountry": "Argentina",
+                "TeamRating": 98,
+                "TeamRating2": 96,
+                "TeamRating3": 100,
+                "CCLWins": 4,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Mâs Monumental",
+                        "Capacity": 84567,
+                        "FilledPercentageGS": 77,
+                        "FilledPercentageKS": 77
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 41,
+                        "FirstName": "Miguel",
+                        "LastName": "Borja",
+                        "ScoringChance": 27
+                    },
+                    {
+                        "PlayerId": 42,
+                        "FirstName": "Facundo",
+                        "LastName": "Colidio",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 43,
+                        "FirstName": "Ezequiel",
+                        "LastName": "Barco",
+                        "ScoringChance": 6,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 44,
+                        "FirstName": "Claudio",
+                        "LastName": "Echeverri",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 45,
+                        "FirstName": "Nacho",
+                        "LastName": "Fernandez",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 46,
+                        "FirstName": "Rodrigo",
+                        "LastName": "Villagra",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 47,
+                        "FirstName": "Enzo",
+                        "LastName": "Diaz",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 48,
+                        "FirstName": "Paulo",
+                        "LastName": "Diaz",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 49,
+                        "FirstName": "Gonzalez",
+                        "LastName": "Pirez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 50,
+                        "FirstName": "Marcelo",
+                        "LastName": "Herrera",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 51,
+                        "FirstName": "Pablo",
+                        "LastName": "Solari",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 52,
+                        "FirstName": "Manuel",
+                        "LastName": "Lanzini",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 53,
+                        "FirstName": "Franco",
+                        "LastName": "Mastantuono",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 54,
+                        "FirstName": "Agustin",
+                        "LastName": "Ruberto",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 55,
+                        "FirstName": "Nicolas",
+                        "LastName": "Fonseca",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 56,
+                        "FirstName": "Rodrigo",
+                        "LastName": "Aliendro",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 57,
+                        "FirstName": "Agustin",
+                        "LastName": "Palavecino",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 58,
+                        "FirstName": "Matias",
+                        "LastName": "Kranevitter",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 59,
+                        "FirstName": "Santiago",
+                        "LastName": "Simon",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 60,
+                        "FirstName": "Agustin",
+                        "LastName": "Santanna",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 61,
+                        "FirstName": "Milton",
+                        "LastName": "Casco",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 62,
+                        "FirstName": "Ramiro",
+                        "LastName": "Funes Mori",
+                        "ScoringChance": 1
+                    }
+                ]
+            },
+            {
+                "Team": "Flamengo",
+                "TeamCountry": "Brazil",
+                "TeamRating": 98,
+                "TeamRating2": 98,
+                "TeamRating3": 84,
+                "CCLWins": 3,
+                "Stadium": [
+                    {
+                        "Name": "Estadio de Maracaná",
+                        "Capacity": 78838,
+                        "FilledPercentageGS": 80,
+                        "FilledPercentageKS": 83
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 63,
+                        "FirstName": "Pedro",
+                        "LastName": "",
+                        "ScoringChance": 26,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 64,
+                        "FirstName": "Luiz",
+                        "LastName": "Araujo",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 65,
+                        "FirstName": "Everton",
+                        "LastName": "",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 66,
+                        "FirstName": "Giorgian",
+                        "LastName": "De Arrascaeta",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 67,
+                        "FirstName": "Erick",
+                        "LastName": "Pulgar",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 68,
+                        "FirstName": "Nicolas",
+                        "LastName": "De la Cruz",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 69,
+                        "FirstName": "Ayrton",
+                        "LastName": "Lucas",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 70,
+                        "FirstName": "Leo",
+                        "LastName": "Pereira",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 71,
+                        "FirstName": "Fabricio",
+                        "LastName": "Bruno",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 72,
+                        "FirstName": "Guillermo",
+                        "LastName": "Varela",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 73,
+                        "FirstName": "Bruno",
+                        "LastName": "Henrique",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 74,
+                        "FirstName": "Jesus",
+                        "LastName": "Igor",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 75,
+                        "FirstName": "Matheus",
+                        "LastName": "Goncalves",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 76,
+                        "FirstName": "Victor",
+                        "LastName": "Hugo",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 77,
+                        "FirstName": "Allan",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 78,
+                        "FirstName": "Matias",
+                        "LastName": "Vina",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 79,
+                        "FirstName": "Leo",
+                        "LastName": "Ortiz",
+                        "ScoringChance": 4
+                    }
+                ]
+            },
+            {
+                "Team": "Gremio",
+                "TeamCountry": "Brazil",
+                "TeamRating": 94,
+                "TeamRating2": 48,
+                "TeamRating3": 92,
+                "CCLWins": 3,
+                "Stadium": [
+                    {
+                        "Name": "Arena do Grêmio",
+                        "Capacity": 55396,
+                        "FilledPercentageGS": 42,
+                        "FilledPercentageKS": 54
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 80,
+                        "FirstName": "Gustavo",
+                        "LastName": "Gomes",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 81,
+                        "FirstName": "Joao",
+                        "LastName": "Pedro",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 82,
+                        "FirstName": "Dodi",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 83,
+                        "FirstName": "Eduardo",
+                        "LastName": "Queiroz",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 84,
+                        "FirstName": "Pepe",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 85,
+                        "FirstName": "Mathias",
+                        "LastName": "Villasanti",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 86,
+                        "FirstName": "Reinaldo",
+                        "LastName": "",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 87,
+                        "FirstName": "Walter",
+                        "LastName": "Kannemann",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 88,
+                        "FirstName": "Joao",
+                        "LastName": "Pedro",
+                        "ScoringChance": 4,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 89,
+                        "FirstName": "Andre",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 90,
+                        "FirstName": "Ronald",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 91,
+                        "FirstName": "Nathan",
+                        "LastName": "Ribeiro",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 92,
+                        "FirstName": "Mayk",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 93,
+                        "FirstName": "Cristian",
+                        "LastName": "Pavon",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 94,
+                        "FirstName": "Bruno",
+                        "LastName": "Uvini",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 95,
+                        "FirstName": "Nathan",
+                        "LastName": "",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 96,
+                        "FirstName": "Everton",
+                        "LastName": "",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 97,
+                        "FirstName": "Franco",
+                        "LastName": "Cristaldo",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 98,
+                        "FirstName": "Geromel",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 99,
+                        "FirstName": "Diego",
+                        "LastName": "Costa",
+                        "ScoringChance": 14
+                    }
+                ]
+            },
+            {
+                "Team": "Peñarol",
+                "TeamCountry": "Uruguay",
+                "TeamRating": 92,
+                "TeamRating2": 72,
+                "TeamRating3": 98,
+                "CCLWins": 5,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Campeón del Siglo",
+                        "Capacity": 40700,
+                        "FilledPercentageGS": 50,
+                        "FilledPercentageKS": 57
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 100,
+                        "FirstName": "Maximiliano",
+                        "LastName": "Silvera",
+                        "ScoringChance": 16
+                    },
+                    {
+                        "PlayerId": 101,
+                        "FirstName": "Eduardo",
+                        "LastName": "Darias",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 102,
+                        "FirstName": "Leonardo",
+                        "LastName": "Sequeira",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 103,
+                        "FirstName": "Javier",
+                        "LastName": "Cabrera",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 104,
+                        "FirstName": "Leonardo",
+                        "LastName": "Fernandez",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 105,
+                        "FirstName": "Damian",
+                        "LastName": "Garcia",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 106,
+                        "FirstName": "Lucas",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 107,
+                        "FirstName": "Guzman",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 108,
+                        "FirstName": "Javier",
+                        "LastName": "Mendez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 109,
+                        "FirstName": "Camilo",
+                        "LastName": "Mayada",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 110,
+                        "FirstName": "Angel",
+                        "LastName": "Gonzalez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 111,
+                        "FirstName": "Matheus",
+                        "LastName": "Babi",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 112,
+                        "FirstName": "Ignacio",
+                        "LastName": "Sosa",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 113,
+                        "FirstName": "Maximiliano",
+                        "LastName": "Olivera",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 114,
+                        "FirstName": "Jose",
+                        "LastName": "Neris",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 115,
+                        "FirstName": "Pedro",
+                        "LastName": "Milans",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 116,
+                        "FirstName": "Diego",
+                        "LastName": "Sosa",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 117,
+                        "FirstName": "Martin",
+                        "LastName": "Gianoli",
+                        "ScoringChance": 4
+                    }
+                ]
+            },
+            {
+                "Team": "São Paulo",
+                "TeamCountry": "Brazil",
+                "TeamRating": 90,
+                "TeamRating2": 86,
+                "TeamRating3": 88,
+                "CCLWins": 3,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Morumbi",
+                        "Capacity": 66795,
+                        "FilledPercentageGS": 34,
+                        "FilledPercentageKS": 78
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 118,
+                        "FirstName": "Andre",
+                        "LastName": "Silva",
+                        "ScoringChance": 15
+                    },
+                    {
+                        "PlayerId": 119,
+                        "FirstName": "Lucas",
+                        "LastName": "Moura",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 120,
+                        "FirstName": "Ferreira",
+                        "LastName": "",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 121,
+                        "FirstName": "Pablo",
+                        "LastName": "Maia",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 122,
+                        "FirstName": "Alisson",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 123,
+                        "FirstName": "Luciano",
+                        "LastName": "Neves",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 124,
+                        "FirstName": "Welington",
+                        "LastName": "",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 125,
+                        "FirstName": "Diego",
+                        "LastName": "",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 126,
+                        "FirstName": "Robert",
+                        "LastName": "Arboleda",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 127,
+                        "FirstName": "Rafinha",
+                        "LastName": "",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 128,
+                        "FirstName": "Erick",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 129,
+                        "FirstName": "Williams",
+                        "LastName": "Gomes",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 130,
+                        "FirstName": "Juan",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 131,
+                        "FirstName": "James",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 132,
+                        "FirstName": "Damian",
+                        "LastName": "Bobadilla",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 133,
+                        "FirstName": "Michel",
+                        "LastName": "Araujo",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 134,
+                        "FirstName": "Giuliano",
+                        "LastName": "Galoppo",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 135,
+                        "FirstName": "Alan",
+                        "LastName": "Franco",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 136,
+                        "FirstName": "Nahuel",
+                        "LastName": "Ferraresi",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 137,
+                        "FirstName": "Igor",
+                        "LastName": "Vinicius",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "LDU Quito",
+                "TeamCountry": "Ecuador",
+                "TeamRating": 86,
+                "TeamRating2": 66,
+                "TeamRating3": 72,
+                "CCLWins": 1,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Casa Blanca",
+                        "Capacity": 41575,
+                        "FilledPercentageGS": 26,
+                        "FilledPercentageKS": 72
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 138,
+                        "FirstName": "Jhojan",
+                        "LastName": "Julio",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 140,
+                        "FirstName": "Miguel",
+                        "LastName": "Parrales",
+                        "ScoringChance": 20
+                    },
+                    {
+                        "PlayerId": 141,
+                        "FirstName": "Luis",
+                        "LastName": "Estupinan",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 142,
+                        "FirstName": "Lisandro",
+                        "LastName": "Alzugaray",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 143,
+                        "FirstName": "Alexander",
+                        "LastName": "Alvarado",
+                        "ScoringChance": 17,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 144,
+                        "FirstName": "Michel",
+                        "LastName": "Estrada",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 145,
+                        "FirstName": "Daykol",
+                        "LastName": "Romero",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 146,
+                        "FirstName": "Joseph",
+                        "LastName": "Espinoza",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 147,
+                        "FirstName": "Sebastian",
+                        "LastName": "Gonzalez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 148,
+                        "FirstName": "Gabriel",
+                        "LastName": "Villamil",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 149,
+                        "FirstName": "Oscar",
+                        "LastName": "Zambrano",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 150,
+                        "FirstName": "Lucas",
+                        "LastName": "Piovi",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 151,
+                        "FirstName": "Richard",
+                        "LastName": "Mina",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 152,
+                        "FirstName": "Bryan",
+                        "LastName": "Ramirez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 153,
+                        "FirstName": "Jose",
+                        "LastName": "Quintero",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 154,
+                        "FirstName": "Leonel",
+                        "LastName": "Quinonez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 155,
+                        "FirstName": "Ricardo",
+                        "LastName": "Ade",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "Atlético MG",
+                "TeamCountry": "Brazil",
+                "TeamRating": 84,
+                "TeamRating2": 64,
+                "TeamRating3": 74,
+                "CCLWins": 1,
+                "Stadium": [
+                    {
+                        "Name": "Arena MRV",
+                        "Capacity": 46000,
+                        "FilledPercentageGS": 67,
+                        "FilledPercentageKS": 75
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 156,
+                        "FirstName": "Hulk",
+                        "LastName": "",
+                        "ScoringChance": 18,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 157,
+                        "FirstName": "Paulinho",
+                        "LastName": "",
+                        "ScoringChance": 27
+                    },
+                    {
+                        "PlayerId": 158,
+                        "FirstName": "Igor",
+                        "LastName": "Gomes",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 159,
+                        "FirstName": "Gustavo",
+                        "LastName": "Scarpa",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 160,
+                        "FirstName": "Rodrigo",
+                        "LastName": "Battaglia",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 161,
+                        "FirstName": "Alan",
+                        "LastName": "Franco",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 162,
+                        "FirstName": "Guilherme",
+                        "LastName": "Arana",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 163,
+                        "FirstName": "Bruno",
+                        "LastName": "Fuchs",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 164,
+                        "FirstName": "Jemerson",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 165,
+                        "FirstName": "Mauricio",
+                        "LastName": "Lemos",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 166,
+                        "FirstName": "Otavio",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 167,
+                        "FirstName": "Edenlison",
+                        "LastName": "",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 168,
+                        "FirstName": "Eduardo",
+                        "LastName": "Vargas",
+                        "ScoringChance": 7
+                    }
+                ]
+            },
+            {
+                "Team": "Ind Del Valle",
+                "TeamCountry": "Ecuador",
+                "TeamRating": 82,
+                "TeamRating2": 92,
+                "TeamRating3": 52,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Complejo Independiente del Valle",
+                        "Capacity": 12000,
+                        "FilledPercentageGS": 25,
+                        "FilledPercentageKS": 80
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 169,
+                        "FirstName": "Jonathan",
+                        "LastName": "De la Cruz",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 170,
+                        "FirstName": "Romario",
+                        "LastName": "Ibarra",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 171,
+                        "FirstName": "Renato",
+                        "LastName": "Ibarra",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 172,
+                        "FirstName": "Renzo",
+                        "LastName": "Lopez",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 173,
+                        "FirstName": "Michael",
+                        "LastName": "Hoyos",
+                        "ScoringChance": 20
+                    },
+                    {
+                        "PlayerId": 174,
+                        "FirstName": "Junio",
+                        "LastName": "Sornoza",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 175,
+                        "FirstName": "Jordy",
+                        "LastName": "Alcivar",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 176,
+                        "FirstName": "Patrik",
+                        "LastName": "Mercado",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 177,
+                        "FirstName": "Alexander",
+                        "LastName": "Bolanos",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 178,
+                        "FirstName": "Kendry",
+                        "LastName": "Paez",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 179,
+                        "FirstName": "Julio",
+                        "LastName": "Joao Ortiz",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 180,
+                        "FirstName": "Cristian",
+                        "LastName": "Zabala",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 181,
+                        "FirstName": "Matias",
+                        "LastName": "Fernandez",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 182,
+                        "FirstName": "Richard",
+                        "LastName": "Schunke",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 183,
+                        "FirstName": "Anthony",
+                        "LastName": "Landazuri",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 184,
+                        "FirstName": "Luis Felipe",
+                        "LastName": "Zarate",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "Libertad",
+                "TeamCountry": "Paraguay",
+                "TeamRating": 80,
+                "TeamRating2": 78,
+                "TeamRating3": 80,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Tigo La Huerta",
+                        "Capacity": 10100,
+                        "FilledPercentageGS": 79,
+                        "FilledPercentageKS": 85
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 185,
+                        "FirstName": "Gustavo",
+                        "LastName": "Aguilar",
+                        "ScoringChance": 18
+                    },
+                    {
+                        "PlayerId": 186,
+                        "FirstName": "Antonio",
+                        "LastName": "Bareiro",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 187,
+                        "FirstName": "Roque",
+                        "LastName": "Santa Cruz",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 188,
+                        "FirstName": "Bautista",
+                        "LastName": "Merlini",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 189,
+                        "FirstName": "Oscar",
+                        "LastName": "Cardozo",
+                        "ScoringChance": 23,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 190,
+                        "FirstName": "Lucas",
+                        "LastName": "Sanabria",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 191,
+                        "FirstName": "Angel",
+                        "LastName": "Cardozo",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 192,
+                        "FirstName": "Alvaro",
+                        "LastName": "Campuzano",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 193,
+                        "FirstName": "Elvio",
+                        "LastName": "Vera",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 194,
+                        "FirstName": "Ivan",
+                        "LastName": "Piriz",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 195,
+                        "FirstName": "Alejandro",
+                        "LastName": "Silva Gonzalez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 196,
+                        "FirstName": "Lorenzo",
+                        "LastName": "Melgarejo",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 197,
+                        "FirstName": "Nestor",
+                        "LastName": "Gimenez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 198,
+                        "FirstName": "Diego",
+                        "LastName": "Vieira",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 199,
+                        "FirstName": "Matias",
+                        "LastName": "Espinoza",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 200,
+                        "FirstName": "Ivan",
+                        "LastName": "Ramirez",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "Cerro Porteño",
+                "TeamCountry": "Paraguay",
+                "TeamRating": 78,
+                "TeamRating2": 90,
+                "TeamRating3": 94,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "La Nueva Olla",
+                        "Capacity": 45000,
+                        "FilledPercentageGS": 51,
+                        "FilledPercentageKS": 65
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 201,
+                        "FirstName": "Luis",
+                        "LastName": "Riveros",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 202,
+                        "FirstName": "Alfio",
+                        "LastName": "Oviedo",
+                        "ScoringChance": 16
+                    },
+                    {
+                        "PlayerId": 203,
+                        "FirstName": "Fernando",
+                        "LastName": "Fernandez",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 204,
+                        "FirstName": "Federico",
+                        "LastName": "Carrizo",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 205,
+                        "FirstName": "Diego",
+                        "LastName": "Churin",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 206,
+                        "FirstName": "Wilder",
+                        "LastName": "Viera",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 207,
+                        "FirstName": "Rafael",
+                        "LastName": "Carrascal",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 208,
+                        "FirstName": "Roberto Piris",
+                        "LastName": "Da Motta",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 209,
+                        "FirstName": "Eduardo",
+                        "LastName": "Brock",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 210,
+                        "FirstName": "Bruno",
+                        "LastName": "Valdez",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 211,
+                        "FirstName": "Jorge",
+                        "LastName": "Morel",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 212,
+                        "FirstName": "Enzo",
+                        "LastName": "Gimenez",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 213,
+                        "FirstName": "Cristian",
+                        "LastName": "Baez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 214,
+                        "FirstName": "Cecilio",
+                        "LastName": "Dominguez",
+                        "ScoringChance": 10,
+                        "PenaltyTaker": true
+                    }
+                ]
+            },
+            {
+                "Team": "Estudiantes",
+                "TeamCountry": "Argentina",
+                "TeamRating": 76,
+                "TeamRating2": 76,
+                "TeamRating3": 78,
+                "CCLWins": 4,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Jorge Luis Hirschi",
+                        "Capacity": 32530,
+                        "FilledPercentageGS": 62,
+                        "FilledPercentageKS": 72
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 215,
+                        "FirstName": "Javier",
+                        "LastName": "Correa",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 216,
+                        "FirstName": "Edwin",
+                        "LastName": "Cetre",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 217,
+                        "FirstName": "Javier",
+                        "LastName": "Altamirano",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 218,
+                        "FirstName": "Enzo",
+                        "LastName": "Perez",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 219,
+                        "FirstName": "Santiago",
+                        "LastName": "Ascacibar",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 220,
+                        "FirstName": "Jose",
+                        "LastName": "Sosa",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 221,
+                        "FirstName": "Eric",
+                        "LastName": "Meza",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 222,
+                        "FirstName": "Zaid",
+                        "LastName": "Abner Romero",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 223,
+                        "FirstName": "Federico",
+                        "LastName": "Fernandez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 224,
+                        "FirstName": "Eros",
+                        "LastName": "Mancuso",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 225,
+                        "FirstName": "Fernando",
+                        "LastName": "Zuqui",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 226,
+                        "FirstName": "Tiago",
+                        "LastName": "Palacios",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 227,
+                        "FirstName": "Guido",
+                        "LastName": "Carrillo",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 228,
+                        "FirstName": "Santigo",
+                        "LastName": "Flores",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 229,
+                        "FirstName": "Bautista",
+                        "LastName": "Kociubinski",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 230,
+                        "FirstName": "Mauro",
+                        "LastName": "Mendez",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true
+                    }
+                ]
+            },
+            {
+                "Team": "Barcelona SC",
+                "TeamCountry": "Ecuador",
+                "TeamRating": 74,
+                "TeamRating2": 88,
+                "TeamRating3": 82,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Monumental Banco Pichincha",
+                        "Capacity": 59283,
+                        "FilledPercentageGS": 29,
+                        "FilledPercentageKS": 40
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 230,
+                        "FirstName": "Allen",
+                        "LastName": "Obando",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 231,
+                        "FirstName": "Joao",
+                        "LastName": "Joshimar Rojas",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 232,
+                        "FirstName": "Djorkaeff",
+                        "LastName": "Reasco",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 233,
+                        "FirstName": "Francisco",
+                        "LastName": "Fydriszewski",
+                        "ScoringChance": 15
+                    },
+                    {
+                        "PlayerId": 234,
+                        "FirstName": "Jefferson",
+                        "LastName": "Arce",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 235,
+                        "FirstName": "Bruno",
+                        "LastName": "Pinatares",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 236,
+                        "FirstName": "Braian",
+                        "LastName": "Oyola",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 237,
+                        "FirstName": "Dixon",
+                        "LastName": "Arroyo",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 238,
+                        "FirstName": "Adonis",
+                        "LastName": "Preciado",
+                        "ScoringChance": 8,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 239,
+                        "FirstName": "Cristhian",
+                        "LastName": "Solano",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 240,
+                        "FirstName": "Damian",
+                        "LastName": "Diaz",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 241,
+                        "FirstName": "Leonai",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 242,
+                        "FirstName": "Pedro",
+                        "LastName": "Perlaza",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 243,
+                        "FirstName": "Fernando",
+                        "LastName": "Gaibor",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 244,
+                        "FirstName": "Gabriel",
+                        "LastName": "Cortez",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 245,
+                        "FirstName": "Janner",
+                        "LastName": "Corozo",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 246,
+                        "FirstName": "Luca",
+                        "LastName": "Sosa",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 247,
+                        "FirstName": "Carlos",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 4
+                    }
+                ]
+            },
+            {
+                "Team": "Bolivar",
+                "TeamCountry": "Bolivia",
+                "TeamRating": 70,
+                "TeamRating2": 82,
+                "TeamRating3": 90,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Hernando Siles",
+                        "Capacity": 41143,
+                        "FilledPercentageGS": 39,
+                        "FilledPercentageKS": 73
+                    }
+                ],
+                "Players": [
+                    {
+                      "PlayerId": 248,
+                      "FirstName": "Lucas",
+                      "LastName": "Chavez",
+                      "ScoringChance": 8
+                    },
+                    {
+                      "PlayerId": 249,
+                      "FirstName": "Javier",
+                      "LastName": "Uzeda",
+                      "ScoringChance": 6
+                    },
+                    {
+                      "PlayerId": 250,
+                      "LastName": "Rodriguez",
+                      "FirstName": "Patito",
+                      "ScoringChance": 17
+                    },
+                    {
+                      "PlayerId": 251,
+                      "LastName": "",
+                      "FirstName": "Chico",
+                      "ScoringChance": 15,
+                      "PenaltyTaker": true
+                    },
+                    {
+                      "PlayerId": 252,
+                      "FirstName": "Bruno",
+                      "LastName": "Savio",
+                      "ScoringChance": 7
+                    },
+                    {
+                      "PlayerId": 253,
+                      "FirstName": "Carmelo",
+                      "LastName": "Algaranaz",
+                      "ScoringChance": 13
+                    },
+                    {
+                      "PlayerId": 254,
+                      "FirstName": "Jhon",
+                      "LastName": "Velasquez",
+                      "ScoringChance": 1
+                    },
+                    {
+                      "PlayerId": 255,
+                      "FirstName": "Leonel",
+                      "LastName": "Justiniano",
+                      "ScoringChance": 5
+                    },
+                    {
+                      "PlayerId": 256,
+                      "FirstName": "Fernando",
+                      "LastName": "Saucedo",
+                      "ScoringChance": 4
+                    },
+                    {
+                      "PlayerId": 257,
+                      "FirstName": "Ramiro",
+                      "LastName": "Vaca",
+                      "ScoringChance": 10
+                    },
+                    {
+                      "PlayerId": 258,
+                      "FirstName": "Bryan",
+                      "LastName": "Bentaberry",
+                      "ScoringChance": 3
+                    },
+                    {
+                      "PlayerId": 259,
+                      "FirstName": "Jesus Manuel",
+                      "LastName": "Sagredo",
+                      "ScoringChance": 3
+                    },
+                    {
+                      "PlayerId": 260,
+                      "FirstName": "Jose",
+                      "LastName": "Sagredo",
+                      "ScoringChance": 8
+                    }
+                  ]
+                },
+            {
+                "Team": "Junior",
+                "TeamCountry": "Colombia",
+                "TeamRating": 68,
+                "TeamRating2": 68,
+                "TeamRating3": 66,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Metropolitano Roberto Meléndez",
+                        "Capacity": 46692,
+                        "FilledPercentageGS": 64,
+                        "FilledPercentageKS": 87
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 261,
+                        "FirstName": "Steven",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 262,
+                        "FirstName": "Vladimir",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 263,
+                        "FirstName": "Bryan",
+                        "LastName": "Castrillon",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 264,
+                        "FirstName": "Luis",
+                        "LastName": "Gonzalez",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 265,
+                        "FirstName": "Marco",
+                        "LastName": "Perez",
+                        "ScoringChance": 18,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 266,
+                        "FirstName": "Carlos",
+                        "LastName": "Bacca",
+                        "ScoringChance": 16
+                    },
+                    {
+                        "PlayerId": 267,
+                        "FirstName": "Deiber",
+                        "LastName": "Caicedo",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 268,
+                        "FirstName": "Fabian",
+                        "LastName": "Cantillo",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 269,
+                        "FirstName": "Johan",
+                        "LastName": "Bocanegra",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 270,
+                        "FirstName": "Leider",
+                        "LastName": "Berrio",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 271,
+                        "FirstName": "Didier",
+                        "LastName": "Moreno",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 272,
+                        "FirstName": "Rafa",
+                        "LastName": "Perez",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 273,
+                        "FirstName": "Edwin",
+                        "LastName": "Herrera",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 274,
+                        "FirstName": "Jermein",
+                        "LastName": "Pena",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 275,
+                        "FirstName": "Walmer",
+                        "LastName": "Pacheco",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 276,
+                        "FirstName": "Homer",
+                        "LastName": "Martinez",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "San Lorenzo",
+                "TeamCountry": "Argentina",
+                "TeamRating": 66,
+                "TeamRating2": 58,
+                "TeamRating3": 68,
+                "CCLWins": 1,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Pedro Bidegain",
+                        "Capacity": 47964,
+                        "FilledPercentageGS": 31,
+                        "FilledPercentageKS": 48
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 277,
+                        "FirstName": "Diego",
+                        "LastName": "Herazo",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 278,
+                        "FirstName": "Cristian",
+                        "LastName": "Ferreira",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 279,
+                        "FirstName": "Cristian",
+                        "LastName": "Barrios",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 277,
+                        "FirstName": "Agustin",
+                        "LastName": "Giay",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 278,
+                        "FirstName": "Manuel",
+                        "LastName": "Insaurralde",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 279,
+                        "FirstName": "Elian",
+                        "LastName": "Irala",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 280,
+                        "FirstName": "Malcom",
+                        "LastName": "Braida",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 281,
+                        "FirstName": "Gaston",
+                        "LastName": "Campi",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 282,
+                        "FirstName": "Jhohan",
+                        "LastName": "Romana",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 283,
+                        "FirstName": "Gonzalo",
+                        "LastName": "Melli",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 284,
+                        "FirstName": "Cristian",
+                        "LastName": "Tarragona",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 285,
+                        "FirstName": "Ivan",
+                        "LastName": "Leguizamon",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 286,
+                        "FirstName": "Jeremias",
+                        "LastName": "James",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 287,
+                        "FirstName": "Ezequiel",
+                        "LastName": "Cerutti",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 288,
+                        "FirstName": "Francisco",
+                        "LastName": "Perruzzi",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 289,
+                        "FirstName": "Ivan",
+                        "LastName": "Tapia",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 290,
+                        "FirstName": "Carlos",
+                        "LastName": "Sanchez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 291,
+                        "FirstName": "Adam",
+                        "LastName": "Barreiro",
+                        "ScoringChance": 22,
+                        "PenaltyTaker": true
+                    }
+                ]
+            },
+            {
+                "Team": "The Strongest",
+                "TeamCountry": "Bolivia",
+                "TeamRating": 64,
+                "TeamRating2": 80,
+                "TeamRating3": 70,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Hernando Siles",
+                        "Capacity": 41143,
+                        "FilledPercentageGS": 55,
+                        "FilledPercentageKS": 65
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 292,
+                        "FirstName": "Gabriel",
+                        "LastName": "Sotomayor",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 293,
+                        "FirstName": "Joel",
+                        "LastName": "Amoroso",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 294,
+                        "FirstName": "Rodrigo",
+                        "LastName": "Ramallo",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 295,
+                        "FirstName": "Enrique",
+                        "LastName": "Triverio",
+                        "ScoringChance": 25,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 296,
+                        "FirstName": "Jeyson",
+                        "LastName": "Chura",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 297,
+                        "FirstName": "Daniel",
+                        "LastName": "Rojas",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 298,
+                        "FirstName": "Luciano",
+                        "LastName": "Ursino",
+                        "ScoringChance": 14
+                    },
+                    {
+                        "PlayerId": 299,
+                        "FirstName": "Michael",
+                        "LastName": "Ortega",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 300,
+                        "FirstName": "Alvaro",
+                        "LastName": "Quiroga",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 301,
+                        "FirstName": "Jaime",
+                        "LastName": "Arrascaita",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 302,
+                        "FirstName": "Carlos",
+                        "LastName": "Roca",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 303,
+                        "FirstName": "Adrian",
+                        "LastName": "Jusino",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "Universitario",
+                "TeamCountry": "Peru",
+                "TeamRating": 62,
+                "TeamRating2": 60,
+                "TeamRating3": 76,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Monumental de Lima",
+                        "Capacity": 80093,
+                        "FilledPercentageGS": 66,
+                        "FilledPercentageKS": 70
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 304,
+                        "FirstName": "Edison",
+                        "LastName": "Flores",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 305,
+                        "FirstName": "Alex",
+                        "LastName": "Valera",
+                        "ScoringChance": 15,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 306,
+                        "FirstName": "Segundo",
+                        "LastName": "Portocarrero",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 307,
+                        "FirstName": "Andy",
+                        "LastName": "Polo",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 308,
+                        "FirstName": "Jairo",
+                        "LastName": "Concha",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 309,
+                        "FirstName": "Rodrigo",
+                        "LastName": "Urena",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 310,
+                        "FirstName": "Martin",
+                        "LastName": "Perez Guedes",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 311,
+                        "FirstName": "Matias",
+                        "LastName": "Di Benedetto",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 312,
+                        "FirstName": "Williams",
+                        "LastName": "Riveros",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 313,
+                        "FirstName": "Aldo",
+                        "LastName": "Corzo",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 314,
+                        "FirstName": "Nelson",
+                        "LastName": "Cabanillas",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 315,
+                        "FirstName": "Horacio",
+                        "LastName": "Calcaterra",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 316,
+                        "FirstName": "Jose",
+                        "LastName": "Rivera",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 317,
+                        "FirstName": "Diego",
+                        "LastName": "Dorregaray",
+                        "ScoringChance": 17
+                    },
+                    {
+                        "PlayerId": 318,
+                        "FirstName": "Christopher",
+                        "LastName": "Gonzales",
+                        "ScoringChance": 5
+                    }
+                ]
+            },
+            {
+                "Team": "Deportivo Táchira",
+                "TeamCountry": "Venezuela",
+                "TeamRating": 60,
+                "TeamRating2": 70,
+                "TeamRating3": 58,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Polideportivo de Pueblo Nuevo",
+                        "Capacity": 42500,
+                        "FilledPercentageGS": 40,
+                        "FilledPercentageKS": 60
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 319,
+                        "FirstName": "Andres",
+                        "LastName": "Rios",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 320,
+                        "FirstName": "Carlos",
+                        "LastName": "Robles",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 321,
+                        "FirstName": "Maurice",
+                        "LastName": "Cova",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 322,
+                        "FirstName": "Jefre",
+                        "LastName": "Vargas",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 323,
+                        "FirstName": "Haibrany",
+                        "LastName": "Ruiz",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 324,
+                        "FirstName": "Oliver",
+                        "LastName": "Benitez",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 325,
+                        "FirstName": "Pablo",
+                        "LastName": "Camacho",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 326,
+                        "FirstName": "Yerson",
+                        "LastName": "Chacon",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 327,
+                        "FirstName": "Bryan",
+                        "LastName": "Castillo",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 329,
+                        "FirstName": "Julian",
+                        "LastName": "Figueroa",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 330,
+                        "FirstName": "Maurice",
+                        "LastName": "Cova",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 331,
+                        "FirstName": "Nelson",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 332,
+                        "FirstName": "Andres",
+                        "LastName": "Murillo",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 334,
+                        "FirstName": "Yanniel",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 335,
+                        "FirstName": "Carlos",
+                        "LastName": "Sosa",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 336,
+                        "FirstName": "Anthony",
+                        "LastName": "Uribe",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 337,
+                        "FirstName": "Jean",
+                        "LastName": "Castillo",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 338,
+                        "FirstName": "Jesus",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 339,
+                        "FirstName": "Edicson",
+                        "LastName": "Tamiche",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "Rosario Central",
+                "TeamCountry": "Argentina",
+                "TeamRating": 56,
+                "TeamRating2": 50,
+                "TeamRating3": 62,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Gigante de Arroyito",
+                        "Capacity": 48000,
+                        "FilledPercentageGS": 58,
+                        "FilledPercentageKS": 70
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 326,
+                        "FirstName": "Abel",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 327,
+                        "FirstName": "Ariel",
+                        "LastName": "Cervera",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 328,
+                        "FirstName": "Jaminton",
+                        "LastName": "Campaz",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 329,
+                        "FirstName": "Victor",
+                        "LastName": "Malcorra",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 330,
+                        "FirstName": "Tomas",
+                        "LastName": "OConnor",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 331,
+                        "FirstName": "Franco",
+                        "LastName": "Ibarra",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 332,
+                        "FirstName": "Alan",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 333,
+                        "FirstName": "Carlos",
+                        "LastName": "Quintana",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 334,
+                        "FirstName": "Facundo",
+                        "LastName": "Mallo",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 335,
+                        "FirstName": "Damian",
+                        "LastName": "Martinez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 336,
+                        "FirstName": "Maximiliano",
+                        "LastName": "Lovera",
+                        "ScoringChance": 11,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 337,
+                        "FirstName": "Jonathan",
+                        "LastName": "Gomez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 338,
+                        "FirstName": "Kevin",
+                        "LastName": "Ortiz",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 339,
+                        "FirstName": "Luca",
+                        "LastName": "Dupuy",
+                        "ScoringChance": 9
+                    }
+                ]
+            },
+            {
+                "Team": "Alianza Lima",
+                "TeamCountry": "Peru",
+                "TeamRating": 54,
+                "TeamRating2": 64,
+                "TeamRating3": 60,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Alejandro Villanueva",
+                        "Capacity": 33938,
+                        "FilledPercentageGS": 74,
+                        "FilledPercentageKS": 80
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 340,
+                        "FirstName": "Hernan",
+                        "LastName": "Barcos",
+                        "ScoringChance": 14,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 341,
+                        "FirstName": "Cecilio",
+                        "LastName": "Waterman",
+                        "ScoringChance": 15
+                    },
+                    {
+                        "PlayerId": 342,
+                        "FirstName": "Jesus",
+                        "LastName": "Castillo",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 343,
+                        "FirstName": "Sebastian",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 344,
+                        "FirstName": "Adrian",
+                        "LastName": "Arregui",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 345,
+                        "FirstName": "Marco",
+                        "LastName": "Huaman",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 346,
+                        "FirstName": "Jhamir",
+                        "LastName": "Darrigo",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 347,
+                        "FirstName": "Juan",
+                        "LastName": "Freytes",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 348,
+                        "FirstName": "Renzo",
+                        "LastName": "Garces",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 349,
+                        "FirstName": "Aldair",
+                        "LastName": "Fuentes",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 350,
+                        "FirstName": "Kevin",
+                        "LastName": "Serna",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 351,
+                        "FirstName": "Catriel",
+                        "LastName": "Cabellos",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 352,
+                        "FirstName": "Franco",
+                        "LastName": "Zanelatto",
+                        "ScoringChance": 7
+                    }
+                ]
+            },
+            {
+                "Team": "Millonarios",
+                "TeamCountry": "Ecuador",
+                "TeamRating": 52,
+                "TeamRating2": 46,
+                "TeamRating3": 56,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Nemesio Camacho El Campín",
+                        "Capacity": 39000,
+                        "FilledPercentageGS": 51,
+                        "FilledPercentageKS": 70
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 353,
+                        "FirstName": "Santiago",
+                        "LastName": "Giordana",
+                        "ScoringChance": 15,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 354,
+                        "FirstName": "Daniel",
+                        "LastName": "Catano",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 355,
+                        "FirstName": "Daniel",
+                        "LastName": "Giraldo",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 356,
+                        "FirstName": "Larry",
+                        "LastName": "Vasquez",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 357,
+                        "FirstName": "David",
+                        "LastName": "Silva",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 358,
+                        "FirstName": "Jhoan",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 359,
+                        "FirstName": "Jorge",
+                        "LastName": "Arias",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 360,
+                        "FirstName": "Alex",
+                        "LastName": "Moreno",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 361,
+                        "FirstName": "Oscar",
+                        "LastName": "Vanegas",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 362,
+                        "FirstName": "Delvin",
+                        "LastName": "Alfonzo",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 363,
+                        "FirstName": "Daniel",
+                        "LastName": "Ruiz",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 364,
+                        "FirstName": "Juan",
+                        "LastName": "Carvajal",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 365,
+                        "FirstName": "Leonardo",
+                        "LastName": "Castro",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 366,
+                        "FirstName": "Juan",
+                        "LastName": "Pereira",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 367,
+                        "FirstName": "Yuber",
+                        "LastName": "Quinonez",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 368,
+                        "FirstName": "Emerson",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 369,
+                        "FirstName": "Juan Pablo",
+                        "LastName": "Vargas",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 370,
+                        "FirstName": "Jhoan",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 1
+                    }
+                ]
+            },
+            {
+                "Team": "Talleres",
+                "TeamCountry": "Argentina",
+                "TeamRating": 50,
+                "TeamRating2": 84,
+                "TeamRating3": 46,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Mario Alberto Kempes",
+                        "Capacity": 57000,
+                        "FilledPercentageGS": 56,
+                        "FilledPercentageKS": 91
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 367,
+                        "FirstName": "Federico",
+                        "LastName": "Girotti",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 368,
+                        "FirstName": "Ramon",
+                        "LastName": "Sosa",
+                        "ScoringChance": 14,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 369,
+                        "FirstName": "Ruben",
+                        "LastName": "Botta",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 370,
+                        "FirstName": "Matias",
+                        "LastName": "Galarza",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 371,
+                        "FirstName": "Juan Camilo",
+                        "LastName": "Portilla",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 372,
+                        "FirstName": "Diego",
+                        "LastName": "Ortegoza",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 373,
+                        "FirstName": "Miguel",
+                        "LastName": "Navarro",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 374,
+                        "FirstName": "Juan",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 375,
+                        "FirstName": "Matias",
+                        "LastName": "Catalan",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 376,
+                        "FirstName": "Gaston",
+                        "LastName": "Benavidez",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 377,
+                        "FirstName": "Marcos",
+                        "LastName": "Portillo",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 378,
+                        "FirstName": "Alejandro",
+                        "LastName": "Martinez",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 379,
+                        "FirstName": "Ramiro",
+                        "LastName": "Ruiz",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 380,
+                        "FirstName": "Juan",
+                        "LastName": "Portillo",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 381,
+                        "FirstName": "Nahuel Lautaro",
+                        "LastName": "Bustos",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 382,
+                        "FirstName": "Valentin",
+                        "LastName": "Depietri",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "Caracas",
+                "TeamCountry": "Venezuela",
+                "TeamRating": 48,
+                "TeamRating2": 54,
+                "TeamRating3": 54,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Olímpico de la Universidad Central de Venezuela",
+                        "Capacity": 24264,
+                        "FilledPercentageGS": 21,
+                        "FilledPercentageKS": 40
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 383,
+                        "FirstName": "Danny",
+                        "LastName": "Perez",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 384,
+                        "FirstName": "Emmanuel",
+                        "LastName": "Moreno",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 385,
+                        "FirstName": "Richard",
+                        "LastName": "Figueroa",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true 
+                    },
+                    {
+                        "PlayerId": 386,
+                        "FirstName": "Manuel",
+                        "LastName": "Sulbaran",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 387,
+                        "FirstName": "Vicente",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 388,
+                        "FirstName": "Bryant",
+                        "LastName": "Ortega",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 389,
+                        "FirstName": "Brayan",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 390,
+                        "FirstName": "Daniel",
+                        "LastName": "Rivillo",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 391,
+                        "FirstName": "Francisco",
+                        "LastName": "La Mantia",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 392,
+                        "FirstName": "Roger",
+                        "LastName": "Manrique",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 393,
+                        "FirstName": "Edwin",
+                        "LastName": "Pernia",
+                        "ScoringChance": 20
+                    },
+                    {
+                        "PlayerId": 394,
+                        "FirstName": "Anderson",
+                        "LastName": "Contreras",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 395,
+                        "FirstName": "Luis",
+                        "LastName": "Cassiani",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 396,
+                        "FirstName": "Rubert",
+                        "LastName": "Quijada",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 397,
+                        "FirstName": "Renne",
+                        "LastName": "Rivas",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 398,
+                        "FirstName": "Ender",
+                        "LastName": "Echenique",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 399,
+                        "FirstName": "Nestor",
+                        "LastName": "Jimenez",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 400,
+                        "FirstName": "Lucciano",
+                        "LastName": "Reinoso",
+                        "ScoringChance": 7
+                    }
+                ]
+            },
+            {
+                "Team": "Liverpool",
+                "TeamCountry": "Uruguay",
+                "TeamRating": 44,
+                "TeamRating2": 56,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Belvedere",
+                        "Capacity": 10000,
+                        "FilledPercentageGS": 25,
+                        "FilledPercentageKS": 40
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 393,
+                        "FirstName": "Renzo",
+                        "LastName": "Machado",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 394,
+                        "FirstName": "Matias",
+                        "LastName": "Ocampo",
+                        "ScoringChance": 13
+                    },
+                    {
+                        "PlayerId": 395,
+                        "FirstName": "Luciano",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 18,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 396,
+                        "FirstName": "Lucas",
+                        "LastName": "Wasilewsky",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 397,
+                        "FirstName": "Martin",
+                        "LastName": "Barrios",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 398,
+                        "FirstName": "Diego",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 399,
+                        "FirstName": "Agustin",
+                        "LastName": "Cayetano",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 400,
+                        "FirstName": "Ignacio",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 401,
+                        "FirstName": "Matias",
+                        "LastName": "de los Santos",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 402,
+                        "FirstName": "Kevin",
+                        "LastName": "Amaro",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 403,
+                        "FirstName": "Franco",
+                        "LastName": "Nicola",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 404,
+                        "FirstName": "Diego",
+                        "LastName": "Garcia",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 405,
+                        "FirstName": "Jean",
+                        "LastName": "Rosso",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 406,
+                        "FirstName": "Matias",
+                        "LastName": "Silva",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 407,
+                        "FirstName": "Hebert",
+                        "LastName": "Vergara",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 408,
+                        "FirstName": "Agustin",
+                        "LastName": "Gonzalez",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 409,
+                        "FirstName": "Miguel",
+                        "LastName": "Samudio",
+                        "ScoringChance": 1
+                    }
+                ]
+            },
+            {
+                "Team": "Huachipato",
+                "TeamCountry": "Chile",
+                "TeamRating": 42,
+                "TeamRating2": 52,
+                "TeamRating3": 44,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Huachipato-CAP Acero",
+                        "Capacity": 10500,
+                        "FilledPercentageGS": 86,
+                        "FilledPercentageKS": 90
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 410,
+                        "FirstName": "Cris",
+                        "LastName": "Martinez",
+                        "ScoringChance": 14,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 411,
+                        "FirstName": "Sebastian",
+                        "LastName": "Saez",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 412,
+                        "FirstName": "Carlos",
+                        "LastName": "Villanueva",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 413,
+                        "FirstName": "Leandro",
+                        "LastName": "Diaz",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 414,
+                        "FirstName": "Maximiliano",
+                        "LastName": "Gutierrez",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 415,
+                        "FirstName": "Santiago",
+                        "LastName": "Silva",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 416,
+                        "FirstName": "Gonzalo",
+                        "LastName": "Montes",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 417,
+                        "FirstName": "Imanol",
+                        "LastName": "Gonzalez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 418,
+                        "FirstName": "Benjamin",
+                        "LastName": "Gazzolo",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 419,
+                        "FirstName": "Renzo",
+                        "LastName": "Malanca",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 420,
+                        "FirstName": "Maximiliano",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 421,
+                        "FirstName": "Julian",
+                        "LastName": "Brea",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 422,
+                        "FirstName": "Jimmy",
+                        "LastName": "Martinez",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 423,
+                        "FirstName": "Javier",
+                        "LastName": "Carcamo",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 424,
+                        "FirstName": "Mario",
+                        "LastName": "Briceno",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 425,
+                        "FirstName": "Claudio",
+                        "LastName": "Torres",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 426,
+                        "FirstName": "Jeisson",
+                        "LastName": "Vargas",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 427,
+                        "FirstName": "Felipe",
+                        "LastName": "Loyola",
+                        "ScoringChance": 3
+                    }
+                ]
+            },
+            {
+                "Team": "Cobresal",
+                "TeamCountry": "Chile",
+                "TeamRating": 40,
+                "TeamRating2": 44,
+                "TeamRating3": 42,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio El Cobre",
+                        "Capacity": 11240,
+                        "FilledPercentageGS": 27,
+                        "FilledPercentageKS": 40
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 425,
+                        "FirstName": "Sergio",
+                        "LastName": "Carrasco",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 426,
+                        "FirstName": "Gaston",
+                        "LastName": "Lezcano",
+                        "ScoringChance": 16
+                    },
+                    {
+                        "PlayerId": 427,
+                        "FirstName": "Franco",
+                        "LastName": "Garcia",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 428,
+                        "FirstName": "Cesar",
+                        "LastName": "Munder",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 429,
+                        "FirstName": "Guillermo",
+                        "LastName": "Pacheco",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 430,
+                        "FirstName": "Christopher",
+                        "LastName": "Mesias",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 431,
+                        "FirstName": "Leandro",
+                        "LastName": "Navarro",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 432,
+                        "FirstName": "Francisco",
+                        "LastName": "Alarcon",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 433,
+                        "FirstName": "Diego",
+                        "LastName": "Cespedes",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 434,
+                        "FirstName": "Franco",
+                        "LastName": "Garcia",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 435,
+                        "FirstName": "Franco",
+                        "LastName": "Lobos",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 436,
+                        "FirstName": "Diego",
+                        "LastName": "Coelho",
+                        "ScoringChance": 13,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 437,
+                        "FirstName": "Felipe",
+                        "LastName": "Barrientos",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 438,
+                        "FirstName": "Marcelo",
+                        "LastName": "Jorquera",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 439,
+                        "FirstName": "Julio",
+                        "LastName": "Castro",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 440,
+                        "FirstName": "Leonardo",
+                        "LastName": "Valencia",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 441,
+                        "FirstName": "Rodrigo",
+                        "LastName": "Sandoval",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "Botafogo",
+                "TeamCountry": "Brazil",
+                "TeamRating": 58,
+                "TeamRating2": 62,
+                "TeamRating3": 50,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Olímpico Nilton Santos",
+                        "Capacity": 44661,
+                        "FilledPercentageGS": 74,
+                        "FilledPercentageKS": 85
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 439,
+                        "FirstName": "Tiquinho",
+                        "LastName": "Soares",
+                        "ScoringChance": 16
+                    },
+                    {
+                        "PlayerId": 440,
+                        "FirstName": "Junior",
+                        "LastName": "Santos",
+                        "ScoringChance": 18
+                    },
+                    {
+                        "PlayerId": 441,
+                        "FirstName": "Jefferson",
+                        "LastName": "Savarino",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 442,
+                        "FirstName": "Carlos",
+                        "LastName": "Eduardo",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 443,
+                        "FirstName": "Tche",
+                        "LastName": "Tche",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 444,
+                        "FirstName": "Gregore",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 445,
+                        "FirstName": "Hugo",
+                        "LastName": "",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 446,
+                        "FirstName": "Alexander",
+                        "LastName": "Barboza",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 447,
+                        "FirstName": "Lucas",
+                        "LastName": "Halter",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 448,
+                        "FirstName": "Damian",
+                        "LastName": "Suarez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 449,
+                        "FirstName": "Matheus",
+                        "LastName": "Nascimento",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 450,
+                        "FirstName": "Janderson",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 451,
+                        "FirstName": "Fernando",
+                        "LastName": "Marcal",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 452,
+                        "FirstName": "Marlon",
+                        "LastName": "Freitas",
+                        "ScoringChance": 7,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 453,
+                        "FirstName": "Danilo",
+                        "LastName": "",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 454,
+                        "FirstName": "Luiz",
+                        "LastName": "Henrique",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 455,
+                        "FirstName": "Mateo",
+                        "LastName": "Ponte",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "Palestino",
+                "TeamCountry": "Chile",
+                "TeamRating": 46,
+                "TeamRating2": 44,
+                "TeamRating3": 48,
+                "CCLWins": 0,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Municipal de La Cisterna",
+                        "Capacity": 8000,
+                        "FilledPercentageGS": 31,
+                        "FilledPercentageKS": 50
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 454,
+                        "FirstName": "Gonzalo",
+                        "LastName": "Sosa",
+                        "ScoringChance": 17
+                    },
+                    {
+                        "PlayerId": 455,
+                        "FirstName": "Pablo",
+                        "LastName": "Palacios",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 456,
+                        "FirstName": "Bryan",
+                        "LastName": "Carrasco",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 457,
+                        "FirstName": "Misael",
+                        "LastName": "Davila",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 458,
+                        "FirstName": "Nicolas",
+                        "LastName": "Linares",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 459,
+                        "FirstName": "Fernando",
+                        "LastName": "Cornejo",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 460,
+                        "FirstName": "Dilan",
+                        "LastName": "Zuniga",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 461,
+                        "FirstName": "Cristian",
+                        "LastName": "Suarez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 462,
+                        "FirstName": "Ivan",
+                        "LastName": "Roman",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 463,
+                        "FirstName": "Benjamin",
+                        "LastName": "Rojas",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 464,
+                        "FirstName": "Jonathan",
+                        "LastName": "Benitez",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 465,
+                        "FirstName": "Joe",
+                        "LastName": "Abrigo",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 466,
+                        "FirstName": "Ariel",
+                        "LastName": "Martinez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 467,
+                        "FirstName": "Dilan",
+                        "LastName": "Zuniga",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 468,
+                        "FirstName": "Cristian",
+                        "LastName": "Suarez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 469,
+                        "FirstName": "Ivan",
+                        "LastName": "Roman",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 470,
+                        "FirstName": "Junior",
+                        "LastName": "Marabel",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 471,
+                        "FirstName": "Felipe",
+                        "LastName": "Chamorro",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 472,
+                        "FirstName": "Bryan",
+                        "LastName": "Vejar",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 473,
+                        "FirstName": "Ariel",
+                        "LastName": "Martinez",
+                        "ScoringChance": 4
+                    }
+                ]
+            },
+            {
+                "Team": "Nacional",
+                "TeamCountry": "Uruguay",
+                "TeamRating": 96,
+                "TeamRating2": 94,
+                "TeamRating3": 98,
+                "CCLWins": 3,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Gran Parque Central",
+                        "Capacity": 37000,
+                        "FilledPercentageGS": 70,
+                        "FilledPercentageKS": 89
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 467,
+                        "FirstName": "Ruben",
+                        "LastName": "Bentancourt",
+                        "ScoringChance": 16
+                    },
+                    {
+                        "PlayerId": 468,
+                        "FirstName": "Gonzalo",
+                        "LastName": "Carneiro",
+                        "ScoringChance": 11,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 469,
+                        "FirstName": "Mauricio",
+                        "LastName": "Pereira",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 470,
+                        "FirstName": "Francisco",
+                        "LastName": "Ginella",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 471,
+                        "FirstName": "Antonio",
+                        "LastName": "Galeano",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 472,
+                        "FirstName": "Lucas",
+                        "LastName": "Sanabria",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 473,
+                        "FirstName": "Mateo",
+                        "LastName": "Antoni",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 474,
+                        "FirstName": "Diego",
+                        "LastName": "Polenta",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 475,
+                        "FirstName": "Juan",
+                        "LastName": "Izquierdo",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 476,
+                        "FirstName": "Leandro",
+                        "LastName": "Lozano",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 477,
+                        "FirstName": "Franco",
+                        "LastName": "Romero",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 478,
+                        "FirstName": "Felipe",
+                        "LastName": "Cairus",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 479,
+                        "FirstName": "Christian",
+                        "LastName": "Oliva",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 480,
+                        "FirstName": "Jeremia",
+                        "LastName": "Recoba",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 481,
+                        "FirstName": "Osinachi",
+                        "LastName": "Ebere",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 482,
+                        "FirstName": "Alexis",
+                        "LastName": "Castro",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 483,
+                        "FirstName": "Diego",
+                        "LastName": "Zabala",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 484,
+                        "FirstName": "Gaston",
+                        "LastName": "Gonzalez",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 485,
+                        "FirstName": "Gabriel",
+                        "LastName": "Baez",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 486,
+                        "FirstName": "Mateo",
+                        "LastName": "Antoni",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 487,
+                        "FirstName": "Federico",
+                        "LastName": "Santander",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 488,
+                        "FirstName": "Gaston",
+                        "LastName": "Gonzalez",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 489,
+                        "FirstName": "Thiago",
+                        "LastName": "Helguera",
+                        "ScoringChance": 2
+                    }
+                ]
+            },
+            {
+                "Team": "Colo Colo",
+                "TeamCountry": "Chile",
+                "TeamRating": 72,
+                "TeamRating2": 74,
+                "TeamRating3": 86,
+                "CCLWins": 1,
+                "Stadium": [
+                    {
+                        "Name": "Estadio Monumental David Arellano",
+                        "Capacity": 47000,
+                        "FilledPercentageGS": 64,
+                        "FilledPercentageKS": 80
+                    }
+                ],
+                "Players": [
+                    {
+                        "PlayerId": 485,
+                        "FirstName": "Carlos",
+                        "LastName": "Palacios",
+                        "ScoringChance": 17,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 486,
+                        "FirstName": "Marcos",
+                        "LastName": "Bolados",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 487,
+                        "FirstName": "Cristian",
+                        "LastName": "Zavala",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 488,
+                        "FirstName": "Leonardo",
+                        "LastName": "Gil",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 489,
+                        "FirstName": "Arturo",
+                        "LastName": "Vidal",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 490,
+                        "FirstName": "Esteban",
+                        "LastName": "Pavez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 491,
+                        "FirstName": "Erick",
+                        "LastName": "Wiemberg",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 492,
+                        "FirstName": "Maximiliano",
+                        "LastName": "Falcon",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 493,
+                        "FirstName": "Alan",
+                        "LastName": "Saldivia",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 494,
+                        "FirstName": "Oscar",
+                        "LastName": "Opazo",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 495,
+                        "FirstName": "Jeyson",
+                        "LastName": "Rojas",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 496,
+                        "FirstName": "Daniel",
+                        "LastName": "Gutierrez",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 497,
+                        "FirstName": "Cesar",
+                        "LastName": "Fuentes",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 498,
+                        "FirstName": "Damian",
+                        "LastName": "Pizarro",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 499,
+                        "FirstName": "Emiliano",
+                        "LastName": "Amor",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 500,
+                        "FirstName": "Matias",
+                        "LastName": "Moya",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 501,
+                        "FirstName": "Guillermo",
+                        "LastName": "Paiva",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 502,
+                        "FirstName": "Vicente",
+                        "LastName": "Pizarro",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 503,
+                        "FirstName": "Lucas",
+                        "LastName": "Cepeda",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 504,
+                        "FirstName": "Leandro",
+                        "LastName": "Benegas",
+                        "ScoringChance": 5
+                    }
+                ]
+            }
+        ]
+    },
+    "OriginalCLIGS": {
+        "GA": ["Fluminense", "Cerro Porteño", "Alianza Lima", "Colo Colo"],
+        "GB": ["São Paulo", "Barcelona SC", "Talleres", "Cobresal"],
+        "GC": ["Gremio", "Estudiantes", "The Strongest", "Huachipato"],
+        "GD": ["LDU Quito", "Junior", "Universitario", "Botafogo"],
+        "GE": ["Flamengo", "Bolivar", "Millonarios", "Palestino"],
+        "GF": ["Palmeiras", "Ind Del Valle", "San Lorenzo", "Liverpool"],
+        "GG": ["Peñarol", "Atlético MG", "Rosario Central", "Caracas"],
+        "GH": ["River Plate", "Libertad", "Deportivo Táchira", "Nacional"]
+    }
+}

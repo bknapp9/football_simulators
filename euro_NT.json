@@ -1,0 +1,3494 @@
+{
+    "Teams": {
+        "Team": [
+            {
+                "Team": "England",
+                "TeamRating": 94,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 0,
+                        "FirstName": "Lewis",
+                        "LastName": "Dunk",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 1,
+                        "FirstName": "Joe",
+                        "LastName": "Gomez",
+                        "ScoringChance": 0
+                    },
+                    {
+                        "PlayerId": 2,
+                        "FirstName": "Marc",
+                        "LastName": "Guehi",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 3,
+                        "FirstName": "Ezri",
+                        "LastName": "Konsa",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 4,
+                        "FirstName": "Luke",
+                        "LastName": "Shaw",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 5,
+                        "FirstName": "John",
+                        "LastName": "Stones",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 6,
+                        "FirstName": "Kieran",
+                        "LastName": "Trippier",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 7,
+                        "FirstName": "Kyle",
+                        "LastName": "Walker",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 8,
+                        "FirstName": "Trent",
+                        "LastName": "Alexander-Arnold",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 9,
+                        "FirstName": "Jude",
+                        "LastName": "Bellingham",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 10,
+                        "FirstName": "Conor",
+                        "LastName": "Gallagher",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 11,
+                        "FirstName": "Kobbie",
+                        "LastName": "Mainoo",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 12,
+                        "FirstName": "Declan",
+                        "LastName": "Rice",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 13,
+                        "FirstName": "Adam",
+                        "LastName": "Wharton",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 14,
+                        "FirstName": "Jarrod",
+                        "LastName": "Bowen",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 15,
+                        "FirstName": "Eberechi",
+                        "LastName": "Eze",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 16,
+                        "FirstName": "Phil",
+                        "LastName": "Foden",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 17,
+                        "FirstName": "Anthony",
+                        "LastName": "Gordon",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 18,
+                        "FirstName": "Harry",
+                        "LastName": "Kane",
+                        "ScoringChance": 16,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 19,
+                        "FirstName": "Cole",
+                        "LastName": "Palmer",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 20,
+                        "FirstName": "Bukayo",
+                        "LastName": "Saka",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 21,
+                        "FirstName": "Ivan",
+                        "LastName": "Toney",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 22,
+                        "FirstName": "Ollie",
+                        "LastName": "Watkins",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "Italy",
+                "TeamRating": 92,
+                "EuroWins": 2,
+                "Players": [
+                    {
+                        "PlayerId": 23,
+                        "FirstName": "Alessandro",
+                        "LastName": "Bastoni",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 24,
+                        "FirstName": "Raoul",
+                        "LastName": "Bellanova",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 25,
+                        "FirstName": "Alessandro",
+                        "LastName": "Buongiorno",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 26,
+                        "FirstName": "Riccardo",
+                        "LastName": "Calafiori",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 27,
+                        "FirstName": "Andrea",
+                        "LastName": "Cambiaso",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 28,
+                        "FirstName": "Matteo",
+                        "LastName": "Darmian",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 29,
+                        "FirstName": "Giovanni",
+                        "LastName": "Di Lorenzo",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 30,
+                        "FirstName": "Federico",
+                        "LastName": "Dimarco",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 31,
+                        "FirstName": "Gianluca",
+                        "LastName": "Mancini",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 32,
+                        "FirstName": "Federico",
+                        "LastName": "Gatti",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 33,
+                        "FirstName": "Nicolo",
+                        "LastName": "Barella",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 34,
+                        "FirstName": "Bryan",
+                        "LastName": "Cristante",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 35,
+                        "FirstName": "Nicolo",
+                        "LastName": "Fagioli",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 36,
+                        "FirstName": "Michael",
+                        "LastName": "Folorunsho",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 37,
+                        "FirstName": "Davide",
+                        "LastName": "Frattesi",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 38,
+                        "FirstName": "Jorginho",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 39,
+                        "FirstName": "Lorenzo",
+                        "LastName": "Pellegrini",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 40,
+                        "FirstName": "Federico",
+                        "LastName": "Chiesa",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 41,
+                        "FirstName": "Stephan",
+                        "LastName": "El Shaarawy",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 42,
+                        "FirstName": "Giacomo",
+                        "LastName": "Raspadori",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 43,
+                        "FirstName": "Mateo",
+                        "LastName": "Retegui",
+                        "ScoringChance": 8,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 44,
+                        "FirstName": "Gianluca",
+                        "LastName": "Scamacca",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 45,
+                        "FirstName": "Mattia",
+                        "LastName": "Zaccagni",
+                        "ScoringChance": 4
+                    }
+                ]
+            },
+            {
+                "Team": "Hungary",
+                "TeamRating": 72,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 46,
+                        "FirstName": "Botond",
+                        "LastName": "Balogh",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 47,
+                        "FirstName": "Endre",
+                        "LastName": "Botka",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 48,
+                        "FirstName": "Palkó",
+                        "LastName": "Dárdai",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 49,
+                        "FirstName": "Attila",
+                        "LastName": "Fiola",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 50,
+                        "FirstName": "Ádám",
+                        "LastName": "Lang",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 51,
+                        "FirstName": "Willi",
+                        "LastName": "Orbán",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 48,
+                        "FirstName": "Attila",
+                        "LastName": "Szalai",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 49,
+                        "FirstName": "Bendegúz",
+                        "LastName": "Bolla",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 50,
+                        "FirstName": "Mihály",
+                        "LastName": "Kata",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 51,
+                        "FirstName": "Milos",
+                        "LastName": "Kerkez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 52,
+                        "FirstName": "László",
+                        "LastName": "Kleinheisler",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 53,
+                        "FirstName": "Ádám",
+                        "LastName": "Nagy",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 54,
+                        "FirstName": "Zsolt",
+                        "LastName": "Nagy",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 55,
+                        "FirstName": "Loic",
+                        "LastName": "Négo",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 56,
+                        "FirstName": "András",
+                        "LastName": "Schafer",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 57,
+                        "FirstName": "Callum",
+                        "LastName": "Styles",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 58,
+                        "FirstName": "Martin",
+                        "LastName": "Ádám",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 59,
+                        "FirstName": "Kevin",
+                        "LastName": "Csoboth",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 60,
+                        "FirstName": "Dániel",
+                        "LastName": "Gazdag",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 61,
+                        "FirstName": "Roland",
+                        "LastName": "Sallai",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 62,
+                        "FirstName": "Dominik",
+                        "LastName": "Szoboszlai",
+                        "ScoringChance": 10,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 63,
+                        "FirstName": "Roland",
+                        "LastName": "Varga",
+                        "ScoringChance": 11
+                    }
+                ]
+            },
+            {
+                "Team": "Switzerland",
+                "TeamRating": 81,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 64,
+                        "FirstName": "Manuel",
+                        "LastName": "Akanji",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 65,
+                        "FirstName": "Nico",
+                        "LastName": "Elvedi",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 66,
+                        "FirstName": "Ricardo",
+                        "LastName": "Rodriguez",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 67,
+                        "FirstName": "Fabian",
+                        "LastName": "Schar",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 68,
+                        "FirstName": "Leonidas",
+                        "LastName": "Stergiou",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 69,
+                        "FirstName": "Silvan",
+                        "LastName": "Widmer",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 70,
+                        "FirstName": "Cédric",
+                        "LastName": "Zesiger",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 71,
+                        "FirstName": "Michael",
+                        "LastName": "Aebischer",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 72,
+                        "FirstName": "Remo",
+                        "LastName": "Freuler",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 73,
+                        "FirstName": "Ardon",
+                        "LastName": "Jashari",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 74,
+                        "FirstName": "Fabian",
+                        "LastName": "Rieder",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 75,
+                        "FirstName": "Xherdan",
+                        "LastName": "Shaqiri",
+                        "ScoringChance": 6,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 76,
+                        "FirstName": "Vincent",
+                        "LastName": "Sierro",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 77,
+                        "FirstName": "Ruben",
+                        "LastName": "Vargas",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 78,
+                        "FirstName": "Granit",
+                        "LastName": "Xhaka",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 79,
+                        "FirstName": "Denis",
+                        "LastName": "Zakaria",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 80,
+                        "FirstName": "Steven",
+                        "LastName": "Zuber",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 81,
+                        "FirstName": "Zeki",
+                        "LastName": "Amdouni",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 82,
+                        "FirstName": "Kwadwo",
+                        "LastName": "Duah",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 83,
+                        "FirstName": "Breel",
+                        "LastName": "Embolo",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 84,
+                        "FirstName": "Dan",
+                        "LastName": "Ndoye",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 85,
+                        "FirstName": "Noah",
+                        "LastName": "Okafor",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 86,
+                        "FirstName": "Renato",
+                        "LastName": "Steffen",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "Scotland",
+                "TeamRating": 60,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 87,
+                        "FirstName": "Andrew",
+                        "LastName": "Robertson",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 88,
+                        "FirstName": "Kieran",
+                        "LastName": "Tierney",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 89,
+                        "FirstName": "Jack",
+                        "LastName": "Hendry",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 90,
+                        "FirstName": "Ryan",
+                        "LastName": "Porteous",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 91,
+                        "FirstName": "Liam",
+                        "LastName": "Cooper",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 92,
+                        "FirstName": "Scott",
+                        "LastName": "McKenna",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 93,
+                        "FirstName": "Grant",
+                        "LastName": "Hanley",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 94,
+                        "FirstName": "Greg",
+                        "LastName": "Taylor",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 95,
+                        "FirstName": "Anthony",
+                        "LastName": "Ralston",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 96,
+                        "FirstName": "Stuart",
+                        "LastName": "Armstrong",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 97,
+                        "FirstName": "Ryan",
+                        "LastName": "Christie",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 98,
+                        "FirstName": "Billy",
+                        "LastName": "Gilmour",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 99,
+                        "FirstName": "Ryan",
+                        "LastName": "Jack",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 100,
+                        "FirstName": "John",
+                        "LastName": "McGinn",
+                        "ScoringChance": 9,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 101,
+                        "FirstName": "Callum",
+                        "LastName": "McGregor",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 102,
+                        "FirstName": "Kenny",
+                        "LastName": "McLean",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 103,
+                        "FirstName": "Scott",
+                        "LastName": "McTominay",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 104,
+                        "FirstName": "Lyndon",
+                        "LastName": "Dykes",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 105,
+                        "FirstName": "Che",
+                        "LastName": "Adams",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 106,
+                        "FirstName": "Lawrence",
+                        "LastName": "Shankland",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 107,
+                        "FirstName": "Ben",
+                        "LastName": "Doak",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 108,
+                        "FirstName": "James",
+                        "LastName": "Forrest",
+                        "ScoringChance": 5
+                    }
+                ]
+            },
+            {
+                "Team": "Spain",
+                "TeamRating": 88,
+                "EuroWins": 3,
+                "Players": [
+                    {
+                        "PlayerId": 109,
+                        "FirstName": "Daniel",
+                        "LastName": "Carvajal",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 110,
+                        "FirstName": "Jesús",
+                        "LastName": "Navas",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 111,
+                        "FirstName": "Aymeric",
+                        "LastName": "Laporte",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 112,
+                        "FirstName": "Robin",
+                        "LastName": "Le Normand",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 113,
+                        "FirstName": "Nacho",
+                        "LastName": "Fernández",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 114,
+                        "FirstName": "Daniel",
+                        "LastName": "Vivian",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 115,
+                        "FirstName": "Alejandro",
+                        "LastName": "Grimaldo",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 116,
+                        "FirstName": "Marc",
+                        "LastName": "Cucurella",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 117,
+                        "FirstName": "Rodri",
+                        "LastName": "",
+                        "ScoringChance": 5,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 118,
+                        "FirstName": "Martín",
+                        "LastName": "Zubimendi",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 119,
+                        "FirstName": "Mikel",
+                        "LastName": "Merino",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 120,
+                        "FirstName": "Fabián",
+                        "LastName": "Ruiz",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 121,
+                        "FirstName": "Pedri",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 122,
+                        "FirstName": "Álex",
+                        "LastName": "Baena",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 123,
+                        "FirstName": "Fermín",
+                        "LastName": "López",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 124,
+                        "FirstName": "Ferran",
+                        "LastName": "Torres",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 125,
+                        "FirstName": "Dani",
+                        "LastName": "Olmo",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 126,
+                        "FirstName": "Nico",
+                        "LastName": "Williams",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 127,
+                        "FirstName": "Álvaro",
+                        "LastName": "Morata",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 128,
+                        "FirstName": "Joselu",
+                        "LastName": "",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 129,
+                        "FirstName": "Mikel",
+                        "LastName": "Oyarzabal",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 130,
+                        "FirstName": "Lamine",
+                        "LastName": "Yamal",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 131,
+                        "FirstName": "Ayoze",
+                        "LastName": "Pérez",
+                        "ScoringChance": 5
+                    }
+                ]
+            },
+            {
+                "Team": "Croatia",
+                "TeamRating": 85,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 132,
+                        "FirstName": "Domagoj",
+                        "LastName": "Vida",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 133,
+                        "FirstName": "Josip",
+                        "LastName": "Juranovic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 134,
+                        "FirstName": "Josko",
+                        "LastName": "Gvardiol",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 135,
+                        "FirstName": "Borna",
+                        "LastName": "Sosa",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 136,
+                        "FirstName": "Josip",
+                        "LastName": "Stanisic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 137,
+                        "FirstName": "Josip",
+                        "LastName": "Sutalo",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 138,
+                        "FirstName": "Martin",
+                        "LastName": "Erlic",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 139,
+                        "FirstName": "Marin",
+                        "LastName": "Pongracic",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 140,
+                        "FirstName": "Luka",
+                        "LastName": "Modric",
+                        "ScoringChance": 6,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 141,
+                        "FirstName": "Mateo",
+                        "LastName": "Kovacic",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 142,
+                        "FirstName": "Marcelo",
+                        "LastName": "Brozovic",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 143,
+                        "FirstName": "Mario",
+                        "LastName": "Pasalic",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 144,
+                        "FirstName": "Nikola",
+                        "LastName": "Vlasic",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 145,
+                        "FirstName": "Lovro",
+                        "LastName": "Majer",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 146,
+                        "FirstName": "Luka",
+                        "LastName": "Ivanusec",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 147,
+                        "FirstName": "Luka",
+                        "LastName": "Sucic",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 148,
+                        "FirstName": "Martin",
+                        "LastName": "Baturina",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 149,
+                        "FirstName": "Ivan",
+                        "LastName": "Perisic",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 150,
+                        "FirstName": "Andrej",
+                        "LastName": "Kramaric",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 151,
+                        "FirstName": "Bruno",
+                        "LastName": "Petkovic",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 152,
+                        "FirstName": "Marko",
+                        "LastName": "Pjaca",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 153,
+                        "FirstName": "Ante",
+                        "LastName": "Budimir",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 154,
+                        "FirstName": "Marco",
+                        "LastName": "Pasalic",
+                        "ScoringChance": 4
+                    }
+                ]
+            },
+            {
+                "Team": "Albania",
+                "TeamRating": 44,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 155,
+                        "FirstName": "Elseid",
+                        "LastName": "Hysaj",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 156,
+                        "FirstName": "Berat",
+                        "LastName": "Djimsiti",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 157,
+                        "FirstName": "Ardian",
+                        "LastName": "Ismajli",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 158,
+                        "FirstName": "Arlind",
+                        "LastName": "Ajeti",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 159,
+                        "FirstName": "Marash",
+                        "LastName": "Kumbulla",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 160,
+                        "FirstName": "Enea",
+                        "LastName": "Mihaj",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 161,
+                        "FirstName": "Naser",
+                        "LastName": "Aliji",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 162,
+                        "FirstName": "Iván",
+                        "LastName": "Balliu",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 163,
+                        "FirstName": "Mario",
+                        "LastName": "Mitaj",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 164,
+                        "FirstName": "Yiber",
+                        "LastName": "Ramadani",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 165,
+                        "FirstName": "Medon",
+                        "LastName": "Berisha",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 166,
+                        "FirstName": "Amir",
+                        "LastName": "Abrashi",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 167,
+                        "FirstName": "Klaus",
+                        "LastName": "Gjasula",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 168,
+                        "FirstName": "Qazim",
+                        "LastName": "Laci",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 169,
+                        "FirstName": "Nedim",
+                        "LastName": "Bajrami",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 170,
+                        "FirstName": "Kristjan",
+                        "LastName": "Asllani",
+                        "ScoringChance": 3,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 171,
+                        "FirstName": "Ernest",
+                        "LastName": "Muci",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 172,
+                        "FirstName": "Rey",
+                        "LastName": "Manaj",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 173,
+                        "FirstName": "Armando",
+                        "LastName": "Broja",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 174,
+                        "FirstName": "Taulant",
+                        "LastName": "Seferi",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 175,
+                        "FirstName": "Jasir",
+                        "LastName": "Asani",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 176,
+                        "FirstName": "Mirlind",
+                        "LastName": "Daku",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 177,
+                        "FirstName": "Arber",
+                        "LastName": "Hoxha",
+                        "ScoringChance": 7
+                    }
+                ]
+            },
+            {
+                "Team": "Slovenia",
+                "TeamRating": 47,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 178,
+                        "FirstName": "Jure",
+                        "LastName": "Balkovec",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 179,
+                        "FirstName": "Jaka",
+                        "LastName": "Bijol",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 179,
+                        "FirstName": "Miha",
+                        "LastName": "Blazic",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 180,
+                        "FirstName": "David",
+                        "LastName": "Brekalo",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 181,
+                        "FirstName": "Vanja",
+                        "LastName": "Drkusic",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 182,
+                        "FirstName": "Erik",
+                        "LastName": "Janza",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 183,
+                        "FirstName": "Zan",
+                        "LastName": "Karnicnik",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 184,
+                        "FirstName": "Petar",
+                        "LastName": "Stojanovic",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 185,
+                        "FirstName": "Timi Maks",
+                        "LastName": "Elsnik",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 186,
+                        "FirstName": "Adam",
+                        "LastName": "Gnezda-Cerin",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 187,
+                        "FirstName": "Jon",
+                        "LastName": "Gorenc Stankovic",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 188,
+                        "FirstName": "Tomi",
+                        "LastName": "Horvat",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 189,
+                        "FirstName": "Jasmin",
+                        "LastName": "Kurtic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 190,
+                        "FirstName": "Sandi",
+                        "LastName": "Lovric",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 191,
+                        "FirstName": "Benjamin",
+                        "LastName": "Verbic",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 192,
+                        "FirstName": "Adrian",
+                        "LastName": "Zeljkovic",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 193,
+                        "FirstName": "Nino",
+                        "LastName": "Zugelj",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 194,
+                        "FirstName": "Zan",
+                        "LastName": "Celar",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 195,
+                        "FirstName": "Josip",
+                        "LastName": "Ilicic",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 196,
+                        "FirstName": "Jan",
+                        "LastName": "Mlakar",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 197,
+                        "FirstName": "Benjamin",
+                        "LastName": "Sesko",
+                        "ScoringChance": 11,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 200,
+                        "FirstName": "Andraz",
+                        "LastName": "Sporar",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 201,
+                        "FirstName": "Zan",
+                        "LastName": "Vipotnik",
+                        "ScoringChance": 7
+                    }
+                ]
+            },
+            {
+                "Team": "Serbia",
+                "TeamRating": 67,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 202,
+                        "FirstName": "Strahinja",
+                        "LastName": "Pavlovic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 203,
+                        "FirstName": "Nikola",
+                        "LastName": "Milenkovic",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 204,
+                        "FirstName": "Milos",
+                        "LastName": "Veljkovic",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 205,
+                        "FirstName": "Srdan",
+                        "LastName": "Babic",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 206,
+                        "FirstName": "Uros",
+                        "LastName": "Spajic",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 207,
+                        "FirstName": "Nemanja",
+                        "LastName": "Stojic",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 208,
+                        "FirstName": "Nemanja",
+                        "LastName": "Gudelj",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 209,
+                        "FirstName": "Sasa",
+                        "LastName": "Lukic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 210,
+                        "FirstName": "Nemanja",
+                        "LastName": "Maksimovic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 211,
+                        "FirstName": "Ivan",
+                        "LastName": "Ilic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 213,
+                        "FirstName": "Srdjan",
+                        "LastName": "Mijailovic",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 214,
+                        "FirstName": "Sergej",
+                        "LastName": "Milinkovic-Savic",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 215,
+                        "FirstName": "Dusan",
+                        "LastName": "Tadic",
+                        "ScoringChance": 10,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 216,
+                        "FirstName": "Aleksandar",
+                        "LastName": "Cirkovic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 217,
+                        "FirstName": "Lazar",
+                        "LastName": "Samardzic",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 218,
+                        "FirstName": "Veljko",
+                        "LastName": "Birmancevic",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 219,
+                        "FirstName": "Filip",
+                        "LastName": "Kostic",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 220,
+                        "FirstName": "Andrija",
+                        "LastName": "Zivkovic",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 221,
+                        "FirstName": "Mijat",
+                        "LastName": "Gacinovic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 222,
+                        "FirstName": "Aleksandar",
+                        "LastName": "Mitrovic",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 223,
+                        "FirstName": "Dusan",
+                        "LastName": "Vlahovic",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 224,
+                        "FirstName": "Luka",
+                        "LastName": "Jovic",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 225,
+                        "FirstName": "Petar",
+                        "LastName": "Ratkov",
+                        "ScoringChance": 4
+                    }
+                ]
+            },
+            {
+                "Team": "Denmark",
+                "TeamRating": 82,
+                "EuroWins": 1,
+                "Players": [
+                    {
+                        "PlayerId": 226,
+                        "FirstName": "Andreas",
+                        "LastName": "Christensen",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 227,
+                        "FirstName": "Simon",
+                        "LastName": "Kjaer",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 228,
+                        "FirstName": "Jannik",
+                        "LastName": "Verstegaard",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 229,
+                        "FirstName": "Joachim",
+                        "LastName": "Andersen",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 230,
+                        "FirstName": "Victor",
+                        "LastName": "Nelsson",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 231,
+                        "FirstName": "Joakim",
+                        "LastName": "Maehle",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 232,
+                        "FirstName": "Victor",
+                        "LastName": "Kristiansen",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 233,
+                        "FirstName": "Alexander",
+                        "LastName": "Bah",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 234,
+                        "FirstName": "Rasmus",
+                        "LastName": "Kristensen",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 235,
+                        "FirstName": "Mathias",
+                        "LastName": "Jensen",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 236,
+                        "FirstName": "Christian",
+                        "LastName": "Norgaard",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 237,
+                        "FirstName": "Christian",
+                        "LastName": "Eriksen",
+                        "ScoringChance": 6,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 238,
+                        "FirstName": "Thomas",
+                        "LastName": "Delaney",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 239,
+                        "FirstName": "Pierre-Emile",
+                        "LastName": "Hojbjerg",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 240,
+                        "FirstName": "Morten",
+                        "LastName": "Hjulmand",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 241,
+                        "FirstName": "Anders",
+                        "LastName": "Dreyer",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 242,
+                        "FirstName": "Kasper",
+                        "LastName": "Dolberg",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 243,
+                        "FirstName": "Rasmus",
+                        "LastName": "Hojlund",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 244,
+                        "FirstName": "Jonas",
+                        "LastName": "Wind",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 245,
+                        "FirstName": "Andreas",
+                        "LastName": "Skov Olsen",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 246,
+                        "FirstName": "Yussuf",
+                        "LastName": "Poulsen",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 247,
+                        "FirstName": "Mikkel",
+                        "LastName": "Damsgard",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 248,
+                        "FirstName": "Jacob",
+                        "LastName": "Bruun Larsen",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "France",
+                "TeamRating": 99,
+                "EuroWins": 2,
+                "Players": [
+                    {
+                        "PlayerId": 249,
+                        "FirstName": "Jules",
+                        "LastName": "Koundé",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 250,
+                        "FirstName": "Jonathan",
+                        "LastName": "Clauss",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 251,
+                        "FirstName": "Benjamin",
+                        "LastName": "Pavard",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 252,
+                        "FirstName": "Ibrahima",
+                        "LastName": "Konaté",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 253,
+                        "FirstName": "Dayot",
+                        "LastName": "Upamecano",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 254,
+                        "FirstName": "Williams",
+                        "LastName": "Saliba",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 255,
+                        "FirstName": "Theo",
+                        "LastName": "Hernandez",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 256,
+                        "FirstName": "Ferland",
+                        "LastName": "Mendy",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 257,
+                        "FirstName": "Eduardo",
+                        "LastName": "Camavinga",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 258,
+                        "FirstName": "Youssouf",
+                        "LastName": "Fofana",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 259,
+                        "FirstName": "Ngolo",
+                        "LastName": "Kanté",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 260,
+                        "FirstName": "Adrien",
+                        "LastName": "Rabiot",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 261,
+                        "FirstName": "Warren",
+                        "LastName": "Zaire-Emery",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 262,
+                        "FirstName": "Aurelien",
+                        "LastName": "Tchouameni",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 263,
+                        "FirstName": "Antoine",
+                        "LastName": "Griezmann",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 264,
+                        "FirstName": "Ousmane",
+                        "LastName": "Dembele",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 265,
+                        "FirstName": "Olivier",
+                        "LastName": "Giroud",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 266,
+                        "FirstName": "Randal",
+                        "LastName": "Kolo Muani",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 267,
+                        "FirstName": "Kylian",
+                        "LastName": "Mbappe",
+                        "ScoringChance": 15,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 268,
+                        "FirstName": "Marcus",
+                        "LastName": "Thuram",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 269,
+                        "FirstName": "Kingsley",
+                        "LastName": "Coman",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 270,
+                        "FirstName": "Bradley",
+                        "LastName": "Barcola",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "Netherlands",
+                "TeamRating": 94,
+                "EuroWins": 1,
+                "Players": [
+                    {
+                        "PlayerId": 271,
+                        "FirstName": "Nathan",
+                        "LastName": "Ake",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 272,
+                        "FirstName": "Daley",
+                        "LastName": "Blind",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 273,
+                        "FirstName": "Stefan",
+                        "LastName": "De Vrij",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 274,
+                        "FirstName": "Lutsharel",
+                        "LastName": "Geertruida",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 275,
+                        "FirstName": "Denzel",
+                        "LastName": "Dumfries",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 276,
+                        "FirstName": "Matthijs",
+                        "LastName": "De Ligt",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 277,
+                        "FirstName": "Jeremy",
+                        "LastName": "Frimpong",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 278,
+                        "FirstName": "Micky",
+                        "LastName": "Van de Ven",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 279,
+                        "FirstName": "Virgil",
+                        "LastName": "Van Dijk",
+                        "ScoringChance": 4,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 280,
+                        "FirstName": "Frenkie",
+                        "LastName": "De Jong",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 281,
+                        "FirstName": "Ryan",
+                        "LastName": "Gravenberch",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 282,
+                        "FirstName": "Teun",
+                        "LastName": "Koopmeiners",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 283,
+                        "FirstName": "Tijjani",
+                        "LastName": "Reijnders",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 284,
+                        "FirstName": "Jerdy",
+                        "LastName": "Schouten",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 285,
+                        "FirstName": "Xavi",
+                        "LastName": "Simons",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 286,
+                        "FirstName": "Joey",
+                        "LastName": "Veerman",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 287,
+                        "FirstName": "Georginio",
+                        "LastName": "Wijnaldum",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 288,
+                        "FirstName": "Steven",
+                        "LastName": "Bergwijn",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 289,
+                        "FirstName": "Brian",
+                        "LastName": "Brobbey",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 290,
+                        "FirstName": "Memphis",
+                        "LastName": "Depay",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 291,
+                        "FirstName": "Cody",
+                        "LastName": "Gakpo",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 292,
+                        "FirstName": "Donyell",
+                        "LastName": "Malen",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 293,
+                        "FirstName": "Wout",
+                        "LastName": "Wheghorst",
+                        "ScoringChance": 5
+                    }
+                ]
+            },
+            {
+                "Team": "Austria",
+                "TeamRating": 72,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 294,
+                        "FirstName": "Flavius",
+                        "LastName": "Daniliuc",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 295,
+                        "FirstName": "Kevin",
+                        "LastName": "Danso",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 296,
+                        "FirstName": "Stefan",
+                        "LastName": "Lainer",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 297,
+                        "FirstName": "Philipp",
+                        "LastName": "Lienhart",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 298,
+                        "FirstName": "Phillipp",
+                        "LastName": "Mwene",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 299,
+                        "FirstName": "Stefan",
+                        "LastName": "Posch",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 300,
+                        "FirstName": "Grnot",
+                        "LastName": "Trauner",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 301,
+                        "FirstName": "Maximilian",
+                        "LastName": "Wober",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 302,
+                        "FirstName": "Thierno",
+                        "LastName": "Ballo",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 303,
+                        "FirstName": "Florian",
+                        "LastName": "Grillitsch",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 304,
+                        "FirstName": "Florian",
+                        "LastName": "Kainz",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 305,
+                        "FirstName": "Konrad",
+                        "LastName": "Laimer",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 306,
+                        "FirstName": "Alexander",
+                        "LastName": "Prass",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 307,
+                        "FirstName": "Leopold",
+                        "LastName": "Querfeld",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 308,
+                        "FirstName": "Marcel",
+                        "LastName": "Sabitzer",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 309,
+                        "FirstName": "Romano",
+                        "LastName": "Schmid",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 310,
+                        "FirstName": "Nico",
+                        "LastName": "Seiwald",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 311,
+                        "FirstName": "Andreas",
+                        "LastName": "Weimann",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 312,
+                        "FirstName": "Marco",
+                        "LastName": "Arnautovic",
+                        "ScoringChance": 10
+                    },
+                    {
+                        "PlayerId": 313,
+                        "FirstName": "Christoph",
+                        "LastName": "Baumgartner",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 314,
+                        "FirstName": "Maximilian",
+                        "LastName": "Entrup",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 315,
+                        "FirstName": "Michael",
+                        "LastName": "Gregoritsch",
+                        "ScoringChance": 10,
+                        "PenaltyTaker": true
+                    }
+                ]
+            },
+            {
+                "Team": "Poland",
+                "TeamRating": 70,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 316,
+                        "FirstName": "Jan",
+                        "LastName": "Bednarek",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 317,
+                        "FirstName": "Bartosz",
+                        "LastName": "Bereszynski",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 318,
+                        "FirstName": "Pawel",
+                        "LastName": "Bochniewicz",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 319,
+                        "FirstName": "Pawel",
+                        "LastName": "Dawidowicz",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 320,
+                        "FirstName": "Jakub",
+                        "LastName": "Kiwior",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 321,
+                        "FirstName": "Timoteusz",
+                        "LastName": "Puchacz",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 322,
+                        "FirstName": "Bartosz",
+                        "LastName": "Salamon",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 323,
+                        "FirstName": "Sebastian",
+                        "LastName": "Walukiewicz",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 324,
+                        "FirstName": "Przemyslaw",
+                        "LastName": "Frankowski",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 325,
+                        "FirstName": "Kamil",
+                        "LastName": "Grosicki",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 326,
+                        "FirstName": "Jakub",
+                        "LastName": "Moder",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 327,
+                        "FirstName": "Jakub",
+                        "LastName": "Piotrowski",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 328,
+                        "FirstName": "Taras",
+                        "LastName": "Romanczuk",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 329,
+                        "FirstName": "Bartosz",
+                        "LastName": "Sliz",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 330,
+                        "FirstName": "Damian",
+                        "LastName": "Szymanski",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 331,
+                        "FirstName": "Sebastian",
+                        "LastName": "Szymanski",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 332,
+                        "FirstName": "Michal",
+                        "LastName": "Skoras",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 333,
+                        "FirstName": "Kacper",
+                        "LastName": "Urbanski",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 334,
+                        "FirstName": "Nicola",
+                        "LastName": "Zalewski",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 335,
+                        "FirstName": "Piotr",
+                        "LastName": "Zielinski",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 336,
+                        "FirstName": "Adam",
+                        "LastName": "Buksa",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 337,
+                        "FirstName": "Robert",
+                        "LastName": "Lewandowski",
+                        "ScoringChance": 12,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 338,
+                        "FirstName": "Arkadiusz",
+                        "LastName": "Milik",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 339,
+                        "FirstName": "Krzysztof",
+                        "LastName": "Piatek",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 340,
+                        "FirstName": "Karol",
+                        "LastName": "Swiderski",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "Ukraine",
+                "TeamRating": 74,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 341,
+                        "FirstName": "Mykola",
+                        "LastName": "Matvienko",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 342,
+                        "FirstName": "Yukhym",
+                        "LastName": "Konoplia",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 343,
+                        "FirstName": "Valery",
+                        "LastName": "Bondar",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 344,
+                        "FirstName": "Oleksandr",
+                        "LastName": "Tymchyk",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 345,
+                        "FirstName": "Vitalii",
+                        "LastName": "Mykolenko",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 346,
+                        "FirstName": "Illia",
+                        "LastName": "Zabarny",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 347,
+                        "FirstName": "Oleksandr",
+                        "LastName": "Svatok",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 348,
+                        "FirstName": "Maksym",
+                        "LastName": "Talovyerov",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 349,
+                        "FirstName": "Bogdan",
+                        "LastName": "Mykhailichenko",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 350,
+                        "FirstName": "Andriy",
+                        "LastName": "Yarmolenko",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 351,
+                        "FirstName": "Mykola",
+                        "LastName": "Shaparenko",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 352,
+                        "FirstName": "Volodymyr",
+                        "LastName": "Brazhko",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 353,
+                        "FirstName": "Taras",
+                        "LastName": "Stepanenko",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 354,
+                        "FirstName": "Oleksandr",
+                        "LastName": "Zubkov",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 355,
+                        "FirstName": "Georgiy",
+                        "LastName": "Sudakov",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 356,
+                        "FirstName": "Oleksandr",
+                        "LastName": "Zinchenko",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 357,
+                        "FirstName": "Viktor",
+                        "LastName": "Tsygankov",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 358,
+                        "FirstName": "Mykhailo",
+                        "LastName": "Mudryk",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 359,
+                        "FirstName": "Serhiy",
+                        "LastName": "Sydorchuk",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 360,
+                        "FirstName": "Ruslan",
+                        "LastName": "Malinovskyi",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 361,
+                        "FirstName": "Artem",
+                        "LastName": "Dovbyk",
+                        "ScoringChance": 13,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 362,
+                        "FirstName": "Roman",
+                        "LastName": "Yaremchuk",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 363,
+                        "FirstName": "Vladyslav",
+                        "LastName": "Vanat",
+                        "ScoringChance": 6
+                    }
+                ]
+            },
+            {
+                "Team": "Belgium",
+                "TeamRating": 93,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 364,
+                        "FirstName": "Axel",
+                        "LastName": "Witsel",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 365,
+                        "FirstName": "Wout",
+                        "LastName": "Faes",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 366,
+                        "FirstName": "Zeno",
+                        "LastName": "Debast",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 367,
+                        "FirstName": "Timothy",
+                        "LastName": "Castagne",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 368,
+                        "FirstName": "Thomas",
+                        "LastName": "Meunier",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 369,
+                        "FirstName": "Amadou",
+                        "LastName": "Onana",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 370,
+                        "FirstName": "Maxim",
+                        "LastName": "De Cuyper",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 371,
+                        "FirstName": "Arthur",
+                        "LastName": "Theate",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 372,
+                        "FirstName": "Kevin",
+                        "LastName": "De Bruyne",
+                        "ScoringChance": 7,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 373,
+                        "FirstName": "Yannick",
+                        "LastName": "Carrasco",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 374,
+                        "FirstName": "Arthur",
+                        "LastName": "Vermeeren",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 375,
+                        "FirstName": "Charles",
+                        "LastName": "De Ketelaere",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 376,
+                        "FirstName": "Aster",
+                        "LastName": "Vranckx",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 377,
+                        "FirstName": "Youri",
+                        "LastName": "Tielemans",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 378,
+                        "FirstName": "Orel",
+                        "LastName": "Mangala",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 379,
+                        "FirstName": "Jan",
+                        "LastName": "Vertonghen",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 380,
+                        "FirstName": "Romelu",
+                        "LastName": "Lukaku",
+                        "ScoringChance": 12
+                    },
+                    {
+                        "PlayerId": 381,
+                        "FirstName": "Jeremy",
+                        "LastName": "Doku",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 382,
+                        "FirstName": "Dodi",
+                        "LastName": "Lukebakio",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 383,
+                        "FirstName": "Leandro",
+                        "LastName": "Trossard",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 384,
+                        "FirstName": "Johan",
+                        "LastName": "Bakayoko",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 385,
+                        "FirstName": "Lois",
+                        "LastName": "Openda",
+                        "ScoringChance": 9
+                    }
+                ]
+            },
+            {
+                "Team": "Slovakia",
+                "TeamRating": 54,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 386,
+                        "FirstName": "Peter",
+                        "LastName": "Pekarik",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 387,
+                        "FirstName": "Norbert",
+                        "LastName": "Gyomber",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 388,
+                        "FirstName": "Denis",
+                        "LastName": "Vavro",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 389,
+                        "FirstName": "Milan",
+                        "LastName": "Skriniar",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 390,
+                        "FirstName": "Adam",
+                        "LastName": "Obert",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 391,
+                        "FirstName": "David",
+                        "LastName": "Hancko",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 392,
+                        "FirstName": "Vernon",
+                        "LastName": "De Marco",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 393,
+                        "FirstName": "Sebastian",
+                        "LastName": "Kosa",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 394,
+                        "FirstName": "Matus",
+                        "LastName": "Bero",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 395,
+                        "FirstName": "Juras",
+                        "LastName": "Kucka",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 396,
+                        "FirstName": "Tomas",
+                        "LastName": "Rigo",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 397,
+                        "FirstName": "Patrik",
+                        "LastName": "Hrosovsky",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 398,
+                        "FirstName": "Ondrej",
+                        "LastName": "Duda",
+                        "ScoringChance": 5,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 399,
+                        "FirstName": "Laszlo",
+                        "LastName": "Benes",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 400,
+                        "FirstName": "David",
+                        "LastName": "Duris",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 401,
+                        "FirstName": "Tomas",
+                        "LastName": "Suslov",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 402,
+                        "FirstName": "Ivan",
+                        "LastName": "Schranz",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 403,
+                        "FirstName": "Robert",
+                        "LastName": "Bozenik",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 404,
+                        "FirstName": "David",
+                        "LastName": "Strelec",
+                        "ScoringChance": 11
+                    },
+                    {
+                        "PlayerId": 405,
+                        "FirstName": "Lubomir",
+                        "LastName": "Tupta",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 406,
+                        "FirstName": "Leo",
+                        "LastName": "Sauer",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 407,
+                        "FirstName": "Lukas",
+                        "LastName": "Haraslin",
+                        "ScoringChance": 8
+                    }
+                ]
+            },
+            {
+                "Team": "Romania",
+                "TeamRating": 57,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 408,
+                        "FirstName": "Nicusor",
+                        "LastName": "Bancu",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 409,
+                        "FirstName": "Andrei",
+                        "LastName": "Burca",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 410,
+                        "FirstName": "Ionut",
+                        "LastName": "Nedelcearu",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 411,
+                        "FirstName": "Adrian",
+                        "LastName": "Rus",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 412,
+                        "FirstName": "Andrei",
+                        "LastName": "Ratiu",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 413,
+                        "FirstName": "Radu",
+                        "LastName": "Dragusin",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 414,
+                        "FirstName": "Vasile",
+                        "LastName": "Mogos",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 415,
+                        "FirstName": "Bogdan",
+                        "LastName": "Racovitan",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 416,
+                        "FirstName": "Nicolae",
+                        "LastName": "Stanciu",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 417,
+                        "FirstName": "Marius",
+                        "LastName": "Marin",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 418,
+                        "FirstName": "Alexandru",
+                        "LastName": "Cicaldau",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 419,
+                        "FirstName": "Ianis",
+                        "LastName": "Hagi",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 420,
+                        "FirstName": "Dennis",
+                        "LastName": "Man",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 421,
+                        "FirstName": "Valentin",
+                        "LastName": "Mihaila",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 422,
+                        "FirstName": "Razvan",
+                        "LastName": "Marin",
+                        "ScoringChance": 4,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 423,
+                        "FirstName": "Darius",
+                        "LastName": "Olaru",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 424,
+                        "FirstName": "Deian",
+                        "LastName": "Sorescu",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 425,
+                        "FirstName": "Florinel",
+                        "LastName": "Coman",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 426,
+                        "FirstName": "Adrian",
+                        "LastName": "Sut",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 427,
+                        "FirstName": "George",
+                        "LastName": "Puscas",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 428,
+                        "FirstName": "Denis",
+                        "LastName": "Alibec",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 429,
+                        "FirstName": "Denis",
+                        "LastName": "Dragus",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 430,
+                        "FirstName": "Daniel",
+                        "LastName": "Birligea",
+                        "ScoringChance": 7
+                    }
+                ]
+            },
+            {
+                "Team": "Portugal",
+                "TeamRating": 94,
+                "EuroWins": 1,
+                "Players": [
+                    {
+                        "PlayerId": 431,
+                        "FirstName": "Joao",
+                        "LastName": "Cancelo",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 432,
+                        "FirstName": "Nelson",
+                        "LastName": "Semedo",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 433,
+                        "FirstName": "Diogo",
+                        "LastName": "Dalot",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 434,
+                        "FirstName": "Danilo",
+                        "LastName": "Pereira",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 435,
+                        "FirstName": "Nuno",
+                        "LastName": "Mendes",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 436,
+                        "FirstName": "Pepe",
+                        "LastName": "",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 437,
+                        "FirstName": "Ruben",
+                        "LastName": "Dias",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 438,
+                        "FirstName": "Antonio",
+                        "LastName": "Silva",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 439,
+                        "FirstName": "Goncalo",
+                        "LastName": "Inacio",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 440,
+                        "FirstName": "Bruno",
+                        "LastName": "Fernandes",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 441,
+                        "FirstName": "Joao",
+                        "LastName": "Neves",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 442,
+                        "FirstName": "Joao",
+                        "LastName": "Palhinha",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 443,
+                        "FirstName": "Otavio",
+                        "LastName": "",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 444,
+                        "FirstName": "Ruben",
+                        "LastName": "Neves",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 445,
+                        "FirstName": "Vitinha",
+                        "LastName": "",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 446,
+                        "FirstName": "Bernardo",
+                        "LastName": "Silva",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 447,
+                        "FirstName": "Cristiano",
+                        "LastName": "Ronaldo",
+                        "ScoringChance": 13,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 448,
+                        "FirstName": "Diogo",
+                        "LastName": "Jota",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 449,
+                        "FirstName": "Francisco",
+                        "LastName": "Conceicao",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 450,
+                        "FirstName": "Goncalo",
+                        "LastName": "Ramos",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 451,
+                        "FirstName": "Joao",
+                        "LastName": "Felix",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 452,
+                        "FirstName": "Pedro",
+                        "LastName": "Neto",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 453,
+                        "FirstName": "Rafael",
+                        "LastName": "Leao",
+                        "ScoringChance": 7
+                    }
+                ]
+            },
+            {
+                "Team": "Georgia",
+                "TeamRating": 32,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 454,
+                        "FirstName": "Solomon",
+                        "LastName": "Kverkveliya",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 455,
+                        "FirstName": "Guram",
+                        "LastName": "Kashia",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 456,
+                        "FirstName": "Giorgi",
+                        "LastName": "Gvelesiani",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 457,
+                        "FirstName": "Lasha",
+                        "LastName": "Dvali",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 458,
+                        "FirstName": "Luka",
+                        "LastName": "Lochoshvili",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 459,
+                        "FirstName": "Otar",
+                        "LastName": "Kakabadze",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 460,
+                        "FirstName": "Giorgi",
+                        "LastName": "Gocholeishvili",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 461,
+                        "FirstName": "Jemal",
+                        "LastName": "Tabidze",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 462,
+                        "FirstName": "Giorgi",
+                        "LastName": "Kochorashvili",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 463,
+                        "FirstName": "Otar",
+                        "LastName": "Kiteishvili",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 464,
+                        "FirstName": "Nika",
+                        "LastName": "Kvekveskiri",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 465,
+                        "FirstName": "Giorgi",
+                        "LastName": "Chackvetadze",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 466,
+                        "FirstName": "Heorhiy",
+                        "LastName": "Tsitaishvili",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 467,
+                        "FirstName": "Levan",
+                        "LastName": "Shengelia",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 468,
+                        "FirstName": "Sandro",
+                        "LastName": "Altunashvili",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 469,
+                        "FirstName": "Jaba",
+                        "LastName": "Kankava",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 470,
+                        "FirstName": "Anzor",
+                        "LastName": "Mekvabishvili",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 471,
+                        "FirstName": "Saba",
+                        "LastName": "Lobzhanidze",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 472,
+                        "FirstName": "Zuriko",
+                        "LastName": "Davitashvili",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 473,
+                        "FirstName": "Khvicha",
+                        "LastName": "Kvaratskhelia",
+                        "ScoringChance": 9,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 474,
+                        "FirstName": "Giorgi",
+                        "LastName": "Kvilitaia",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 475,
+                        "FirstName": "Georges",
+                        "LastName": "Mikautadze",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 476,
+                        "FirstName": "Budu",
+                        "LastName": "Zivzivadze",
+                        "ScoringChance": 8
+                    }
+                ]
+            },
+            {
+                "Team": "Turkey",
+                "TeamRating": 63,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 477,
+                        "FirstName": "Mert",
+                        "LastName": "Muldur",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 478,
+                        "FirstName": "Zeki",
+                        "LastName": "Celik",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 479,
+                        "FirstName": "Abdulkerim",
+                        "LastName": "Bardakci",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 480,
+                        "FirstName": "Merih",
+                        "LastName": "Demiral",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 481,
+                        "FirstName": "Samet",
+                        "LastName": "Akayden",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 482,
+                        "FirstName": "Ahmetcan",
+                        "LastName": "Kaplan",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 484,
+                        "FirstName": "Ferdi",
+                        "LastName": "Kadioglu",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 485,
+                        "FirstName": "Hakan",
+                        "LastName": "Calhanoglu",
+                        "ScoringChance": 7,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 486,
+                        "FirstName": "Ismail",
+                        "LastName": "Yuksek",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 487,
+                        "FirstName": "Okay",
+                        "LastName": "Yokuslu",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 488,
+                        "FirstName": "Orkun",
+                        "LastName": "Kokcu",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 489,
+                        "FirstName": "Kaan",
+                        "LastName": "Ayhan",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 490,
+                        "FirstName": "Salih",
+                        "LastName": "Ozcan",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 491,
+                        "FirstName": "Irfan",
+                        "LastName": "Can Kahveci",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 492,
+                        "FirstName": "Yunus",
+                        "LastName": "Akgun",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 493,
+                        "FirstName": "Kerem",
+                        "LastName": "Akturkoglu",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 494,
+                        "FirstName": "Arda",
+                        "LastName": "Guler",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 495,
+                        "FirstName": "Baris",
+                        "LastName": "Alper Yilmaz",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 496,
+                        "FirstName": "Bertug",
+                        "LastName": "Yildirim",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 497,
+                        "FirstName": "Kenan",
+                        "LastName": "Yildiz",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 498,
+                        "FirstName": "Cenk",
+                        "LastName": "Tosun",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 499,
+                        "FirstName": "Semih",
+                        "LastName": "Kilcsoy",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 500,
+                        "FirstName": "Yusuf",
+                        "LastName": "Yazici",
+                        "ScoringChance": 8
+                    }
+                ]
+            },
+            {
+                "Team": "Czech Republic",
+                "TeamRating": 71,
+                "EuroWins": 0,
+                "Players": [
+                    {
+                        "PlayerId": 501,
+                        "FirstName": "Vladimir",
+                        "LastName": "Coufal",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 502,
+                        "FirstName": "Tomas",
+                        "LastName": "Holes",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 503,
+                        "FirstName": "Robin",
+                        "LastName": "Hranac",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 504,
+                        "FirstName": "Ladislav",
+                        "LastName": "Krejci",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 505,
+                        "FirstName": "Martin",
+                        "LastName": "Vitik",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 506,
+                        "FirstName": "David",
+                        "LastName": "Zima",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 507,
+                        "FirstName": "David",
+                        "LastName": "Jurasek",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 508,
+                        "FirstName": "David",
+                        "LastName": "Doudera",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 509,
+                        "FirstName": "Tomas",
+                        "LastName": "Vlcek",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 510,
+                        "FirstName": "Tomas",
+                        "LastName": "Soucek",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 511,
+                        "FirstName": "Antonin",
+                        "LastName": "Barak",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 512,
+                        "FirstName": "Michal",
+                        "LastName": "Sadilek",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 513,
+                        "FirstName": "Lukas",
+                        "LastName": "Provod ",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 514,
+                        "FirstName": "Pavel",
+                        "LastName": "Sulc",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 515,
+                        "FirstName": "Ondrej",
+                        "LastName": "Lingr",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 516,
+                        "FirstName": "Vaclav",
+                        "LastName": "Cerny",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 517,
+                        "FirstName": "Matej",
+                        "LastName": "Jurasek",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 518,
+                        "FirstName": "Lukas",
+                        "LastName": "Cerv",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 519,
+                        "FirstName": "Patrik",
+                        "LastName": "Schick",
+                        "ScoringChance": 11,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 520,
+                        "FirstName": "Tomas",
+                        "LastName": "Chory",
+                        "ScoringChance": 8
+                    },
+                    {
+                        "PlayerId": 521,
+                        "FirstName": "Jan",
+                        "LastName": "Kuchta",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 522,
+                        "FirstName": "Adam",
+                        "LastName": "Hlozek",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 523,
+                        "FirstName": "Mojmir",
+                        "LastName": "Chytil",
+                        "ScoringChance": 8
+                    }
+                ]
+            },
+            {
+                "Team": "Germany",
+                "TeamRating": 90,
+                "EuroWins": 3,
+                "Players": [
+                    {
+                        "PlayerId": 524,
+                        "FirstName": "Waldemar",
+                        "LastName": "Anton",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 525,
+                        "FirstName": "Benjamin",
+                        "LastName": "Henrichs",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 526,
+                        "FirstName": "Joshua",
+                        "LastName": "Kimmich",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 527,
+                        "FirstName": "Robin",
+                        "LastName": "Koch",
+                        "ScoringChance": 1
+                    },
+                    {
+                        "PlayerId": 528,
+                        "FirstName": "Maximilian",
+                        "LastName": "Mittelstadt",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 529,
+                        "FirstName": "David",
+                        "LastName": "Raum",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 530,
+                        "FirstName": "Antonio",
+                        "LastName": "Rudiger",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 531,
+                        "FirstName": "Nico",
+                        "LastName": "Schlotterbeck",
+                        "ScoringChance": 2
+                    },
+                    {
+                        "PlayerId": 532,
+                        "FirstName": "Jonathan",
+                        "LastName": "Tah",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 533,
+                        "FirstName": "Robert",
+                        "LastName": "Andrich",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 534,
+                        "FirstName": "Chris",
+                        "LastName": "Fuhrich",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 535,
+                        "FirstName": "Pascal",
+                        "LastName": "Gross",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 536,
+                        "FirstName": "Ilkay",
+                        "LastName": "Gundogan",
+                        "ScoringChance": 5,
+                        "PenaltyTaker": true
+                    },
+                    {
+                        "PlayerId": 537,
+                        "FirstName": "Toni",
+                        "LastName": "Kroos",
+                        "ScoringChance": 4
+                    },
+                    {
+                        "PlayerId": 538,
+                        "FirstName": "Jamal",
+                        "LastName": "Musiala",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 539,
+                        "FirstName": "Aleksandar",
+                        "LastName": "Pavlovic",
+                        "ScoringChance": 3
+                    },
+                    {
+                        "PlayerId": 540,
+                        "FirstName": "Florian",
+                        "LastName": "Wirtz",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 541,
+                        "FirstName": "Leroy",
+                        "LastName": "Sane",
+                        "ScoringChance": 7
+                    },
+                    {
+                        "PlayerId": 542,
+                        "FirstName": "Maximilian",
+                        "LastName": "Beier",
+                        "ScoringChance": 5
+                    },
+                    {
+                        "PlayerId": 543,
+                        "FirstName": "Niclas",
+                        "LastName": "Fullkrug",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 544,
+                        "FirstName": "Kai",
+                        "LastName": "Havertz",
+                        "ScoringChance": 9
+                    },
+                    {
+                        "PlayerId": 545,
+                        "FirstName": "Thomas",
+                        "LastName": "Muller",
+                        "ScoringChance": 6
+                    },
+                    {
+                        "PlayerId": 546,
+                        "FirstName": "Deniz",
+                        "LastName": "Undav",
+                        "ScoringChance": 5
+                    }
+                ]
+            }
+        ]
+    },
+    "OriginalGS": {
+        "GA": ["Germany", "Scotland", "Hungary", "Switzerland"],
+        "GB": ["Spain", "Croatia", "Italy", "Albania"],
+        "GC": ["Slovenia", "Denmark", "Serbia", "England"],
+        "GD": ["Austria", "France", "Netherlands", "Poland"],
+        "GE": ["Belgium", "Slovakia", "Romania", "Ukraine"],
+        "GF": ["Turkey", "Georgia", "Portugal", "Czech Republic"]
+    }
+}
