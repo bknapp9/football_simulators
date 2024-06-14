@@ -9,17 +9,27 @@
 
 <url>
   <loc>https://futbolsimulators.com/</loc>
-  <lastmod>2024-06-12T21:06:59+00:00</lastmod>
+  <lastmod>2024-06-13T23:03:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://futbolsimulators.com/euro-simulator.html</loc>
-  <lastmod>2024-06-12T21:06:59+00:00</lastmod>
+  <loc>https://futbolsimulators.com/index.html</loc>
+  <lastmod>2024-06-13T23:03:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://futbolsimulators.com/conmebol-libertadores-simulator.html</loc>
-  <lastmod>2024-06-12T21:06:59+00:00</lastmod>
+  <loc>https://futbolsimulators.com/about.html</loc>
+  <lastmod>2024-06-13T23:03:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://futbolsimulators.com/euro-simulator</loc>
+  <lastmod>2024-06-13T23:03:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://futbolsimulators.com/conmebol-libertadores-simulator</loc>
+  <lastmod>2024-06-13T23:03:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
