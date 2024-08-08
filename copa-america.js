@@ -1349,9 +1349,9 @@ loadTeams().then(Teams => {
                         const winnerText = document.querySelector('.winner');
 
                         if (result === 'Home Team') {
-                            winnerText.innerText = `${homeTeam} wins the EURO!!!`;
+                            winnerText.innerText = `${homeTeam} wins the COPA AMERICA!!!`;
                         } else {
-                            winnerText.innerText = `${awayTeam} wins the EURO!!!`;
+                            winnerText.innerText = `${awayTeam} wins the COPA AMERICA!!!`;
                         }
                         
                         const jsConfetti = new JSConfetti();
