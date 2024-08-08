@@ -47,7 +47,28 @@ body {
 .header {
     text-align: center;
     margin: 50px;
-    font-size: 30px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+@font-face {
+    font-family: 'Champions';
+    src: url('fonts/Champions-Bold.eot'); 
+    src: url('fonts/Champions-Bold.eot') format('embedded-opentype'), 
+         url('fonts/Champions-Bold.woff') format('woff'), 
+         url('fonts/Champions-Bold.ttf')  format('truetype'), 
+         url('fonts/Champions-Bold.svg') format('svg'); 
+}
+
+.header h1 {
+    color: #FFF;
+    font-family: 'Champions';
+}
+
+.header span {
+    color: red;
+    font-family: 'Champions';
 }
 
 .button-header {
@@ -59,8 +80,8 @@ body {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FFD700; /* Amarillo dorado suave */
-    color: #333; /* Color de texto */
+    background-color: #FFD700; 
+    color: #333; 
     text-align: center;
     font-size: 16px;
     border: none;
@@ -71,10 +92,9 @@ body {
     width: 500px;
     margin: 10px;
 }
-  
-/* Estilo hover del botón */
+
 .btn:hover {
-background-color: #FFC000; /* Amarillo dorado suave más oscuro en hover */
+background-color: #FFC000; 
 }
   
 
@@ -111,18 +131,22 @@ background-color: #FFC000; /* Amarillo dorado suave más oscuro en hover */
     width: 18%;
     font-size: 20px;
     padding-right: 1rem;
-    margin: 45px;
+    margin: 0px;
 }
 
-/* Estilo para las celdas de la tabla */
+@media (max-width: 1200px) {
+    .groupStageTable, .tabsContainer, .groupStageMatches {
+        max-width: 100%;
+    }
+}
+
 .groupStageTable td,
 .groupStageTable th {
     border-bottom: 1px solid #FFC000; 
 }
 
-/* Estilo para la fila del encabezado de la tabla */
 .groupStageTable thead tr {
-    border-bottom: 2px solid #FFC000; /* Borde inferior más grueso para separar el thead de los tr */
+    border-bottom: 2px solid #FFC000;
 }
 
 
@@ -139,7 +163,6 @@ background-color: #FFC000; /* Amarillo dorado suave más oscuro en hover */
 .potsBalls {
     width: 85%;
     display: flex;
-    /* margin: -70px 100px; */
     margin: 100px 100px;
     justify-content: center;
     align-items: center;
@@ -150,30 +173,6 @@ background-color: #FFC000; /* Amarillo dorado suave más oscuro en hover */
     justify-content: center;
 }
 
-
-@media screen and (max-width: 920px) {
-    .groupStageTable {
-        width: 100%;
-        font-size: 15px;
-        margin: 40px;
-    }
-    .button-header {
-        display: block;
-      }
-    .btn {
-        width: 95%;
-    }
-    .potsTable {
-        margin: 0px;
-    }
-}
-
-@media screen and (max-width: 1304px) {
-    .groupStageTable {
-        width: 17%;
-    }
-}
-
 @media screen and (max-width: 1228px) {
     .potsTable {
         font-size: 16px;
@@ -181,9 +180,6 @@ background-color: #FFC000; /* Amarillo dorado suave más oscuro en hover */
 }
 
 @media screen and (max-width: 1141px) {
-    .groupStageTable {
-        width: 15%;
-    }
     .potsTable {
         font-size: 14px;
     }
@@ -206,28 +202,12 @@ background-color: #FFC000; /* Amarillo dorado suave más oscuro en hover */
     }
 }
 
-@media screen and (max-width: 390px) {
-    .groupStageTable {
-        font-size: 14px;
-        width: 24%;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .groupStageTable {
-        font-size: 14px;
-        margin: 34px;
-    }
-}
 
 @media screen and (max-width: 500px) {
     .pots {
         margin-left: 30px;
     }
-    .groupStageTable {
-        width: 25%;
-        margin-left: 45px;
-    }
+
     .potsBalls {
         margin: 50px 45px;
     }
@@ -253,10 +233,6 @@ color: black;
 #tabsRO16 a {
     width: 200px;
 }
-
-/* #tabsRO16 {
-    justify-content: center;
-} */
 
 .tabs {
     display: flex;
@@ -332,9 +308,8 @@ margin-top: 15px;
 }
   
 .group-active {
-    margin-left: 450px;
     margin-top: -50px;
-    width: 50%;
+    width: 100%;
 }
 
 .group-active th {
@@ -343,28 +318,25 @@ margin-top: 15px;
 
 .tableTeamStats {
     margin-right: -10px;
-    /* max-width: 10px; */
     width: 60px;
 }
 
 .groupSpacing {
     margin-bottom: 4vh;
     margin-top: 4vh;
-    width: 50%;
-    margin-left: 450px; /* Alinear con el margen izquierdo de la tabla */
+    width: 100%;
     position: relative;
 }
 
 .GSTableMatches {
     border: 2px solid #FFC000;
-    border-collapse: collapse;
-    float: left;
-    width: 50%;
-    font-size: 21px;
     padding-right: 1rem;
     margin: 45px;
-    margin-left: 450px;
     table-layout: fixed;
+    width: 960px; 
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    font-size: 16px;
 }
 
 
@@ -432,10 +404,6 @@ margin-top: 15px;
     display: none;
 }
 
-/* #show td {
-    display: table-cell !important;
-} */
-
 .gifContainer {
     position: relative;
     top: -50px;
@@ -461,7 +429,7 @@ margin-top: 15px;
 
 .show {
     display: block;
-    padding: 15px; /* Agregar espacio dentro del elemento */
+    padding: 15px; 
     margin-bottom: 20px;
     border-bottom: 1px solid #FFC000;
 }
@@ -531,6 +499,18 @@ margin-top: 15px;
 
 #RO16Matches {
     margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.QFMatches, .SFMatches, .finalMatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finalMatch {
+    margin-top: -200px;
 }
 
 .hr {
@@ -547,21 +527,338 @@ margin-top: 15px;
 }
 
 .finalMatch {
-    display: flex; /* Permite organizar elementos en una fila */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;    /* Centra verticalmente */
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
     flex-direction: column;
 }
 
 .trophyDiv {
     display: flex;
-    flex-direction: column; /* Ahora los elementos se apilarán verticalmente */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    text-align: center;     /* Centra el texto horizontalmente */
+    text-align: center;     
 }
 
 .winner {
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+.table {
+    margin-bottom: 1rem;
+    color: #212529;
+    width: 100%;
+}
+
+.tableHeader {
+    border: 3px solid #FFD700;
+}
+
+.groupStageTable th, td, .fixtureRow {
+    padding: 4px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.groupStageTable thead th {
+    border-top: 1px solid #FFD700;
+}
+
+.GSTeamName {
+    font-size: 14pt;
+    color: white;
+    vertical-align: middle !important;
+}
+
+.groupStageTable tbody {
+    border: 3px solid #FFD700;
+}
+
+.GSTables {
+    display: flex;
+    justify-content: center;
+}
+
+.tables-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.groupStageMatches {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fixtureRow {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #FFC000;
+    position: relative;
+}
+
+.homeTeam, .awayTeam {
+    display: flex;
+    align-items: center;
+    width: 47.5%;
+}
+
+.homeTeam {
+    justify-content: flex-start;
+}
+
+.awayTeam {
+    justify-content: flex-end;
+}
+
+.homeTeamLogo, .awayTeamLogo {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    flex-shrink: 0;
+}
+
+.teamsImgs {
+    max-width: 100%;
+    height: auto;
+}
+
+.homeTeamName, .awayTeamName {
+    margin: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.homeTeamScore {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 5px 0 400px;
+    flex-shrink: 0;
+}
+
+.awayTeamScore {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 450px;
+    flex-shrink: 0;
+}
+
+.fixtureVS {
+    position: absolute;
+    left: 0%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.details {
+    width: 95%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+    .GSTableMatches {
+        width: 800px;
+    }
+
+    .fixtureVS {
+        width: 100px;
+    }
+
+    .groupStageTable {
+        width: 95%;
+    }
+
+    .homeTeamScore {
+        margin-left: 350px;
+    }
+
+    .awayTeamScore {
+        margin-right: 320px;
+    }
+
+    .trophy {
+        width: 80%;
+    }
+
+    .winner {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .GSTableMatches {
+        width: 700px;
+        font-size: 14px;
+    }
+
+    .homeTeamLogo, .awayTeamLogo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .homeTeamScore, .awayTeamScore {
+        font-size: 16px;
+    }
+
+    .homeTeamScore {
+        margin-left: 300px;
+    }
+    .awayTeamScore {
+        margin-right: 280px;
+    }
+    .fixtureVS {
+        width: 200px;
+    }
+
+    .groupStageTable {
+        width: 90%;
+    }
+
+    .trophy {
+        width: 60%;
+    }
+
+    .winner {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .GSTableMatches {
+        width: 600px;
+    }
+
+    .fixtureVS {
+        width: 300px;
+    }
+
+    .groupStageTable {
+        width: 85%;
+    }
+
+    .homeTeamScore {
+        margin-left: 250px;
+    }
+    .awayTeamScore {
+        margin-right: 230px;
+    }
+
+    .trophy {
+        width: 40%;
+    }
+
+    .winner {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .GSTableMatches {
+        width: 500px;
+        font-size: 12px;
+    }
+
+    .homeTeamLogo, .awayTeamLogo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .homeTeamScore, .awayTeamScore {
+        font-size: 14px;
+    }
+
+    .homeTeamScore {
+        margin-left: 200px;
+    }
+    .awayTeamScore {
+        margin-right: 180px;
+    }
+
+    .fixtureVS {
+        width: 400px;
+    }
+
+    .groupStageTable, .GSTeamName {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .trophy {
+        width: 20%;
+    }
+
+    .winner {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .GSTableMatches {
+        width: 400px;
+    }
+
+    .fixtureVS {
+        font-size: 10px;
+    }
+
+    .details {
+        font-size: 10px;
+    }
+
+    .fixtureVS {
+        width: 500px;
+    }
+
+    .groupStageTable, .GSTeamName {
+        width: 2px;
+        font-size: 12px;
+    }
+
+    .homeTeamScore {
+        margin-left: 150px;
+    }
+    .awayTeamScore {
+        margin-right: 130px;
+    }
+
+    .winner {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .GSTableMatches {
+        width: 300px;
+    }
+
+    .fixtureVS {
+        width: 600px;
+    }
+    
+}
+
+#groupAMatches:nth-child(1) {
+    order: 3;
+}
+
+#groupAMatches:nth-child(2) {
+    order: 2;
+}
+
+#groupAMatches:nth-child(3) {
+    order: 1;
 }
