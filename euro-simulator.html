@@ -12,8 +12,11 @@
 
 <body>
     <header class="header">
-        <h1>Euro Simulator</h1>
+        <a href="index.html">
+            <h1>FUTBOL <span>SIMULATORS</span></h1>
+        </a>
     </header>
+
     <div class="button-header">
         <button class="btn" id="startDraw">Start Draw</button>
         <button class="btn" id="fastDraw">Fast Draw</button>
@@ -231,7 +234,6 @@
                         <th class="tableHeaders"></th>
                         <th class="tableTeamName"><b>Group A</b></th>
                     </tr>
-                </thead>
                 <tbody>
                     <tr class="stats hideTable">
                         <td class="img stats" id="show"><img src="" alt="" class="teamsImgs" id="groupStageImgs">
@@ -649,10 +651,10 @@
 
     <hr class="groupSpacing hide" data-index="0">
     <section class="groupStageMatches hide" id="GSATableMatches">
-        <div>
+        <div class="tables-container">
             <table class="GSTableMatches" id="groupAMatches">
                 <tbody class="groupMatches">
-                    <tr class="expandableRow">
+                    <tr>
                         <td class="fixtureRow">
                             <div class="homeTeam">
                                 <div class="homeTeamLogo">
@@ -670,14 +672,9 @@
                                 </div>
                             </div>
                             <div class="details hide">
-                                <p class="stadium">Munich Football Arena</p>
-                                <p class="attendance">63.270</p>
+                                <p class="stadium">Stuttgart Arena</p>
+                                <p class="attendance">50.162</p>
                             </div>
-                        </td>
-                    </tr>
-                    <tr class="expandedInfo">
-                        <td colspan="3">
-                            1
                         </td>
                     </tr>
                     <tr>
@@ -698,8 +695,8 @@
                                 </div>
                             </div>
                             <div class="details hide">
-                                <p class="stadium">Cologne Stadium</p>
-                                <p class="attendance">39.792</p>
+                                <p class="stadium">Arena AufSchalke</p>
+                                <p class="attendance">47.921</p>
                             </div>
                         </td>
                     </tr>
@@ -2080,7 +2077,7 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-    <script src="euro.js"></script>
+    <script src="euro.js" type="module"></script>
 </body>
 
 </html>
