@@ -870,6 +870,12 @@ margin-top: 15px;
         width: 600px;
     }
     
+    .homeTeamScore {
+        margin-left: 120px;
+    }
+    .awayTeamScore {
+        margin-right: 100px;
+    }
 }
 
 #groupAMatches:nth-child(1) {
