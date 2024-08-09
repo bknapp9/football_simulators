@@ -579,6 +579,7 @@ margin-top: 15px;
 .GSTables {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .tables-container {
@@ -697,6 +698,10 @@ margin-top: 15px;
     .winner {
         font-size: 20px;
     }
+
+    .btn {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 840px) {
@@ -735,6 +740,10 @@ margin-top: 15px;
     .winner {
         font-size: 18px;
     }
+
+    .btn {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 740px) {
@@ -763,6 +772,10 @@ margin-top: 15px;
 
     .winner {
         font-size: 16px;
+    }
+    
+    .btn {
+        font-size: 13px;
     }
 }
 
@@ -804,6 +817,10 @@ margin-top: 15px;
     .winner {
         font-size: 14px;
     }
+
+    .btn {
+        font-size:12px;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -837,6 +854,10 @@ margin-top: 15px;
 
     .winner {
         font-size: 12px;
+    }
+
+    .btn {
+        font-size: 11px;
     }
 }
 
