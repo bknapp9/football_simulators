@@ -6,6 +6,7 @@ const leagueTable = document.querySelector('#leagueTable');
 const tabsContainer = document.querySelector('.tabs-container');
 let tabLinks = document.querySelectorAll('.tabs a');
 tabLinks = Array.from(tabLinks).slice(0, 7);
+const click_view = document.querySelector('.click-view')
 const leagueMatches = document.querySelector('.groupStageMatches');
 const simulateMatchdayBtn = document.querySelector('#simulateMatchdayBtn');
 let GSTableMatches;
