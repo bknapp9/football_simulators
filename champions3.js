@@ -2710,6 +2710,7 @@ loadTeams().then((Teams) => {
 
 		continueToPlayoffs.addEventListener('click', (e) => {
 			e.preventDefault();
+			click_view.classList.add('hide');
 			function shuffleArray(array) {
 				return array.sort(() => 0.5 - Math.random());
 			}
