@@ -1,0 +1,5537 @@
+{
+	"Teams": {
+		"Team": [
+			{
+				"Team": "Manchester City",
+				"TeamCountry": "England",
+				"TeamRating": 92,
+				"UCLWins": 1,
+				"Stadium": [
+					{
+						"Name": "Etihad Stadium",
+						"Capacity": 53400,
+						"FilledPercentageGS": 90,
+						"FilledPercentageKS": 98
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 0,
+						"FirstName": "Erling",
+						"LastName": "Haaland",
+						"ScoringChance": 22,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 1,
+						"FirstName": "Savinho",
+						"LastName": "",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 2,
+						"FirstName": "Phil",
+						"LastName": "Foden",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 3,
+						"FirstName": "Jack",
+						"LastName": "Grealish",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 4,
+						"FirstName": "Jeremy",
+						"LastName": "Doku",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 5,
+						"FirstName": "Kevin",
+						"LastName": "De Bruyne",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 6,
+						"FirstName": "Bernardo",
+						"LastName": "Silva",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 7,
+						"FirstName": "James",
+						"LastName": "McAtee",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 8,
+						"FirstName": "Mateo",
+						"LastName": "Kovacic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 9,
+						"FirstName": "Matheus",
+						"LastName": "Nunes",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 10,
+						"FirstName": "Rodri",
+						"LastName": "",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 11,
+						"FirstName": "Kyle",
+						"LastName": "Walker",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 12,
+						"FirstName": "Rico",
+						"LastName": "Lewis",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 13,
+						"FirstName": "Josko",
+						"LastName": "Gvardiol",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 14,
+						"FirstName": "John",
+						"LastName": "Stones",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 15,
+						"FirstName": "Nathan",
+						"LastName": "Ake",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 16,
+						"FirstName": "Manuel",
+						"LastName": "Akanji",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 17,
+						"FirstName": "Nico",
+						"LastName": "O'Reilly",
+						"ScoringChance": 1
+					}
+				]
+			},
+			{
+				"Team": "Bayern Munich",
+				"TeamCountry": "Germany",
+				"TeamRating": 95,
+				"UCLWins": 6,
+				"Stadium": [
+					{
+						"Name": "Allianz Arena",
+						"Capacity": 75.024,
+						"FilledPercentageGS": 90,
+						"FilledPercentageKS": 99
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 18,
+						"FirstName": "Mathys",
+						"LastName": "Tel",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 19,
+						"FirstName": "Leroy",
+						"LastName": "Sane",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 20,
+						"FirstName": "Kingsley",
+						"LastName": "Coman",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 21,
+						"FirstName": "Serge",
+						"LastName": "Gnabry",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 22,
+						"FirstName": "Harry",
+						"LastName": "Kane",
+						"ScoringChance": 21,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 23,
+						"FirstName": "Aleksandar",
+						"LastName": "Pavlovic",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 24,
+						"FirstName": "Jamal",
+						"LastName": "Musiala",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 25,
+						"FirstName": "Michael",
+						"LastName": "Olise",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 26,
+						"FirstName": "Konrad",
+						"LastName": "Laimer",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 27,
+						"FirstName": "Joao",
+						"LastName": "Palhinha",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 28,
+						"FirstName": "Leon",
+						"LastName": "Goretzka",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 29,
+						"FirstName": "Thomas",
+						"LastName": "Muller",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 30,
+						"FirstName": "Sacha",
+						"LastName": "Boey",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 31,
+						"FirstName": "Josip",
+						"LastName": "Stanisic",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 33,
+						"FirstName": "Kim",
+						"LastName": "Min Jae",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 34,
+						"FirstName": "Alphonso",
+						"LastName": "Davies",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 35,
+						"FirstName": "Dayot",
+						"LastName": "Upamecano",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 36,
+						"FirstName": "Joshua",
+						"LastName": "Kimmich",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 37,
+						"FirstName": "Eric",
+						"LastName": "Dier",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 38,
+						"FirstName": "Raphael",
+						"LastName": "Guerreiro",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "Real Madrid",
+				"TeamCountry": "Spain",
+				"TeamRating": 99,
+				"UCLWins": 15,
+				"Stadium": [
+					{
+						"Name": "Estadio Santiago Bernabeu",
+						"Capacity": 85.0,
+						"FilledPercentageGS": 90,
+						"FilledPercentageKS": 99
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 39,
+						"FirstName": "Endrick",
+						"LastName": "",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 40,
+						"FirstName": "Arda",
+						"LastName": "Guler",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 41,
+						"FirstName": "Rodrygo",
+						"LastName": "Goes",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 42,
+						"FirstName": "Vinicius",
+						"LastName": "Junior",
+						"ScoringChance": 13
+					},
+					{
+						"PlayerId": 43,
+						"FirstName": "Brahim",
+						"LastName": "Diaz",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 44,
+						"FirstName": "Kylian",
+						"LastName": "Mbappe",
+						"ScoringChance": 17,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 45,
+						"FirstName": "Jude",
+						"LastName": "Bellingham",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 46,
+						"FirstName": "Eduardo",
+						"LastName": "Camavinga",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 47,
+						"FirstName": "Aurelien",
+						"LastName": "Tchouameni",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 48,
+						"FirstName": "Federico",
+						"LastName": "Valverde",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 49,
+						"FirstName": "Daniel",
+						"LastName": "Ceballos",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 50,
+						"FirstName": "Luka",
+						"LastName": "Modric",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 51,
+						"FirstName": "Eder",
+						"LastName": "Militao",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 52,
+						"FirstName": "Francisco",
+						"LastName": "Garcia",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 53,
+						"FirstName": "Ferland",
+						"LastName": "Mendy",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 54,
+						"FirstName": "Jesus",
+						"LastName": "Vallejo",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 55,
+						"FirstName": "Lucas",
+						"LastName": "Vazquez",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 56,
+						"FirstName": "Daniel",
+						"LastName": "Carvajal",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 57,
+						"FirstName": "Antonio",
+						"LastName": "Rudiger",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 58,
+						"FirstName": "David",
+						"LastName": "Alaba",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "PSG",
+				"TeamCountry": "France",
+				"TeamRating": 85,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Parque des Princes",
+						"Capacity": 47.929,
+						"FilledPercentageGS": 88,
+						"FilledPercentageKS": 95
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 59,
+						"FirstName": "Bradley",
+						"LastName": "Barcola",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 60,
+						"FirstName": "Goncalo",
+						"LastName": "Ramos",
+						"ScoringChance": 12
+					},
+					{
+						"PlayerId": 61,
+						"FirstName": "Randal",
+						"LastName": "Kolo Muani",
+						"ScoringChance": 12,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 62,
+						"FirstName": "Ousmane",
+						"LastName": "Dembele",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 63,
+						"FirstName": "Warrren",
+						"LastName": "Zaire-Emery",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 64,
+						"FirstName": "Joao",
+						"LastName": "Neves",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 65,
+						"FirstName": "Desire",
+						"LastName": "Doue",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 66,
+						"FirstName": "Vitinha",
+						"LastName": "",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 67,
+						"FirstName": "Manuel",
+						"LastName": "Ugarte",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 68,
+						"FirstName": "Kang-In",
+						"LastName": "Lee",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 69,
+						"FirstName": "Carlos",
+						"LastName": "Soler",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 70,
+						"FirstName": "Fabian",
+						"LastName": "Ruiz",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 71,
+						"FirstName": "Marco",
+						"LastName": "Asensio",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 72,
+						"FirstName": "Lucas",
+						"LastName": "Beraldo",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 73,
+						"FirstName": "Nuno",
+						"LastName": "Mendes",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 74,
+						"FirstName": "Willian",
+						"LastName": "Pacho",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 75,
+						"FirstName": "Achraf",
+						"LastName": "Hakimi",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 77,
+						"FirstName": "Presnel",
+						"LastName": "Kimpembe",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 78,
+						"FirstName": "Lucas",
+						"LastName": "Hernandez",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 79,
+						"FirstName": "Milan",
+						"LastName": "Skriniar",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 81,
+						"FirstName": "Marquinhos",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 82,
+						"FirstName": "Danilo",
+						"LastName": "Pereira",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "Liverpool FC",
+				"TeamCountry": "England",
+				"TeamRating": 91,
+				"UCLWins": 7,
+				"Stadium": [
+					{
+						"Name": "Anfield Stadium",
+						"Capacity": 61.276,
+						"FilledPercentageGS": 90,
+						"FilledPercentageKS": 98
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 84,
+						"FirstName": "Darwin",
+						"LastName": "Nunez",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 85,
+						"FirstName": "Luis",
+						"LastName": "Diaz",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 86,
+						"FirstName": "Diogo",
+						"LastName": "Jota",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 87,
+						"FirstName": "Cody",
+						"LastName": "Gakpo",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 88,
+						"FirstName": "Mohamed",
+						"LastName": "Salah",
+						"ScoringChance": 20,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 89,
+						"FirstName": "Stefan",
+						"LastName": "Bajcetic",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 92,
+						"FirstName": "Harvey",
+						"LastName": "Elliot",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 93,
+						"FirstName": "Ryan",
+						"LastName": "Gravenberch",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 94,
+						"FirstName": "Curtis",
+						"LastName": "Jones",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 95,
+						"FirstName": "Dominik",
+						"LastName": "Szoboszlai",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 96,
+						"FirstName": "Alexis",
+						"LastName": "Mac Allister",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 97,
+						"FirstName": "Wataru",
+						"LastName": "Endo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 98,
+						"FirstName": "Conor",
+						"LastName": "Bradley",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 99,
+						"FirstName": "Jarell",
+						"LastName": "Quansah",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 101,
+						"FirstName": "Ibrahima",
+						"LastName": "Konate",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 102,
+						"FirstName": "Trent",
+						"LastName": "Alexander-Arnold",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 103,
+						"FirstName": "Konstantinos",
+						"LastName": "Tsimikas",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 104,
+						"FirstName": "Joseph",
+						"LastName": "Gomez",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 105,
+						"FirstName": "Andrew",
+						"LastName": "Robertson",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 106,
+						"FirstName": "Virgil",
+						"LastName": "Van Dijk",
+						"ScoringChance": 4
+					}
+				]
+			},
+			{
+				"Team": "Inter Milan",
+				"TeamCountry": "Italy",
+				"TeamRating": 83,
+				"UCLWins": 3,
+				"Stadium": [
+					{
+						"Name": "Giuseppe Meazza",
+						"Capacity": 75.817,
+						"FilledPercentageGS": 92,
+						"FilledPercentageKS": 98
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 107,
+						"FirstName": "Lautaro",
+						"LastName": "Martinez",
+						"ScoringChance": 20
+					},
+					{
+						"PlayerId": 108,
+						"FirstName": "Marcus",
+						"LastName": "Thuram",
+						"ScoringChance": 15
+					},
+					{
+						"PlayerId": 109,
+						"FirstName": "Mehdi",
+						"LastName": "Taremi",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 110,
+						"FirstName": "Joaquin",
+						"LastName": "Correa",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 111,
+						"FirstName": "Marko",
+						"LastName": "Arnautovic",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 112,
+						"FirstName": "Kristjan",
+						"LastName": "Asllani",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 113,
+						"FirstName": "Carlos",
+						"LastName": "Augusto",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 114,
+						"FirstName": "Davide",
+						"LastName": "Frattesi",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 115,
+						"FirstName": "Federico",
+						"LastName": "Dimarco",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 116,
+						"FirstName": "Denzel",
+						"LastName": "Dumfries",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 117,
+						"FirstName": "Nicolo",
+						"LastName": "Barella",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 118,
+						"FirstName": "Piotr",
+						"LastName": "Zielinski",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 119,
+						"FirstName": "Hakan",
+						"LastName": "Calhanoglu",
+						"ScoringChance": 5,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 120,
+						"FirstName": "Henrikh",
+						"LastName": "Mkhitaryan",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 121,
+						"FirstName": "Matteo",
+						"LastName": "Darmian",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 122,
+						"FirstName": "Tajon",
+						"LastName": "Buchanan",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 123,
+						"FirstName": "Yann Aurel",
+						"LastName": "Bisseck",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 124,
+						"FirstName": "Alessandro",
+						"LastName": "Bastoni",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 125,
+						"FirstName": "Benjamin",
+						"LastName": "Pavard",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 126,
+						"FirstName": "Stefan",
+						"LastName": "de Vrij",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 127,
+						"FirstName": "Francesco",
+						"LastName": "Acerbi",
+						"ScoringChance": 1
+					}
+				]
+			},
+			{
+				"Team": "Borussia Dortmund",
+				"TeamCountry": "Germany",
+				"TeamRating": 81,
+				"UCLWins": 1,
+				"Stadium": [
+					{
+						"Name": "Signal Iduna Park",
+						"Capacity": 81.365,
+						"FilledPercentageGS": 92,
+						"FilledPercentageKS": 98
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 128,
+						"FirstName": "Julien",
+						"LastName": "Duranville",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 129,
+						"FirstName": "Youssoufa",
+						"LastName": "Moukoko",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 130,
+						"FirstName": "Jamie",
+						"LastName": "Bynoe-Gittens",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 131,
+						"FirstName": "Maximilian",
+						"LastName": "Beier",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 132,
+						"FirstName": "Karim",
+						"LastName": "Adeyemi",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 133,
+						"FirstName": "Donyell",
+						"LastName": "Malen",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 134,
+						"FirstName": "Serhou",
+						"LastName": "Guirassy",
+						"ScoringChance": 16,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 135,
+						"FirstName": "Sebastien",
+						"LastName": "Haller",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 136,
+						"FirstName": "Giovanni",
+						"LastName": "Reyna",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 137,
+						"FirstName": "Felix",
+						"LastName": "Nmecha",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 138,
+						"FirstName": "Salih",
+						"LastName": "Ozcan",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 139,
+						"FirstName": "Julian",
+						"LastName": "Brandt",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 140,
+						"FirstName": "Emre",
+						"LastName": "Can",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 141,
+						"FirstName": "Marcel",
+						"LastName": "Sabitzer",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 142,
+						"FirstName": "Pascal",
+						"LastName": "Gross",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 143,
+						"FirstName": "Yan",
+						"LastName": "Couto",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 144,
+						"FirstName": "Nico",
+						"LastName": "Schlotterbeck",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 145,
+						"FirstName": "Waldemar",
+						"LastName": "Anton",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 146,
+						"FirstName": "Julian",
+						"LastName": "Ryerson",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 147,
+						"FirstName": "Ramy",
+						"LastName": "Bensebaini",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 148,
+						"FirstName": "Niklas",
+						"LastName": "Sule",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "RB Leipzig",
+				"TeamCountry": "Germany",
+				"TeamRating": 67,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Red Bull Arena",
+						"Capacity": 44.199,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 88
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 149,
+						"FirstName": "Antonio",
+						"LastName": "Nusa",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 150,
+						"FirstName": "Xavi",
+						"LastName": "Simons",
+						"ScoringChance": 11,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 151,
+						"FirstName": "Benjamin",
+						"LastName": "Sesko",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 152,
+						"FirstName": "Fabrice",
+						"LastName": "Hartmann",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 153,
+						"FirstName": "Ikoma",
+						"LastName": "Lois Openda",
+						"ScoringChance": 15
+					},
+					{
+						"PlayerId": 154,
+						"FirstName": "Eljif",
+						"LastName": "Elmas",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 155,
+						"FirstName": "Andre",
+						"LastName": "Silva",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 156,
+						"FirstName": "Yussuf",
+						"LastName": "Poulsen",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 157,
+						"FirstName": "Nicolas",
+						"LastName": "Seiwald",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 158,
+						"FirstName": "Christoph",
+						"LastName": "Baumgartner",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 159,
+						"FirstName": "Amadou",
+						"LastName": "Haidara",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 160,
+						"FirstName": "Xaver",
+						"LastName": "Schlager",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 161,
+						"FirstName": "Kevin",
+						"LastName": "Kampl",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 162,
+						"FirstName": "Castello",
+						"LastName": "Lukeba",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 163,
+						"FirstName": "El Chadaille",
+						"LastName": "Bitshiabu",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 164,
+						"FirstName": "Mohamed",
+						"LastName": "Simakan",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 165,
+						"FirstName": "David",
+						"LastName": "Raum",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 166,
+						"FirstName": "Benjamin",
+						"LastName": "Henrichs",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 167,
+						"FirstName": "Lukas",
+						"LastName": "Klostermann",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 168,
+						"FirstName": "Willi",
+						"LastName": "Orban",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "FC Barcelona",
+				"TeamCountry": "Spain",
+				"TeamRating": 84,
+				"UCLWins": 5,
+				"Stadium": [
+					{
+						"Name": "Estadio Olímpico de Montjuic",
+						"Capacity": 55.926,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 95
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 169,
+						"FirstName": "Lamine",
+						"LastName": "Yamal",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 170,
+						"FirstName": "Pau",
+						"LastName": "Victor",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 171,
+						"FirstName": "Ansu",
+						"LastName": "Fati",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 172,
+						"FirstName": "Ferran",
+						"LastName": "Torres",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 173,
+						"FirstName": "Raphinha",
+						"LastName": "",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 174,
+						"FirstName": "Robert",
+						"LastName": "Lewandowski",
+						"ScoringChance": 21,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 175,
+						"FirstName": "Fermin",
+						"LastName": "Lopez",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 176,
+						"FirstName": "Marc",
+						"LastName": "Casado",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 177,
+						"FirstName": "Gavi",
+						"LastName": "",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 178,
+						"FirstName": "Pablo",
+						"LastName": "Torre",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 179,
+						"FirstName": "Pedri",
+						"LastName": "",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 180,
+						"FirstName": "Frenkie",
+						"LastName": "de Jong",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 181,
+						"FirstName": "Dani",
+						"LastName": "Olmo",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 182,
+						"FirstName": "Pau",
+						"LastName": "Cubarsi",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 184,
+						"FirstName": "Hector",
+						"LastName": "Fort",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 186,
+						"FirstName": "Alex",
+						"LastName": "Balde",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 187,
+						"FirstName": "Eric",
+						"LastName": "Garcia",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 188,
+						"FirstName": "Ronald",
+						"LastName": "Araujo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 189,
+						"FirstName": "Jules",
+						"LastName": "Kounde",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 190,
+						"FirstName": "Clement",
+						"LastName": "Lenglet",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 191,
+						"FirstName": "Inigo",
+						"LastName": "Martinez",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "Bayer Leverkusen",
+				"TeamCountry": "Germany",
+				"TeamRating": 76,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "BayArena",
+						"Capacity": 30.21,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 192,
+						"FirstName": "Francis",
+						"LastName": "Onyeka",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 193,
+						"FirstName": "Amine",
+						"LastName": "Adli",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 194,
+						"FirstName": "Victor",
+						"LastName": "Okoh Boniface",
+						"ScoringChance": 16
+					},
+					{
+						"PlayerId": 195,
+						"FirstName": "Martin",
+						"LastName": "Terrier",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 196,
+						"FirstName": "Patrik",
+						"LastName": "Schick",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 197,
+						"FirstName": "Florian",
+						"LastName": "Wirtz",
+						"ScoringChance": 9,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 198,
+						"FirstName": "Exequiel",
+						"LastName": "Palacios",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 199,
+						"FirstName": "Aleix",
+						"LastName": "Garcia",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 200,
+						"FirstName": "Robert",
+						"LastName": "Andrich",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 201,
+						"FirstName": "Jonas",
+						"LastName": "Hofmann",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 202,
+						"FirstName": "Granit",
+						"LastName": "Xhaka",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 203,
+						"FirstName": "Arthur",
+						"LastName": "",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 204,
+						"FirstName": "Jeanuel",
+						"LastName": "Belocian",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 205,
+						"FirstName": "Piero",
+						"LastName": "Hincapie",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 206,
+						"FirstName": "Odilon",
+						"LastName": "Kossounou",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 207,
+						"FirstName": "Jeremie",
+						"LastName": "Frimpong",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 208,
+						"FirstName": "Nathan",
+						"LastName": "Tella",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 209,
+						"FirstName": "Edmond",
+						"LastName": "Tapsoba",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 210,
+						"FirstName": "Jonathan",
+						"LastName": "Tah",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 211,
+						"FirstName": "Alejandro",
+						"LastName": "Grimaldo",
+						"ScoringChance": 5
+					}
+				]
+			},
+			{
+				"Team": "Atletico Madrid",
+				"TeamCountry": "Spain",
+				"TeamRating": 76,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Estadio Cívitas Metropolitano",
+						"Capacity": 70.46,
+						"FilledPercentageGS": 90,
+						"FilledPercentageKS": 95
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 212,
+						"FirstName": "Samuel",
+						"LastName": "Omorodion",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 213,
+						"FirstName": "Giuliano",
+						"LastName": "Simeone",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 214,
+						"FirstName": "Julian",
+						"LastName": "Alvarez",
+						"ScoringChance": 16
+					},
+					{
+						"PlayerId": 215,
+						"FirstName": "Alexander",
+						"LastName": "Sorloth",
+						"ScoringChance": 14
+					},
+					{
+						"PlayerId": 216,
+						"FirstName": "Angel",
+						"LastName": "Correa",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 217,
+						"FirstName": "Antoine",
+						"LastName": "Griezmann",
+						"ScoringChance": 11,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 218,
+						"FirstName": "Arthur",
+						"LastName": "Vermeeren",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 219,
+						"FirstName": "Pablo",
+						"LastName": "Barrios",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 220,
+						"FirstName": "Samuel",
+						"LastName": "Lino",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 221,
+						"FirstName": "Rodrigo",
+						"LastName": "Riquelme",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 222,
+						"FirstName": "Nahuel",
+						"LastName": "Molina",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 223,
+						"FirstName": "Marcos",
+						"LastName": "Llorente",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 224,
+						"FirstName": "Thomas",
+						"LastName": "Lemar",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 225,
+						"FirstName": "Rodrigo",
+						"LastName": "De Paul",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 226,
+						"FirstName": "Koke",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 227,
+						"FirstName": "Javi",
+						"LastName": "Galan",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 228,
+						"FirstName": "Robin",
+						"LastName": "Le Normand",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 229,
+						"FirstName": "Reinildo",
+						"LastName": "",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 230,
+						"FirstName": "Josema",
+						"LastName": "Gimenez",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 231,
+						"FirstName": "Cesar",
+						"LastName": "Azpilicueta",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 232,
+						"FirstName": "Axel",
+						"LastName": "Witsel",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "Atalanta",
+				"TeamCountry": "Italy",
+				"TeamRating": 62,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Gewiss Stadium",
+						"Capacity": 21.3,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 233,
+						"FirstName": "Charles",
+						"LastName": "De Ketelarere",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 234,
+						"FirstName": "El Bilal",
+						"LastName": "Toure",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 235,
+						"FirstName": "Mateo",
+						"LastName": "Retegui",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 236,
+						"FirstName": "Gianluca",
+						"LastName": "Scamacca",
+						"ScoringChance": 16
+					},
+					{
+						"PlayerId": 237,
+						"FirstName": "Ademola",
+						"LastName": "Lookman",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 238,
+						"FirstName": "Ibrahim",
+						"LastName": "Sulemana",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 239,
+						"FirstName": "Ederson",
+						"LastName": "",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 240,
+						"FirstName": "Marco",
+						"LastName": "Brescianini",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 241,
+						"FirstName": "Nicolo",
+						"LastName": "Zaniolo",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 242,
+						"FirstName": "Mario",
+						"LastName": "Pasalic",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 243,
+						"FirstName": "Marten",
+						"LastName": "de Roon",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 244,
+						"FirstName": "Giorgio",
+						"LastName": "Scalvini",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 245,
+						"FirstName": "Matteo",
+						"LastName": "Ruggery",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 246,
+						"FirstName": "Isak",
+						"LastName": "Hien",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 247,
+						"FirstName": "Mitchel",
+						"LastName": "Bakker",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 248,
+						"FirstName": "Ben",
+						"LastName": "Godfrey",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 249,
+						"FirstName": "Sead",
+						"LastName": "Kolasinac",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 250,
+						"FirstName": "Berat",
+						"LastName": "Djimsiti",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 251,
+						"FirstName": "Davide",
+						"LastName": "Zappacosta",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 252,
+						"FirstName": "Rafael",
+						"LastName": "Toloi",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "Juventus",
+				"TeamCountry": "Italy",
+				"TeamRating": 75,
+				"UCLWins": 6,
+				"Stadium": [
+					{
+						"Name": "Allianz Stadium",
+						"Capacity": 41.507,
+						"FilledPercentageGS": 88,
+						"FilledPercentageKS": 94
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 253,
+						"FirstName": "Kenan",
+						"LastName": "Yildiz",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 254,
+						"FirstName": "Timothy",
+						"LastName": "Weah",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 255,
+						"FirstName": "Federico",
+						"LastName": "Chiesa",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 256,
+						"FirstName": "Dusan",
+						"LastName": "Vlahovic",
+						"ScoringChance": 15,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 257,
+						"FirstName": "Arkadiusz",
+						"LastName": "Milik",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 258,
+						"FirstName": "Fabio",
+						"LastName": "Miretti",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 259,
+						"FirstName": "Andrea",
+						"LastName": "Cambiaso",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 260,
+						"FirstName": "Khephren",
+						"LastName": "Thuram",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 261,
+						"FirstName": "Nicolo",
+						"LastName": "Fagioli",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 262,
+						"FirstName": "Weston",
+						"LastName": "McKennie",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 263,
+						"FirstName": "Hans",
+						"LastName": "Nicolussi Caviglia",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 264,
+						"FirstName": "Douglas",
+						"LastName": "Luiz",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 265,
+						"FirstName": "Arthur",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 266,
+						"FirstName": "Manuel",
+						"LastName": "Locatelli",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 267,
+						"FirstName": "Filip",
+						"LastName": "Kostic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 269,
+						"FirstName": "Nicolo",
+						"LastName": "Savona",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 270,
+						"FirstName": "Samuel",
+						"LastName": "Mbangula",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 271,
+						"FirstName": "Juan",
+						"LastName": "Cabal",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 272,
+						"FirstName": "Tiago",
+						"LastName": "Djalo",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 273,
+						"FirstName": "Gleison",
+						"LastName": "Bremer",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 274,
+						"FirstName": "Mattia",
+						"LastName": "De Sciglio",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 275,
+						"FirstName": "Danilo",
+						"LastName": "",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "Benfica",
+				"TeamCountry": "Portugal",
+				"TeamRating": 66,
+				"UCLWins": 2,
+				"Stadium": [
+					{
+						"Name": "Estadio da Luz",
+						"Capacity": 64.642,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 276,
+						"FirstName": "Marcos",
+						"LastName": "Leonardo",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 277,
+						"FirstName": "Benjamin",
+						"LastName": "Rollheiser",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 278,
+						"FirstName": "Tiago",
+						"LastName": "Gouveia",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 279,
+						"FirstName": "Jan-Niklas",
+						"LastName": "Beste",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 280,
+						"FirstName": "David",
+						"LastName": "Neres",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 281,
+						"FirstName": "Arthur",
+						"LastName": "Cabral",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 282,
+						"FirstName": "Vangelis",
+						"LastName": "Pavlidis",
+						"ScoringChance": 13,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 283,
+						"FirstName": "Joao",
+						"LastName": "Mario",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 284,
+						"FirstName": "Angel",
+						"LastName": "Di Maria",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 285,
+						"FirstName": "Gianluca",
+						"LastName": "Prestianni",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 286,
+						"FirstName": "Orkun",
+						"LastName": "Kokcu",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 287,
+						"FirstName": "Leandro",
+						"LastName": "Barreiro",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 288,
+						"FirstName": "Florentino",
+						"LastName": "Luis",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 289,
+						"FirstName": "Renato",
+						"LastName": "Sanches",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 290,
+						"FirstName": "Antonio",
+						"LastName": "Silva",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 291,
+						"FirstName": "Alvaro",
+						"LastName": "Fernandez",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 292,
+						"FirstName": "Tomas",
+						"LastName": "Araujo",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 293,
+						"FirstName": "Morato",
+						"LastName": "",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 294,
+						"FirstName": "Alexander",
+						"LastName": "Bah",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 295,
+						"FirstName": "Fredrik",
+						"LastName": "Aursnes",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 296,
+						"FirstName": "Nicolas",
+						"LastName": "Otamendi",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "Arsenal",
+				"TeamCountry": "England",
+				"TeamRating": 86,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Emirates Stadium",
+						"Capacity": 60.704,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 297,
+						"FirstName": "Gabriel",
+						"LastName": "Martinelli",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 298,
+						"FirstName": "Bukayo",
+						"LastName": "Saka",
+						"ScoringChance": 13,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 299,
+						"FirstName": "Edward",
+						"LastName": "Nketiah",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 300,
+						"FirstName": "Kai",
+						"LastName": "Havertz",
+						"ScoringChance": 15
+					},
+					{
+						"PlayerId": 301,
+						"FirstName": "Reiss",
+						"LastName": "Nelson",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 302,
+						"FirstName": "Gabriel",
+						"LastName": "Jesus",
+						"ScoringChance": 12
+					},
+					{
+						"PlayerId": 303,
+						"FirstName": "Leandro",
+						"LastName": "Trossard",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 304,
+						"FirstName": "Fabio",
+						"LastName": "Vieira",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 305,
+						"FirstName": "Declan",
+						"LastName": "Rice",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 306,
+						"FirstName": "Martin",
+						"LastName": "Odegaard",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 307,
+						"FirstName": "Thomas",
+						"LastName": "Partey",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 308,
+						"FirstName": "Jorginho",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 309,
+						"FirstName": "Riccardo",
+						"LastName": "Calafiori",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 310,
+						"FirstName": "Jakub",
+						"LastName": "Kiwior",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 311,
+						"FirstName": "William",
+						"LastName": "Saliba",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 312,
+						"FirstName": "Jurrien",
+						"LastName": "Timber",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 313,
+						"FirstName": "Gabriel",
+						"LastName": "Magalhaes",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 314,
+						"FirstName": "Ben",
+						"LastName": "White",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 315,
+						"FirstName": "Takehiro",
+						"LastName": "Tomiyasu",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 316,
+						"FirstName": "Oleksandr",
+						"LastName": "Zinchenko",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 317,
+						"FirstName": "Kieran",
+						"LastName": "Tierney",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "Club Brugge",
+				"TeamCountry": "Belgium",
+				"TeamRating": 50,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Jan Breydelstadion",
+						"Capacity": 29.0,
+						"FilledPercentageGS": 80,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 318,
+						"FirstName": "Dedryck",
+						"LastName": "Boyata",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 319,
+						"FirstName": "Brandon",
+						"LastName": "Mechele",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 320,
+						"FirstName": "Faitout",
+						"LastName": "Maouassa",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 321,
+						"FirstName": "Owen",
+						"LastName": "Otasowie",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 322,
+						"FirstName": "Zaid Abner",
+						"LastName": "Romero",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 323,
+						"FirstName": "Maxim",
+						"LastName": "De Cuyper",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 324,
+						"FirstName": "Hugo",
+						"LastName": "Siquet",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 325,
+						"FirstName": "Kyriani",
+						"LastName": "Sabbe",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 326,
+						"FirstName": "Jorne",
+						"LastName": "Spileers",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 327,
+						"FirstName": "Bjorn",
+						"LastName": "Meijer",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 328,
+						"FirstName": "Joel",
+						"LastName": "Ordonez",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 329,
+						"FirstName": "Joaquin",
+						"LastName": "Seys",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 330,
+						"FirstName": "Hans",
+						"LastName": "Vanaken",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 331,
+						"FirstName": "Casper",
+						"LastName": "Nielsen",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 332,
+						"FirstName": "Hugo",
+						"LastName": "Vetlesen",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 333,
+						"FirstName": "Raphael",
+						"LastName": "Onyedika",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 334,
+						"FirstName": "Ardon",
+						"LastName": "Jashari",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 335,
+						"FirstName": "Chemsdine",
+						"LastName": "Talbi",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 336,
+						"FirstName": "Konstantinos",
+						"LastName": "Karetsas",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 337,
+						"FirstName": "Gustaf",
+						"LastName": "Nilsson",
+						"ScoringChance": 8,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 338,
+						"FirstName": "Andreas",
+						"LastName": "Skov Olsen",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 339,
+						"FirstName": "Kamal",
+						"LastName": "Sowah",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 340,
+						"FirstName": "Michal",
+						"LastName": "Skoras",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 341,
+						"FirstName": "Ferrán",
+						"LastName": "Jutglà",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 342,
+						"FirstName": "Christos",
+						"LastName": "Tzolis",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 343,
+						"FirstName": "Romeo",
+						"LastName": "Vermant",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 344,
+						"FirstName": "Victor",
+						"LastName": "Barbera",
+						"ScoringChance": 4
+					}
+				]
+			},
+			{
+				"Team": "AC Milan",
+				"TeamCountry": "Italy",
+				"TeamRating": 75,
+				"UCLWins": 7,
+				"Stadium": [
+					{
+						"Name": "San Siro",
+						"Capacity": 75.817,
+						"FilledPercentageGS": 90,
+						"FilledPercentageKS": 93
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 345,
+						"FirstName": "Alessandro",
+						"LastName": "Florenzi",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 346,
+						"FirstName": "Davide",
+						"LastName": "Calabria",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 347,
+						"FirstName": "Theo",
+						"LastName": "Hernández",
+						"ScoringChance": 4,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 348,
+						"FirstName": "Fikayo",
+						"LastName": "Tomori",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 349,
+						"FirstName": "Emerson",
+						"LastName": "Royal",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 350,
+						"FirstName": "Matteo",
+						"LastName": "Gabbia",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 351,
+						"FirstName": "Strahinja",
+						"LastName": "Pavlovic",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 352,
+						"FirstName": "Malick",
+						"LastName": "Thiaw",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 353,
+						"FirstName": "Filippo",
+						"LastName": "Terracciano",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 354,
+						"FirstName": "Alex",
+						"LastName": "Jimenez",
+						"ScoringChance": 1
+					},
+					{
+						"PlayerId": 355,
+						"FirstName": "Ruben",
+						"LastName": "Loftus-Cheek",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 356,
+						"FirstName": "Ismael",
+						"LastName": "Bennacer",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 357,
+						"FirstName": "Tommaso",
+						"LastName": "Pobega",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 358,
+						"FirstName": "Yacine",
+						"LastName": "Adli",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 359,
+						"FirstName": "Tijjani",
+						"LastName": "Reijnders",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 360,
+						"FirstName": "Youssouf",
+						"LastName": "Fofana",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 361,
+						"FirstName": "Yunus",
+						"LastName": "Musah",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 362,
+						"FirstName": "Álvaro",
+						"LastName": "Morata",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 363,
+						"FirstName": "Luka",
+						"LastName": "Jovic",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 364,
+						"FirstName": "Christian",
+						"LastName": "Pulisic",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 365,
+						"FirstName": "Samuel",
+						"LastName": "Chukwueze",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 366,
+						"FirstName": "Rafael",
+						"LastName": "Leao",
+						"ScoringChance": 13
+					},
+					{
+						"PlayerId": 367,
+						"FirstName": "Noah",
+						"LastName": "Okafor",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 368,
+						"FirstName": "Alexis",
+						"LastName": "Saelemaekers",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 369,
+						"FirstName": "Chaka",
+						"LastName": "Traorè",
+						"ScoringChance": 2
+					}
+				]
+			},
+			{
+				"Team": "Shakhtar Donetsk",
+				"TeamCountry": "Ukraine",
+				"TeamRating": 47,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Stadion Shakhtar",
+						"Capacity": 31.718,
+						"FilledPercentageGS": 80,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 372,
+						"FirstName": "Alaa",
+						"LastName": "Ghram",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 373,
+						"FirstName": "Marian",
+						"LastName": "Faryna",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 374,
+						"FirstName": "Vinicius",
+						"LastName": "Tobias",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 375,
+						"FirstName": "Anton",
+						"LastName": "Glushchenk",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 376,
+						"FirstName": "Eguinaldo",
+						"LastName": "",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 377,
+						"FirstName": "Pedrinho",
+						"LastName": "",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 378,
+						"FirstName": "Taras",
+						"LastName": "Stepanenko",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 379,
+						"FirstName": "Lassina",
+						"LastName": "Traore",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 380,
+						"FirstName": "Newerton",
+						"LastName": "",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 381,
+						"FirstName": "Kevin",
+						"LastName": "",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 382,
+						"FirstName": "Danylo",
+						"LastName": "Sikan",
+						"ScoringChance": 12,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 383,
+						"FirstName": "Georgiy",
+						"LastName": "Sudakov",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 384,
+						"FirstName": "Artem",
+						"LastName": "Bondarenko",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 385,
+						"FirstName": "Dmytro",
+						"LastName": "Kryskiv",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 386,
+						"FirstName": "Irakli",
+						"LastName": "Azarovi",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 387,
+						"FirstName": "Bartol",
+						"LastName": "Franjic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 388,
+						"FirstName": "Valeriy",
+						"LastName": "Bondar",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 389,
+						"FirstName": "Yukhym",
+						"LastName": "Konoplia",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "Feyenoord",
+				"TeamCountry": "Netherlands",
+				"TeamRating": 35,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Feyenoord Stadium",
+						"Capacity": 51.177,
+						"FilledPercentageGS": 90,
+						"FilledPercentageKS": 93
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 827,
+						"FirstName": "Gernot",
+						"LastName": "Trauner",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 828,
+						"FirstName": "Bart",
+						"LastName": "Nieuwkoop",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 829,
+						"FirstName": "David",
+						"LastName": "Hancko",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 831,
+						"FirstName": "Lutsharel",
+						"LastName": "Geertruida",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 832,
+						"FirstName": "Gijs",
+						"LastName": "Smal",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 834,
+						"FirstName": "Jeyland",
+						"LastName": "Mitchell",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 835,
+						"FirstName": "Thomas",
+						"LastName": "Beelen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 836,
+						"FirstName": "Quilindschy",
+						"LastName": "Hartman",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 837,
+						"FirstName": "Ondrej",
+						"LastName": "Lingr",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 838,
+						"FirstName": "Calvin",
+						"LastName": "Stengs",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 839,
+						"FirstName": "Quinten",
+						"LastName": "Timber",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 841,
+						"FirstName": "Ramiz",
+						"LastName": "Zerrouki",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 842,
+						"FirstName": "Hugo",
+						"LastName": "Bueno",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 843,
+						"FirstName": "Antoni",
+						"LastName": "Milambo",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 845,
+						"FirstName": "Chris-Kevin",
+						"LastName": "Nadje",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 846,
+						"FirstName": "Gjivai",
+						"LastName": "Zechiel",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 847,
+						"FirstName": "Marcus",
+						"LastName": "Pedersen",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 848,
+						"FirstName": "Luka",
+						"LastName": "Ivanusec",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 849,
+						"FirstName": "Julian",
+						"LastName": "Carranza",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 850,
+						"FirstName": "Ayase",
+						"LastName": "Ueda",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 851,
+						"FirstName": "Santiago",
+						"LastName": "Gimenez",
+						"ScoringChance": 12,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 854,
+						"FirstName": "Igor",
+						"LastName": "Paixao",
+						"ScoringChance": 5
+					}
+				]
+			},
+			{
+				"Team": "Sporting Lisboa",
+				"TeamCountry": "Portugal",
+				"TeamRating": 50,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Estadio Jose Alvalade",
+						"Capacity": 50.095,
+						"FilledPercentageGS": 80,
+						"FilledPercentageKS": 86
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 391,
+						"FirstName": "Jerry",
+						"LastName": "St. Juste",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 392,
+						"FirstName": "Matheus",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 393,
+						"FirstName": "Eduardo",
+						"LastName": "Quaresma",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 394,
+						"FirstName": "Goncalo",
+						"LastName": "Inacio",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 395,
+						"FirstName": "Zeno",
+						"LastName": "Debast",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 396,
+						"FirstName": "Joao",
+						"LastName": "Muniz",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 397,
+						"FirstName": "Ousmane",
+						"LastName": "Diomande",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 398,
+						"FirstName": "Ricardo",
+						"LastName": "Esgaio",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 399,
+						"FirstName": "Nuno",
+						"LastName": "Santos",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 400,
+						"FirstName": "Hidemasa",
+						"LastName": "Morita",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 401,
+						"FirstName": "Morten",
+						"LastName": "Hjulmand",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 402,
+						"FirstName": "Daniel",
+						"LastName": "Braganca",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 403,
+						"FirstName": "Geny",
+						"LastName": "Catamo",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 404,
+						"FirstName": "Koba",
+						"LastName": "Koindredi",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 405,
+						"FirstName": "Mateo",
+						"LastName": "Tanlongo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 406,
+						"FirstName": "Dario",
+						"LastName": "Essugo",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 407,
+						"FirstName": "Iván",
+						"LastName": "Fresneda",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 408,
+						"FirstName": "Geovany",
+						"LastName": "Quenda",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 409,
+						"FirstName": "Marcus",
+						"LastName": "Edwards",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 410,
+						"FirstName": "Viktor",
+						"LastName": "Gyökeres",
+						"ScoringChance": 12,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 411,
+						"FirstName": "Trincao",
+						"LastName": "",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 412,
+						"FirstName": "Jovane",
+						"LastName": "Cabral",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 413,
+						"FirstName": "Pedro",
+						"LastName": "Goncalves",
+						"ScoringChance": 8
+					}
+				]
+			},
+			{
+				"Team": "PSV",
+				"TeamCountry": "Netherlands",
+				"TeamRating": 55,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Philips Stadion",
+						"Capacity": 35.119,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 89
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 414,
+						"FirstName": "Olivier",
+						"LastName": "Boscagli",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 415,
+						"FirstName": "Armando",
+						"LastName": "Obispo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 416,
+						"FirstName": "Mauro",
+						"LastName": "Junior",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 417,
+						"FirstName": "Sergino",
+						"LastName": "Dest",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 418,
+						"FirstName": "Fredrik",
+						"LastName": "Oppegård",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 419,
+						"FirstName": "Ryan",
+						"LastName": "Flamingo",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 420,
+						"FirstName": "Jerdy",
+						"LastName": "Schouten",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 421,
+						"FirstName": "Guus",
+						"LastName": "Til",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 422,
+						"FirstName": "Joey",
+						"LastName": "Veerman",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 423,
+						"FirstName": "Malik",
+						"LastName": "Tillman",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 424,
+						"FirstName": "Ismael",
+						"LastName": "Saibari",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 425,
+						"FirstName": "Isaac",
+						"LastName": "Babadi",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 426,
+						"FirstName": "Tygo",
+						"LastName": "Land",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 427,
+						"FirstName": "Luuk",
+						"LastName": "de Jong",
+						"ScoringChance": 14,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 428,
+						"FirstName": "Hirving",
+						"LastName": "Lozano",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 429,
+						"FirstName": "Noa",
+						"LastName": "Lang",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 430,
+						"FirstName": "Richard",
+						"LastName": "Ledezma",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 431,
+						"FirstName": "Ricardo",
+						"LastName": "Pepi",
+						"ScoringChance": 10
+					},
+					{
+						"PlayerId": 432,
+						"FirstName": "Couhaib",
+						"LastName": "Driouech",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 433,
+						"FirstName": "Johan",
+						"LastName": "Bakayoko",
+						"ScoringChance": 11
+					}
+				]
+			},
+			{
+				"Team": "Celtic",
+				"TeamCountry": "Scotland",
+				"TeamRating": 24,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Celtic Park",
+						"Capacity": 60.411,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 89
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 434,
+						"FirstName": "Cameron",
+						"LastName": "Carter-Vickers",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 435,
+						"FirstName": "Anthony",
+						"LastName": "Ralston",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 436,
+						"FirstName": "Greg",
+						"LastName": "Taylor",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 437,
+						"FirstName": "Liam",
+						"LastName": "Scales",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 438,
+						"FirstName": "Gustaf",
+						"LastName": "Lagerbielke",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 439,
+						"FirstName": "Yuki",
+						"LastName": "Kobayashi",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 440,
+						"FirstName": "Stephen",
+						"LastName": "Welsh",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 441,
+						"FirstName": "Maik",
+						"LastName": "Nawrocki",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 442,
+						"FirstName": "Alistair",
+						"LastName": "Johnston",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 443,
+						"FirstName": "James",
+						"LastName": "McCarthy",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 444,
+						"FirstName": "Callum",
+						"LastName": "McGregor",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 445,
+						"FirstName": "Tomoki",
+						"LastName": "Iwata",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 446,
+						"FirstName": "Matthew",
+						"LastName": "O'Riley",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 447,
+						"FirstName": "Liam",
+						"LastName": "Shaw",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 448,
+						"FirstName": "Reo",
+						"LastName": "Hatate",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 449,
+						"FirstName": "Odin Thiago",
+						"LastName": "Holm",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 450,
+						"FirstName": "Paulo",
+						"LastName": "Bernardo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 451,
+						"FirstName": "Adam",
+						"LastName": "Montgomery",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 452,
+						"FirstName": "James",
+						"LastName": "Forrest",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 453,
+						"FirstName": "Daizen",
+						"LastName": "Maeda",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 454,
+						"FirstName": "Michael",
+						"LastName": "Johnston",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 455,
+						"FirstName": "Kyogo",
+						"LastName": "Furuhashi",
+						"ScoringChance": 10,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 456,
+						"FirstName": "Adam",
+						"LastName": "Idah",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 457,
+						"FirstName": "Luis",
+						"LastName": "Palma",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 458,
+						"FirstName": "Nicolas-Gerrit",
+						"LastName": "Kühn",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 459,
+						"FirstName": "Hyun-Jun",
+						"LastName": "Yang",
+						"ScoringChance": 4
+					}
+				]
+			},
+			{
+				"Team": "Lille",
+				"TeamCountry": "Scotland",
+				"TeamRating": 38,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Stade du Hainut",
+						"Capacity": 20.0,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 89
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 460,
+						"FirstName": "Ismaily",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 461,
+						"FirstName": "Samuel",
+						"LastName": "Umtiti",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 462,
+						"FirstName": "Aissa",
+						"LastName": "Mandi",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 463,
+						"FirstName": "Thomas",
+						"LastName": "Meunier",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 464,
+						"FirstName": "Akim",
+						"LastName": "Zedadka",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 465,
+						"FirstName": "Gabriel",
+						"LastName": "Gudmundsson",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 466,
+						"FirstName": "Bafodé",
+						"LastName": "Diakité",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 467,
+						"FirstName": "Alexsandro",
+						"LastName": "Ribeiro",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 468,
+						"FirstName": "Rafael",
+						"LastName": "Fernandes",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 469,
+						"FirstName": "Tiago",
+						"LastName": "Santos",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 470,
+						"FirstName": "Ousmane",
+						"LastName": "Touré",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 471,
+						"FirstName": "Benjamin",
+						"LastName": "André",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 472,
+						"FirstName": "Rémy",
+						"LastName": "Cabella",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 473,
+						"FirstName": "Nabil",
+						"LastName": "Bentaleb",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 474,
+						"FirstName": "Angel",
+						"LastName": "Gomes",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 475,
+						"FirstName": "Hákon Arnar",
+						"LastName": "Haraldsson",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 476,
+						"FirstName": "Ethan",
+						"LastName": "Mbappé",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 477,
+						"FirstName": "Ngal Ayel",
+						"LastName": "Mukau",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 478,
+						"FirstName": "Ichem",
+						"LastName": "Ferrah",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 479,
+						"FirstName": "Ayyoub",
+						"LastName": "Bouaddi",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 480,
+						"FirstName": "Edon",
+						"LastName": "Zhegrova",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 481,
+						"FirstName": "Mohamed",
+						"LastName": "Bayo",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 482,
+						"FirstName": "Jonathan",
+						"LastName": "David",
+						"ScoringChance": 12,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 483,
+						"FirstName": "Osame",
+						"LastName": "Sahraoui",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 484,
+						"FirstName": "Andrej",
+						"LastName": "Ilic",
+						"ScoringChance": 8
+					}
+				]
+			},
+			{
+				"Team": "Galatasaray",
+				"TeamCountry": "Turkey",
+				"TeamRating": 36,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "RAMS Park",
+						"Capacity": 52.6,
+						"FilledPercentageGS": 93,
+						"FilledPercentageKS": 99
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 485,
+						"FirstName": "Abdülkerim",
+						"LastName": "Bardakci",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 486,
+						"FirstName": "Kaan",
+						"LastName": "Ayhan",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 487,
+						"FirstName": "Léo",
+						"LastName": "Dubois",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 488,
+						"FirstName": "Davinson",
+						"LastName": "Sánchez",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 489,
+						"FirstName": "Victor",
+						"LastName": "Nelsson",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 490,
+						"FirstName": "Derrick",
+						"LastName": "Köhn",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 492,
+						"FirstName": "Elias",
+						"LastName": "Jelert",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 493,
+						"FirstName": "Metehan",
+						"LastName": "Baltaci",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 494,
+						"FirstName": "Ali Turap",
+						"LastName": "Bulbul",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 495,
+						"FirstName": "Ali",
+						"LastName": "Yesilyurt",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 496,
+						"FirstName": "Dries",
+						"LastName": "Mertens",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 497,
+						"FirstName": "Sérgio",
+						"LastName": "Oliveira",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 498,
+						"FirstName": "Kerem",
+						"LastName": "Demirbay",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 500,
+						"FirstName": "Lucas",
+						"LastName": "Torreira",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 502,
+						"FirstName": "Yunus",
+						"LastName": "Akgün",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 503,
+						"FirstName": "Gabriel",
+						"LastName": "Sara",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 507,
+						"FirstName": "Efe",
+						"LastName": "Akman",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 509,
+						"FirstName": "Wilfried",
+						"LastName": "Zaha",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 510,
+						"FirstName": "Michy",
+						"LastName": "Batshuayi",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 511,
+						"FirstName": "Mauro",
+						"LastName": "Icardi",
+						"ScoringChance": 15,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 512,
+						"FirstName": "Hakim",
+						"LastName": "Ziyech",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 513,
+						"FirstName": "Baris",
+						"LastName": "Alper Yilmaz",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 514,
+						"FirstName": "Halil",
+						"LastName": "Dervisoglu",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 515,
+						"FirstName": "Kerem",
+						"LastName": "Akturkoglu",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 516,
+						"FirstName": "Eren",
+						"LastName": "Aydin",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "Dinamo Zagreb",
+				"TeamCountry": "Croatia",
+				"TeamRating": 32,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Maksimir",
+						"Capacity": 38.923,
+						"FilledPercentageGS": 87,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 517,
+						"FirstName": "Dino",
+						"LastName": "Peric",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 518,
+						"FirstName": "Raul",
+						"LastName": "Torrente",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 519,
+						"FirstName": "Luka",
+						"LastName": "Vrbancic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 520,
+						"FirstName": "Lukas",
+						"LastName": "Kacavenda",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 521,
+						"FirstName": "Dario",
+						"LastName": "Spikic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 522,
+						"FirstName": "Takuya",
+						"LastName": "Ogiwara",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 523,
+						"FirstName": "Maxime",
+						"LastName": "Bernauer",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 524,
+						"FirstName": "Sandro",
+						"LastName": "Kulenovic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 525,
+						"FirstName": "Marko",
+						"LastName": "Rog",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 526,
+						"FirstName": "Juan",
+						"LastName": "Cordoba",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 527,
+						"FirstName": "Stefan",
+						"LastName": "Ristovski",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 528,
+						"FirstName": "Kevin",
+						"LastName": "Theophile-Catherine",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 529,
+						"FirstName": "Samy",
+						"LastName": "Mmaee",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 530,
+						"FirstName": "Ronael",
+						"LastName": "Pierre Gabriel",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 531,
+						"FirstName": "Josip",
+						"LastName": "Misic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 532,
+						"FirstName": "Marko",
+						"LastName": "Pjaca",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 533,
+						"FirstName": "Petar",
+						"LastName": "Sucic",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 534,
+						"FirstName": "Martin",
+						"LastName": "Baturina",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 535,
+						"FirstName": "Arber",
+						"LastName": "Hoxha",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 536,
+						"FirstName": "Bruno",
+						"LastName": "Petkovic",
+						"ScoringChance": 7,
+						"PenaltyTaker": true
+					}
+				]
+			},
+			{
+				"Team": "Salzburg",
+				"TeamCountry": "Austria",
+				"TeamRating": 20,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Red Bull Arena",
+						"Capacity": 30.188,
+						"FilledPercentageGS": 82,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 537,
+						"FirstName": "Oumar",
+						"LastName": "Solet",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 538,
+						"FirstName": "Amar",
+						"LastName": "Dedic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 539,
+						"FirstName": "Aleksa",
+						"LastName": "Terzic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 540,
+						"FirstName": "Kamil",
+						"LastName": "Piatkowski",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 541,
+						"FirstName": "Bryan",
+						"LastName": "Okoh",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 542,
+						"FirstName": "Ignace",
+						"LastName": "Van Der Brempt",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 543,
+						"FirstName": "Daouda",
+						"LastName": "Guindo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 544,
+						"FirstName": "Samson",
+						"LastName": "Baidoo",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 545,
+						"FirstName": "Raphael",
+						"LastName": "Hofer",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 546,
+						"FirstName": "Leandro",
+						"LastName": "Morgalla",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 547,
+						"FirstName": "Hendry",
+						"LastName": "Blank",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 548,
+						"FirstName": "John",
+						"LastName": "Mellberg",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 549,
+						"FirstName": "Takumu",
+						"LastName": "Kawamura",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 550,
+						"FirstName": "Nicolas",
+						"LastName": "Capaldo",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 551,
+						"FirstName": "Maurits",
+						"LastName": "Kjærgaard",
+						"ScoringChance": 4,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 552,
+						"FirstName": "Mads",
+						"LastName": "Bidstrup",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 553,
+						"FirstName": "Samson",
+						"LastName": "Tijani",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 554,
+						"FirstName": "Lucas",
+						"LastName": "Gourna-Douath",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 555,
+						"FirstName": "Mamady",
+						"LastName": "Diambou",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 556,
+						"FirstName": "Oscar",
+						"LastName": "Gloukh",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 557,
+						"FirstName": "Gaoussou",
+						"LastName": "Diakite",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 558,
+						"FirstName": "Fernando",
+						"LastName": "",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 559,
+						"FirstName": "Roko",
+						"LastName": "Simic",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 560,
+						"FirstName": "Nene",
+						"LastName": "Dorgeles",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 561,
+						"FirstName": "Dijon",
+						"LastName": "Kameri",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 562,
+						"FirstName": "Karim",
+						"LastName": "Konate",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 563,
+						"FirstName": "Petar",
+						"LastName": "Ratkov",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 564,
+						"FirstName": "Adam",
+						"LastName": "Daghim",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 565,
+						"FirstName": "Moussa",
+						"LastName": "Kounfolo Yeo",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "Bodo Glimt",
+				"TeamCountry": "Norway",
+				"TeamRating": 17,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Aspmyra Stadion",
+						"Capacity": 10.0,
+						"FilledPercentageGS": 82,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 566,
+						"FirstName": "Brede Mathias",
+						"LastName": "Moe",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 567,
+						"FirstName": "Omar",
+						"LastName": "Elabdellaoui",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 568,
+						"FirstName": "Jostein",
+						"LastName": "Gundersen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 569,
+						"FirstName": "Brice",
+						"LastName": "Wembangomo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 570,
+						"FirstName": "Fredrik André",
+						"LastName": "Bjørkan",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 571,
+						"FirstName": "Michal",
+						"LastName": "Tomic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 572,
+						"FirstName": "Odin Lurås",
+						"LastName": "Bjørtuft",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 573,
+						"FirstName": "Adam",
+						"LastName": "Sørensen",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 574,
+						"FirstName": "Isak",
+						"LastName": "Dybvik Maatta",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 575,
+						"FirstName": "Fredrik",
+						"LastName": "Sjøvold",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 576,
+						"FirstName": "Villads",
+						"LastName": "Nielsen",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 577,
+						"FirstName": "Ulrik",
+						"LastName": "Saltnes",
+						"ScoringChance": 4,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 578,
+						"FirstName": "Patrick",
+						"LastName": "Berg",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 579,
+						"FirstName": "Sondre Brunstad",
+						"LastName": "Fet",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 580,
+						"FirstName": "Gaute Høberg",
+						"LastName": "Vetti",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 581,
+						"FirstName": "Håkon",
+						"LastName": "Evjen",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 582,
+						"FirstName": "Syver Skundberg",
+						"LastName": "Skeide",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 583,
+						"FirstName": "Runar",
+						"LastName": "Espejord",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 584,
+						"FirstName": "Philip",
+						"LastName": "Zinckernagel",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 585,
+						"FirstName": "Sondre",
+						"LastName": "Sørli",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 586,
+						"FirstName": "Andreas",
+						"LastName": "Helmersen",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 587,
+						"FirstName": "Jens Petter",
+						"LastName": "Hauge",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 588,
+						"FirstName": "Oscar Forsmo",
+						"LastName": "Kapskarmo",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 589,
+						"FirstName": "Kasper Waarts",
+						"LastName": "Høgh",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 590,
+						"FirstName": "August",
+						"LastName": "Mikkelsen",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 591,
+						"FirstName": "Nino",
+						"LastName": "Zugelj",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 592,
+						"FirstName": "Sondre",
+						"LastName": "Auklend",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 593,
+						"FirstName": "Samuel",
+						"LastName": "Burakovsky",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 594,
+						"FirstName": "Daniel",
+						"LastName": "Bassi",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "AS Monaco",
+				"TeamCountry": "France",
+				"TeamRating": 37,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Estadio Luis II",
+						"Capacity": 18.523,
+						"FilledPercentageGS": 82,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 595,
+						"FirstName": "Guillermo",
+						"LastName": "Maripan",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 596,
+						"FirstName": "Thilo",
+						"LastName": "Kehrer",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 597,
+						"FirstName": "Caio",
+						"LastName": "Henrique",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 598,
+						"FirstName": "Krepin",
+						"LastName": "Diatta",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 599,
+						"FirstName": "Jordan",
+						"LastName": "Teze",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 600,
+						"FirstName": "Ismail",
+						"LastName": "Jakobs",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 601,
+						"FirstName": "Mohammed",
+						"LastName": "Salisu",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 602,
+						"FirstName": "Wilfried",
+						"LastName": "Singo",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 603,
+						"FirstName": "Chrislain",
+						"LastName": "Matsima",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 604,
+						"FirstName": "Vanderson",
+						"LastName": "",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 605,
+						"FirstName": "Soungoutou",
+						"LastName": "Magassa",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 606,
+						"FirstName": "Kassoum",
+						"LastName": "Ouattara",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 607,
+						"FirstName": "Christian",
+						"LastName": "Mawissa",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 608,
+						"FirstName": "Takumi",
+						"LastName": "Minamino",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 609,
+						"FirstName": "Aleksandr",
+						"LastName": "Golovin",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 610,
+						"FirstName": "Denis",
+						"LastName": "Zakaria",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 611,
+						"FirstName": "Eliot",
+						"LastName": "Matazo",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 612,
+						"FirstName": "Maghnes",
+						"LastName": "Akliouche",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 613,
+						"FirstName": "Edan",
+						"LastName": "Diop",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 614,
+						"FirstName": "Eliesse",
+						"LastName": "Ben Seghir",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 615,
+						"FirstName": "Lamine",
+						"LastName": "Camara",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 616,
+						"FirstName": "Breel",
+						"LastName": "Embolo",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 617,
+						"FirstName": "Folarin",
+						"LastName": "Balogun",
+						"ScoringChance": 7,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 618,
+						"FirstName": "George",
+						"LastName": "Ilenikhena",
+						"ScoringChance": 6
+					}
+				]
+			},
+			{
+				"Team": "Aston Villa",
+				"TeamCountry": "England",
+				"TeamRating": 58,
+				"UCLWins": 1,
+				"Stadium": [
+					{
+						"Name": "Villa Park",
+						"Capacity": 18.523,
+						"FilledPercentageGS": 82,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 619,
+						"FirstName": "Lucas",
+						"LastName": "Digne",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 621,
+						"FirstName": "Tyrone",
+						"LastName": "Mings",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 622,
+						"FirstName": "Diego",
+						"LastName": "Carlos",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 623,
+						"FirstName": "Ezri",
+						"LastName": "Konsa",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 624,
+						"FirstName": "Matty",
+						"LastName": "Cash",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 625,
+						"FirstName": "Pau",
+						"LastName": "Torres",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 626,
+						"FirstName": "Ian",
+						"LastName": "Maatsen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 629,
+						"FirstName": "Ross",
+						"LastName": "Barkley",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 630,
+						"FirstName": "John",
+						"LastName": "McGinn",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 631,
+						"FirstName": "Leander",
+						"LastName": "Dendoncker",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 632,
+						"FirstName": "Youri",
+						"LastName": "Tielemans",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 633,
+						"FirstName": "Boubacar",
+						"LastName": "Kamara",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 634,
+						"FirstName": "Morgan",
+						"LastName": "Rogers",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 635,
+						"FirstName": "Amadou",
+						"LastName": "Onana",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 636,
+						"FirstName": "Lamare",
+						"LastName": "Bogarde",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 637,
+						"FirstName": "Enzo",
+						"LastName": "Barrenechea",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 638,
+						"FirstName": "Samuel",
+						"LastName": "Iling-Junior",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 639,
+						"FirstName": "Ollie",
+						"LastName": "Watkins",
+						"ScoringChance": 12,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 640,
+						"FirstName": "Emiliano",
+						"LastName": "Buendia",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 641,
+						"FirstName": "Leon",
+						"LastName": "Bailey",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 642,
+						"FirstName": "Jacob",
+						"LastName": "Ramsey",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 643,
+						"FirstName": "Jhon",
+						"LastName": "Duran",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 644,
+						"FirstName": "Jaden",
+						"LastName": "Philogene-Bidace",
+						"ScoringChance": 4
+					}
+				]
+			},
+			{
+				"Team": "Bologna",
+				"TeamCountry": "Italy",
+				"TeamRating": 22,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Stadio Renato Dall'Ara",
+						"Capacity": 39.444,
+						"FilledPercentageGS": 82,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 645,
+						"FirstName": "Lorenzo",
+						"LastName": "De Silvestri",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 646,
+						"FirstName": "Charalambos",
+						"LastName": "Lykogiannis",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 647,
+						"FirstName": "Kevin",
+						"LastName": "Bonifazi",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 648,
+						"FirstName": "Stefan",
+						"LastName": "Posch",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 649,
+						"FirstName": "Martin",
+						"LastName": "Erlic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 650,
+						"FirstName": "Jhon",
+						"LastName": "Lucumi",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 651,
+						"FirstName": "Sam",
+						"LastName": "Beukema",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 652,
+						"FirstName": "Juan",
+						"LastName": "Miranda",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 653,
+						"FirstName": "Emil",
+						"LastName": "Holm",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 654,
+						"FirstName": "Mihajlo",
+						"LastName": "Ilic",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 655,
+						"FirstName": "Tommaso",
+						"LastName": "Corazza",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 657,
+						"FirstName": "Remo",
+						"LastName": "Freuler",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 658,
+						"FirstName": "Nikola",
+						"LastName": "Moro",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 659,
+						"FirstName": "Michel",
+						"LastName": "Aebischer",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 660,
+						"FirstName": "Lewis",
+						"LastName": "Ferguson",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 661,
+						"FirstName": "Niklas",
+						"LastName": "Pyyhtiä",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 662,
+						"FirstName": "Giovanni",
+						"LastName": "Fabbian",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 663,
+						"FirstName": "Oussama",
+						"LastName": "El Azzouzi",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 667,
+						"FirstName": "Riccardo",
+						"LastName": "Orsolini",
+						"ScoringChance": 8,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 668,
+						"FirstName": "Jens",
+						"LastName": "Odgaard",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 669,
+						"FirstName": "Jesper",
+						"LastName": "Karlsson",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 670,
+						"FirstName": "Thijs",
+						"LastName": "Dallinga",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 671,
+						"FirstName": "Dan",
+						"LastName": "Ndoye",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 672,
+						"FirstName": "Nicolo",
+						"LastName": "Cambiaghi",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 673,
+						"FirstName": "Kacper",
+						"LastName": "Urbanski",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 674,
+						"FirstName": "Santiago",
+						"LastName": "Castro",
+						"ScoringChance": 5
+					}
+				]
+			},
+			{
+				"Team": "Girona",
+				"TeamCountry": "Spain",
+				"TeamRating": 20,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Estadio Montilivi",
+						"Capacity": 14.624,
+						"FilledPercentageGS": 82,
+						"FilledPercentageKS": 83
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 675,
+						"FirstName": "Daley",
+						"LastName": "Blind",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 676,
+						"FirstName": "Juanpe",
+						"LastName": "",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 677,
+						"FirstName": "David",
+						"LastName": "Lopez",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 678,
+						"FirstName": "Ladislav",
+						"LastName": "Krejci",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 679,
+						"FirstName": "Miguel",
+						"LastName": "Gutiérrez",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 681,
+						"FirstName": "Arnau",
+						"LastName": "Martinez",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 682,
+						"FirstName": "Oriol",
+						"LastName": "Romeu",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 683,
+						"FirstName": "Cristian",
+						"LastName": "Portu",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 684,
+						"FirstName": "Donny",
+						"LastName": "van de Beek",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 685,
+						"FirstName": "Toni",
+						"LastName": "Villa",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 686,
+						"FirstName": "Yangel",
+						"LastName": "Herrera",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 687,
+						"FirstName": "Iván",
+						"LastName": "Martin",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 688,
+						"FirstName": "Valery",
+						"LastName": "Fernández",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 689,
+						"FirstName": "Gabriel",
+						"LastName": "Misehouy",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 690,
+						"FirstName": "Jhon",
+						"LastName": "Solis",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 691,
+						"FirstName": "Cristhian",
+						"LastName": "Stuani",
+						"ScoringChance": 10,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 692,
+						"FirstName": "Viktor",
+						"LastName": "Tsigankov",
+						"ScoringChance": 11
+					},
+					{
+						"PlayerId": 693,
+						"FirstName": "Abel",
+						"LastName": "Ruiz",
+						"ScoringChance": 14
+					},
+					{
+						"PlayerId": 695,
+						"FirstName": "Bryan",
+						"LastName": "Gil",
+						"ScoringChance": 8
+					}
+				]
+			},
+			{
+				"Team": "Stuttgart",
+				"TeamCountry": "Germany",
+				"TeamRating": 12,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "VfB Stuttgart",
+						"Capacity": 60.449,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 696,
+						"FirstName": "Pascal",
+						"LastName": "Stenzel",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 697,
+						"FirstName": "Maximilian",
+						"LastName": "Mittelstaedt",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 698,
+						"FirstName": "Yannik",
+						"LastName": "Keitel",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 699,
+						"FirstName": "Dan-Axel",
+						"LastName": "Zagadou",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 700,
+						"FirstName": "Jeff",
+						"LastName": "Chabot",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 701,
+						"FirstName": "Nikolas",
+						"LastName": "Nartey",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 702,
+						"FirstName": "Josha",
+						"LastName": "Vagnoman",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 703,
+						"FirstName": "Leonidas",
+						"LastName": "Stergiou",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 704,
+						"FirstName": "Anthony",
+						"LastName": "Rouault",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 705,
+						"FirstName": "Ramon",
+						"LastName": "Hendriks",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 706,
+						"FirstName": "Anrie",
+						"LastName": "Chase",
+						"ScoringChance": 2
+					},
+					{
+						"PlayerId": 707,
+						"FirstName": "Atakan",
+						"LastName": "Karazor",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 708,
+						"FirstName": "Woo-Yeong",
+						"LastName": "Jeong",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 709,
+						"FirstName": "Enzo",
+						"LastName": "Millot",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 710,
+						"FirstName": "Angelo",
+						"LastName": "Stiller",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 711,
+						"FirstName": "Ömer",
+						"LastName": "Beyaz",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 712,
+						"FirstName": "Fabian",
+						"LastName": "Rieder",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 713,
+						"FirstName": "Frans",
+						"LastName": "Krätzig",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 714,
+						"FirstName": "Moussa",
+						"LastName": "Cisse",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 715,
+						"FirstName": "Deniz",
+						"LastName": "Undav",
+						"ScoringChance": 6,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 716,
+						"FirstName": "Luca",
+						"LastName": "Pfeiffer",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 717,
+						"FirstName": "Ermedin",
+						"LastName": "Demirovic",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 718,
+						"FirstName": "Chris",
+						"LastName": "Führich",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 719,
+						"FirstName": "Silas",
+						"LastName": "Katompa Mvumpa",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 720,
+						"FirstName": "Jamie",
+						"LastName": "Leweling",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 721,
+						"FirstName": "Nick",
+						"LastName": "Woltemade",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 722,
+						"FirstName": "Wahid",
+						"LastName": "Faghir",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 723,
+						"FirstName": "Thomas",
+						"LastName": "Kastanaras",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 724,
+						"FirstName": "Justin",
+						"LastName": "Diehl",
+						"ScoringChance": 3
+					}
+				]
+			},
+			{
+				"Team": "Sturm Graz",
+				"TeamCountry": "Austria",
+				"TeamRating": 8,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Merkur Arena",
+						"Capacity": 20.0,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 725,
+						"FirstName": "Gregory",
+						"LastName": "Wüthrich",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 726,
+						"FirstName": "Emir",
+						"LastName": "Karic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 727,
+						"FirstName": "Alexandar",
+						"LastName": "Borkovic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 728,
+						"FirstName": "Dimitri",
+						"LastName": "Lavalée",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 729,
+						"FirstName": "Emanuel",
+						"LastName": "Aiwu",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 730,
+						"FirstName": "Jusuf",
+						"LastName": "Gazibegovic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 731,
+						"FirstName": "Amadou",
+						"LastName": "Dante",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 732,
+						"FirstName": "Niklas",
+						"LastName": "Geyrhofer",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 733,
+						"FirstName": "Max",
+						"LastName": "Johnston",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 734,
+						"FirstName": "Arjan",
+						"LastName": "Malic",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 735,
+						"FirstName": "Stefan",
+						"LastName": "Hierländer",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 736,
+						"FirstName": "Jon",
+						"LastName": "Gorenc-Stankovic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 737,
+						"FirstName": "Otar",
+						"LastName": "Kiteishvili",
+						"ScoringChance": 4,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 738,
+						"FirstName": "Tomi",
+						"LastName": "Horvat",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 739,
+						"FirstName": "Tochi",
+						"LastName": "Chukwuani",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 740,
+						"FirstName": "Lovro",
+						"LastName": "Zvonarek",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 741,
+						"FirstName": "Martin",
+						"LastName": "Kern",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 742,
+						"FirstName": "Manprit",
+						"LastName": "Sarkaria",
+						"ScoringChance": 8
+					},
+					{
+						"PlayerId": 743,
+						"FirstName": "Mika",
+						"LastName": "Biereth",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 744,
+						"FirstName": "Szymon",
+						"LastName": "Wlodarczyk",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 745,
+						"FirstName": "William",
+						"LastName": "Bøving",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 746,
+						"FirstName": "Seedy",
+						"LastName": "Jatta",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 747,
+						"FirstName": "Leon",
+						"LastName": "Grgic",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 748,
+						"FirstName": "Amady",
+						"LastName": "Camara",
+						"ScoringChance": 4
+					}
+				]
+			},
+			{
+				"Team": "Brest",
+				"TeamCountry": "France",
+				"TeamRating": 5,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Stade Francis-Le Ble",
+						"Capacity": 17.0,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 749,
+						"FirstName": "Kenny",
+						"LastName": "Lala",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 750,
+						"FirstName": "Brendan",
+						"LastName": "Chardonnet",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 751,
+						"FirstName": "Jordan",
+						"LastName": "Amavi",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 752,
+						"FirstName": "Julien",
+						"LastName": "Le Cardinal",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 753,
+						"FirstName": "Achraf",
+						"LastName": "Dari",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 754,
+						"FirstName": "Abdoulaye",
+						"LastName": "N'Diaye",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 755,
+						"FirstName": "Bradley",
+						"LastName": "Locko",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 756,
+						"FirstName": "Luck",
+						"LastName": "Zogbe",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 757,
+						"FirstName": "Jonas",
+						"LastName": "Martin",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 758,
+						"FirstName": "Pierre",
+						"LastName": "Lees-Melou",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 759,
+						"FirstName": "Mahdi",
+						"LastName": "Camara",
+						"ScoringChance": 5,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 760,
+						"FirstName": "Hugo",
+						"LastName": "Magnetti",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 761,
+						"FirstName": "Romain",
+						"LastName": "Faivre",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 762,
+						"FirstName": "Hiang'a",
+						"LastName": "Mbock",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 763,
+						"FirstName": "Axel",
+						"LastName": "Camblan",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 764,
+						"FirstName": "Ludovic",
+						"LastName": "Ajorque",
+						"ScoringChance": 9
+					},
+					{
+						"PlayerId": 765,
+						"FirstName": "Romain",
+						"LastName": "Del Castillo",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 766,
+						"FirstName": "Mathias",
+						"LastName": "Pereira-Lage",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 767,
+						"FirstName": "Jérémy",
+						"LastName": "Le Douaron",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 768,
+						"FirstName": "Abdallah",
+						"LastName": "Sima",
+						"ScoringChance": 6
+					}
+				]
+			},
+			{
+				"Team": "Sparta Praha",
+				"TeamCountry": "Czech Republic",
+				"TeamRating": 17,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "Epet ARENA",
+						"Capacity": 20.0,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 769,
+						"FirstName": "Jaroslav",
+						"LastName": "Zeleny",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 770,
+						"FirstName": "Asger",
+						"LastName": "Sørensen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 771,
+						"FirstName": "Filip",
+						"LastName": "Panak",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 772,
+						"FirstName": "Mathias",
+						"LastName": "Ross",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 773,
+						"FirstName": "Imanol",
+						"LastName": "Garcia de Albeniz",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 774,
+						"FirstName": "Martin",
+						"LastName": "Vitik",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 775,
+						"FirstName": "Ondrej",
+						"LastName": "Kukucka",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 776,
+						"FirstName": "Martin",
+						"LastName": "Suchomel",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 777,
+						"FirstName": "Jakub",
+						"LastName": "Uhrincat",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 778,
+						"FirstName": "David",
+						"LastName": "Pavelka",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 779,
+						"FirstName": "Lukas",
+						"LastName": "Sadilek",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 780,
+						"FirstName": "Kaan",
+						"LastName": "Kairinen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 781,
+						"FirstName": "Jakub",
+						"LastName": "Pesek",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 782,
+						"FirstName": "Qazim",
+						"LastName": "Laci",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 783,
+						"FirstName": "Markus",
+						"LastName": "Solbakken",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 784,
+						"FirstName": "Angelo",
+						"LastName": "Preciado",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 785,
+						"FirstName": "Tomas",
+						"LastName": "Wiesner",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 786,
+						"FirstName": "Krystof",
+						"LastName": "Danek",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 787,
+						"FirstName": "Dalibor",
+						"LastName": "Vecerka",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 788,
+						"FirstName": "Matej",
+						"LastName": "Rynes",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 789,
+						"FirstName": "Roman",
+						"LastName": "Mokrovics",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 790,
+						"FirstName": "Lukas",
+						"LastName": "Haraslin",
+						"ScoringChance": 7
+					},
+					{
+						"PlayerId": 791,
+						"FirstName": "Jan",
+						"LastName": "Kuchta",
+						"ScoringChance": 6
+					},
+					{
+						"PlayerId": 792,
+						"FirstName": "Veljko",
+						"LastName": "Birmancevic",
+						"ScoringChance": 5,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 793,
+						"FirstName": "Victor",
+						"LastName": "Olatunji",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 794,
+						"FirstName": "Indrit",
+						"LastName": "Tuci",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 795,
+						"FirstName": "Ermal",
+						"LastName": "Krasniqi",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 796,
+						"FirstName": "Albion",
+						"LastName": "Rrahmani",
+						"ScoringChance": 4
+					}
+				]
+			},
+			{
+				"Team": "Midtjylland",
+				"TeamCountry": "Denmark",
+				"TeamRating": 18,
+				"UCLWins": 0,
+				"Stadium": [
+					{
+						"Name": "MCH Arena",
+						"Capacity": 10.0,
+						"FilledPercentageGS": 85,
+						"FilledPercentageKS": 90
+					}
+				],
+				"Players": [
+					{
+						"PlayerId": 797,
+						"FirstName": "Christian",
+						"LastName": "Sørensen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 798,
+						"FirstName": "Joel",
+						"LastName": "Andersson",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 799,
+						"FirstName": "Juninho",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 800,
+						"FirstName": "Mads",
+						"LastName": "Bech",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 801,
+						"FirstName": "Paulinho",
+						"LastName": "",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 802,
+						"FirstName": "Pablo",
+						"LastName": "Ortiz",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 803,
+						"FirstName": "Adam",
+						"LastName": "Gabriel",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 804,
+						"FirstName": "Han-Beom",
+						"LastName": "Lee",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 805,
+						"FirstName": "Victor",
+						"LastName": "Bak",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 806,
+						"FirstName": "Ousmane",
+						"LastName": "Diao",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 807,
+						"FirstName": "André",
+						"LastName": "Rømer",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 808,
+						"FirstName": "Kristoffer",
+						"LastName": "Olsson",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 809,
+						"FirstName": "Kristoffer",
+						"LastName": "Askildsen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 810,
+						"FirstName": "Oliver",
+						"LastName": "Sørensen",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 811,
+						"FirstName": "Aral",
+						"LastName": "Simsir",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 812,
+						"FirstName": "Emiliano",
+						"LastName": "Martinez",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 813,
+						"FirstName": "Pedro",
+						"LastName": "Bravo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 814,
+						"FirstName": "Dario",
+						"LastName": "Osorio",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 815,
+						"FirstName": "Denil",
+						"LastName": "Castillo",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 816,
+						"FirstName": "Mikel",
+						"LastName": "Gogorza",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 817,
+						"FirstName": "Alhaji",
+						"LastName": "Kamara",
+						"ScoringChance": 6,
+						"PenaltyTaker": true
+					},
+					{
+						"PlayerId": 818,
+						"FirstName": "Adam",
+						"LastName": "Buksa",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 819,
+						"FirstName": "Ola",
+						"LastName": "Brynhildsen",
+						"ScoringChance": 5
+					},
+					{
+						"PlayerId": 820,
+						"FirstName": "Edward",
+						"LastName": "Chilufya",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 821,
+						"FirstName": "Marrony",
+						"LastName": "",
+						"ScoringChance": 4
+					},
+					{
+						"PlayerId": 822,
+						"FirstName": "Gue-Sung",
+						"LastName": "Cho",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 823,
+						"FirstName": "Victor",
+						"LastName": "Lind",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 824,
+						"FirstName": "Frederik",
+						"LastName": "Heiselberg",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 825,
+						"FirstName": "Valdemar",
+						"LastName": "Byskov",
+						"ScoringChance": 3
+					},
+					{
+						"PlayerId": 826,
+						"FirstName": "Franculino",
+						"LastName": "",
+						"ScoringChance": 2
+					}
+				]
+			}
+		]
+	}
+}
