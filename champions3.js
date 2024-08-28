@@ -1285,6 +1285,7 @@ loadTeams().then((Teams) => {
 	let potTable, potTeams, teamNames;
 	startDrawBtn.addEventListener('click', (e) => {
 		e.preventDefault();
+		click_view.classList.remove('hide');
 
 		startDrawBtn.classList.add('hide');
 
