@@ -1,0 +1,646 @@
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    border: 2px solid #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.ball.white {
+    background-color: #fefae0;
+    color: #fff;
+}
+
+.ball.blue {
+    background-color: #1b458f;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'myriad-pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #000040;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+}
+
+.header {
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+}
+
+.button-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Amarillo dorado suave */
+    color: #333; /* Color de texto */
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 500px;
+    margin: 10px;
+}
+  
+/* Estilo hover del botón */
+.btn:hover {
+background-color: #FFC000; /* Amarillo dorado suave más oscuro en hover */
+}
+  
+
+.pots {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.tableHeaders {
+    width: 49.5px;
+    height: 39px;
+}
+
+.potsTable {
+    border: 3px solid #FFC000;
+    margin: 55px;
+}
+
+.teamsImgs {
+    width: 32px;
+    height: 32px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.groupStageTable {
+    border: 3px solid #FFC000;
+    border-collapse: collapse;
+    float: left;
+    width: 18%;
+    font-size: 20px;
+    padding-right: 1rem;
+    margin: 45px;
+}
+
+/* Estilo para las celdas de la tabla */
+.groupStageTable td,
+.groupStageTable th {
+    border-bottom: 1px solid #FFC000; 
+}
+
+/* Estilo para la fila del encabezado de la tabla */
+.groupStageTable thead tr {
+    border-bottom: 2px solid #FFC000; /* Borde inferior más grueso para separar el thead de los tr */
+}
+
+
+.groupStageTable td:first-child {
+    border-left: 1px solid #FFC000; 
+}
+
+
+.groupStageTable td:last-child {
+    border-right: 1px solid #FFC000; 
+}
+
+@media screen and (max-width: 768px) {
+    .groupStageTable {
+        font-size: 16px;
+        margin: 30px 0;
+    }   
+    
+}
+.potsBalls {
+    width: 85%;
+    display: flex;
+    /* margin: -70px 100px; */
+    margin: 100px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.continueDraw {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 920px) {
+    /* .groupStageTable {
+        width: 100%;
+        font-size: 15px;
+        margin: 40px;
+    } */
+    .button-header {
+        display: block;
+      }
+    .btn {
+        width: 95%;
+    }
+    .potsTable {
+        margin: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1304px) {
+    /* .groupStageTable {
+        width: 17%;
+    } */
+}
+
+@media screen and (max-width: 1228px) {
+    .potsTable {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    /* .groupStageTable {
+        width: 15%;
+    } */
+    .potsTable {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1017px) {
+    .pots {
+        width: 80%;
+        margin-left: 90px;
+    }
+    .potsTable {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .pots {
+        width: 86%;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    /* .groupStageTable {
+        font-size: 14px;
+        width: 24%;
+    } */
+}
+
+@media screen and (max-width: 850px) {
+    /* .groupStageTable {
+        font-size: 14px;
+        margin: 34px;
+    } */
+}
+
+@media screen and (max-width: 500px) {
+    .pots {
+        margin-left: 30px;
+    }
+    /* .groupStageTable {
+        width: 25%;
+        margin-left: 45px;
+    } */
+    .potsBalls {
+        margin: 50px 45px;
+    }
+}
+
+ul {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+    
+.tabs-container {
+    max-width: 1000px;
+    /* width: 60%; */
+    margin: 50px auto;
+    padding: 25px;
+    font-size: 15px;
+}
+
+#tabsRO16 a {
+    width: 200px;
+}
+
+/* #tabsRO16 {
+    justify-content: center;
+} */
+
+.tabs {
+    display: flex;
+}
+
+.tabs li:not(:last-child) {
+margin-right: 7px;
+}
+
+.tabs li a {
+    display: block;
+    position: relative;
+    top: 4px;
+    padding: 10px 25px;
+    border-radius: 2px 2px 0 0;
+    background: white;
+    opacity: 0.7;
+    transition: all 0.1s ease-in-out;
+}
+
+.tabs li.active a,
+.tabs li a:hover {
+    opacity: 1;
+    top: 0;
+}
+
+.tabs-content {
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 0 4px 4px 4px;
+}
+
+.tabs-panel {
+display: none;
+}
+
+.tabs-panel.active {
+display: block;
+}
+
+.tabs-panel p + div {
+margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .tabs {
+        flex-direction: column;
+    }
+
+    .tabs li {
+        width: 100%;
+    }
+
+    .tabs li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .tabs li a {
+        border-radius: 0;
+        opacity: 1;
+        top: 0;
+    }
+
+    .tabs li.active a::before {
+        content: "•";
+        padding-right: 5px;
+    }
+
+    .tabs-content {
+        border-radius: 0;
+    }
+}
+  
+.group-active {
+    margin-left: 450px;
+    margin-top: -50px;
+    width: 50%;
+}
+
+.group-active th {
+    margin-right: 0px;
+}
+
+.tableTeamStats {
+    margin-right: -10px;
+    /* max-width: 10px; */
+    width: 60px;
+}
+
+.groupSpacing {
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    width: 50%;
+    margin-left: 450px; /* Alinear con el margen izquierdo de la tabla */
+    position: relative;
+}
+
+.GSTableMatches {
+    border: 2px solid #FFC000;
+    border-collapse: collapse;
+    float: left;
+    width: 50%;
+    font-size: 21px;
+    padding-right: 1rem;
+    margin: 45px;
+    margin-left: 450px;
+    table-layout: fixed;
+}
+
+
+.teamName {
+    margin-left: 5px; 
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.homeTeam img {
+    margin-right: 5px; 
+}
+
+.awayTeam img {
+    margin-left: 5px; 
+}
+
+.GSTableMatches td,
+.GSTableMatches th {
+    border-bottom: 1px solid #FFC000; 
+}
+
+.fixtureRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeTeam {
+    /* display: flex;
+    flex: 1;
+    align-items: center; */
+    justify-content: flex-end;
+}
+  
+.awayTeam {
+    /* display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center; */
+    justify-content: flex-start;
+}
+  
+.homeTeam, .awayTeam {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.homeTeamLogo, .awayTeamLogo {
+    /* margin-right: 10px; */
+    max-width: 50px;
+}
+
+.homeTeamLogo {
+    margin-right: 10px;
+}
+
+.awayTeamLogo {
+    margin-left: 10px;
+}
+
+.fixtureVS {
+    /* margin: 0 20px; */
+    margin: 0 15px;
+    flex: 0 0 auto;
+}
+
+.homeTeamScore {
+    /* font-size: 26px;
+    margin-right: 10px;  */
+    /* order: 3; */
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.awayTeamScore {
+    /* font-size: 26px;
+    margin-left: 10px;  */
+    /* order: -1; */
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.homeTeamScore, .awayTeamScore {
+    font-size: 26px;
+    /* margin-right: 20px; */
+    width: 30px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.homeTeamName, .awayTeamName {
+    /* margin-right: 10px; */
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .homeTeamName, .awayTeamName {
+        font-size: 14px;
+    }
+
+    .homeTeamScore, .awayTeamScore {
+        font-size: 20px;
+        width: 25px;
+    }
+
+    .fixtureVS {
+        margin: 0 10px;
+    }
+
+    .homeTeamLogo, .awayTeamLogo {
+        max-width: 40px;
+    }
+}
+.hideTable span {
+    display: none;
+}
+
+@media (max-width: 1170px) {
+    .homeTeamName, .awayTeamName {
+        font-size: 15px;
+    }
+
+    .homeTeamScore, .awayTeamScore {
+        font-size: 20px;
+    }
+
+    .homeTeamScore {
+        margin-right: 5px;
+    }
+
+    .awayTeamScore {
+        margin-left: 5px;
+    }
+}
+
+/* #show td {
+    display: table-cell !important;
+} */
+
+.gifContainer {
+    position: relative;
+    top: -50px;
+}
+
+.drawingGif {
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    transform: translate(220%, -30%);
+}
+
+.expandedInfo {
+    display: none;
+}
+
+.expanded {
+    display: table-row;
+}
+
+.show {
+    display: block;
+    padding: 15px; /* Agregar espacio dentro del elemento */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #FFC000;
+}
+
+.details {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: height 0.5 ease;
+}
+
+.stadium, .attendance {
+    text-align: center;
+}
+
+.goalMinute {
+    color: red;
+}
+
+.home {
+    text-align: left;
+}
+
+.away {
+    text-align: right;
+}
+
+.fixtureRow:hover {
+    background-color: #1e3c70;
+    cursor: pointer;
+}
+
+.scorers {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.topScorersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.statsTHeader, .topScorerRank, .topScorerName, .topScorerTeam, .topScorerGoals {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.statsTHeader {
+    font-weight: bold;
+    text-align: left;
+}
+
+.topScorerRank {
+    width: 5%;
+}
+
+.topScorerName, .topScorerTeam {
+    width: 30%;
+}
+
+.topScorerGoals {
+    width: 10%;
+    text-align: center;
+}
+
+#RO16Matches {
+    margin-top: -50px;
+}
+
+.hr {
+    margin-top: 17px;
+}
+
+.globalScore {
+    text-align: center;
+    font-weight: bold;
+}
+
+.globalScoreValue {
+    font-size: 18px;
+}
+
+.finalMatch {
+    display: flex; /* Permite organizar elementos en una fila */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+    flex-direction: column;
+}
+
+.trophyDiv {
+    display: flex;
+    flex-direction: column; /* Ahora los elementos se apilarán verticalmente */
+    justify-content: center;
+    align-items: center;
+    text-align: center;     /* Centra el texto horizontalmente */
+}
+
+.winner {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
