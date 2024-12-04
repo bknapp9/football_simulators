@@ -1688,7 +1688,6 @@ loadTeams().then((Teams) => {
 		}
 
 		function populateKnockoutStage(teamNamesElements, teamImgsElements, qualifiedTeams) {
-			console.log(qualifiedToQF);
 			let fixtureIdx = 0;
 
 			for (let i = 0; i < qualifiedTeams.length; i++) {
