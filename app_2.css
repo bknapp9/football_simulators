@@ -50,6 +50,30 @@ body {
     font-size: 30px;
 }
 
+.header {
+	text-align: center;
+	margin: 50px;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+@font-face {
+	font-family: 'Champions';
+	src: url('fonts/Champions-Bold.eot');
+	src: url('fonts/Champions-Bold.eot') format('embedded-opentype'), url('fonts/Champions-Bold.woff') format('woff'), url('fonts/Champions-Bold.ttf') format('truetype'),
+		url('fonts/Champions-Bold.svg') format('svg');
+}
+
+.header h1 {
+	color: #fff;
+	font-family: 'Champions';
+}
+
+.header span {
+	color: red;
+	font-family: 'Champions';
+}
+
 .button-header {
     display: flex;
     align-items: center;
