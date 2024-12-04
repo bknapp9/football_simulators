@@ -724,7 +724,7 @@ loadTeams().then((Teams) => {
 					const normalizedTeam = normalizeTeamName(selectedTeam);
 
 					groupStageTeams[potIndex + groupIdx * 4].innerText = selectedTeam;
-					groupStageImgs[potIndex + groupIdx * 4].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+					groupStageImgs[potIndex + groupIdx * 4].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 					r++;
 					groupsNations[groupIdx].push(teamNation);
 					enableBalls();
@@ -795,13 +795,13 @@ loadTeams().then((Teams) => {
 					if (RO16FixtureIdx % 2 === 0) {
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].innerText = selectedTeam;
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 2)].innerText = selectedTeam;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 2)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 2)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 					} else {
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx - 2)].innerText = selectedTeam;
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].innerText = selectedTeam;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx - 2)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx - 2)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 					}
 
 					const potsRO16AClasses = potsRO16A.classList;
@@ -917,13 +917,13 @@ loadTeams().then((Teams) => {
 					if (r < 8) {
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].innerText = selectedTeam;
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 2)].innerText = selectedTeam;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 2)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 2)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 					} else {
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx - 2)].innerText = selectedTeam;
 						RO16TeamNames[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].innerText = selectedTeam;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx - 2)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
-						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx - 2)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
+						RO16TeamImgs[potIndex + RO16FixtureIdx + (RO16FixtureIdx + 1)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 					}
 					RO16Nations[RO16GroupIdx].push(teamNation);
 					RO16GroupIdx++;
@@ -973,13 +973,13 @@ loadTeams().then((Teams) => {
 			if (QFFixtureIdx % 2 === 0) {
 				QFTeamNames[potIndex + QFFixtureIdx + (QFFixtureIdx + 1)].innerText = selectedTeam;
 				QFTeamNames[potIndex + QFFixtureIdx + (QFFixtureIdx + 2)].innerText = selectedTeam;
-				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx + 1)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
-				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx + 2)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx + 1)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
+				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx + 2)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 			} else {
 				QFTeamNames[potIndex + QFFixtureIdx + (QFFixtureIdx - 2)].innerText = selectedTeam;
 				QFTeamNames[potIndex + QFFixtureIdx + (QFFixtureIdx + 1)].innerText = selectedTeam;
-				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx - 2)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
-				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx + 1)].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx - 2)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
+				QFTeamImgs[potIndex + QFFixtureIdx + (QFFixtureIdx + 1)].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 			}
 
 			i++;
@@ -998,7 +998,7 @@ loadTeams().then((Teams) => {
 	function placeTeamInGroup(teamName, groupIdx, teamInfo) {
 		const normalizedTeam = normalizeTeamName(teamName);
 		groupStageTeams[potIndex + groupIdx * 4].innerText = teamName;
-		groupStageImgs[potIndex + groupIdx * 4].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+		groupStageImgs[potIndex + groupIdx * 4].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 		groupsNations[groupIdx].push(teamInfo.TeamCountry);
 	}
 
@@ -1326,8 +1326,8 @@ loadTeams().then((Teams) => {
 
 				RO16TeamNames[RO16FixtureIdx].innerText = homeTeam;
 				RO16TeamNames[RO16FixtureIdx + 1].innerText = awayTeam;
-				RO16TeamImgs[RO16FixtureIdx].src = `clubs_world_cup_simulator/${normalizedHomeTeam.replace(/\s+/g, '')}.png`;
-				RO16TeamImgs[RO16FixtureIdx + 1].src = `clubs_world_cup_simulator/${normalizedAwayTeam.replace(/\s+/g, '')}.png`;
+				RO16TeamImgs[RO16FixtureIdx].src = `clubs_world_cup_images/${normalizedHomeTeam.replace(/\s+/g, '')}.png`;
+				RO16TeamImgs[RO16FixtureIdx + 1].src = `clubs_world_cup_images/${normalizedAwayTeam.replace(/\s+/g, '')}.png`;
 
 				RO16FixtureIdx += 2;
 			}
@@ -1668,8 +1668,8 @@ loadTeams().then((Teams) => {
 				finalTeamNames[0].innerText = homeTeamName;
 				finalTeamNames[1].innerText = awayTeamName;
 
-				finalTeamImgs[0].src = `clubs_world_cup_simulator/${normalizedHomeTeam.replace(/\s+/g, '')}.png`;
-				finalTeamImgs[1].src = `clubs_world_cup_simulator/${normalizedAwayTeam.replace(/\s+/g, '')}.png`;
+				finalTeamImgs[0].src = `clubs_world_cup_images/${normalizedHomeTeam.replace(/\s+/g, '')}.png`;
+				finalTeamImgs[1].src = `clubs_world_cup_images/${normalizedAwayTeam.replace(/\s+/g, '')}.png`;
 
 				if (r === 24) {
 					continueToKOBtn.classList.add('hide');
@@ -1689,7 +1689,7 @@ loadTeams().then((Teams) => {
 				// Determine the index for filling team names and images
 
 				teamNamesElements[fixtureIdx].innerText = teamName;
-				teamImgsElements[fixtureIdx].src = `clubs_world_cup_simulator/${normalizedTeam.replace(/\s+/g, '')}.png`;
+				teamImgsElements[fixtureIdx].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 
 				fixtureIdx++;
 			}
