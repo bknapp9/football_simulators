@@ -639,25 +639,28 @@ margin-top: 15px;
 }
 
 .header {
-	text-align: center;
-	margin: 50px;
-	font-size: 25px;
-	color: #ffffff;
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+    color: #ffffff;
 }
 
+
 @font-face {
-	font-family: 'Champions';
-	src: url('fonts/Champions-Bold.eot');
-	src: url('fonts/Champions-Bold.eot') format('embedded-opentype'), url('fonts/Champions-Bold.woff') format('woff'), url('fonts/Champions-Bold.ttf') format('truetype'),
-		url('fonts/Champions-Bold.svg') format('svg');
+    font-family: 'Champions';
+    src: url('fonts/Champions-Bold.eot'); 
+    src: url('fonts/Champions-Bold.eot') format('embedded-opentype'), 
+         url('fonts/Champions-Bold.woff') format('woff'), 
+         url('fonts/Champions-Bold.ttf')  format('truetype'), 
+         url('fonts/Champions-Bold.svg') format('svg'); 
 }
 
 .header h1 {
-	color: #fff;
-	font-family: 'Champions';
+    color: #FFF;
+    font-family: 'Champions';
 }
 
 .header span {
-	color: red;
-	font-family: 'Champions';
+    color: red;
+    font-family: 'Champions';
 }
