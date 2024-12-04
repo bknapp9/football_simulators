@@ -874,6 +874,16 @@ loadTeams().then((Teams) => {
 		}
 	});
 
+	function initializeGroups() {
+		// Reinicia los grupos y estructuras relacionadas
+		groupIdx = 0;
+		potIndex = 0;
+		groupsNations = Array.from({ length: 8 }, () => []); // Reinicia groupsNations como un array vacío para cada grupo
+		groupStageTeams.forEach((team) => (team.innerText = '')); // Limpia los nombres de los equipos en el grupo
+		groupStageImgs.forEach((img) => (img.src = '')); // Limpia las imágenes de los equipos
+		console.log('Grupos reiniciados correctamente.');
+	}
+
 	function fillGroupStage(retryCount = 0) {
 		try {
 			hideTablesExcept(false, potsTables);
@@ -925,13 +935,54 @@ loadTeams().then((Teams) => {
 			// Reintentar hasta 3 veces
 			if (retryCount < 5) {
 				console.log(`Reintentando... intento ${retryCount + 1}`);
+				initializeGroups();
 				fillGroupStage(retryCount + 1);
 			} else {
 				console.error('Máximo número de reintentos alcanzado. No se pudo completar.');
+				initializeGroups();
+				fillGroupStageNoRest();
 			}
 		}
 	}
 
+	function fillGroupStageNoRest() {
+		hideTablesExcept(false, potsTables);
+		for (const potTable of Array.from(potsTables).slice(0, 4)) {
+			groupIdx = 0;
+			let potTeamNames = potTable.querySelectorAll('.potsTeam');
+			potTeamNames = shuffleTeams(potTeamNames);
+
+			let i = 0; // Iterador sobre potTeamNames
+			let attempts = 0; // Contador de intentos para prevenir bucles infinitos
+
+			while (i < potTeamNames.length) {
+				const potTeamName = potTeamNames[i];
+				const selectedTeam = potTeamName.innerText.trim();
+				const teamInfo = allTeams.find((team) => team.Team === selectedTeam);
+				const teamConfederation = teamInfo.TeamConfederation;
+
+				const uefaCount = groupsNations[groupIdx].filter((conf) => conf === 'UEFA').length;
+
+				if (teamConfederation !== 'UEFA' && groupsNations[groupIdx].includes(teamConfederation)) {
+					if (groupIdx === 7) {
+						placeTeamInGroup(selectedTeam, groupIdx, teamInfo);
+						groupIdx++;
+						i++;
+					} else {
+						potTeamNames.splice(i, 1); // Eliminar el equipo de la posición actual
+						potTeamNames.push(potTeamName); // Mover el equipo al final
+					}
+				} else {
+					placeTeamInGroup(selectedTeam, groupIdx, teamInfo);
+					groupIdx++;
+					i++;
+				}
+			}
+
+			potIndex++;
+		}
+	}
+	
 	function fillRoundOf16() {
 		potsTables = document.querySelectorAll('.potsTable');
 		hideTablesExcept(false, potsTables);
