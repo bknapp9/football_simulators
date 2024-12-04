@@ -874,33 +874,61 @@ loadTeams().then((Teams) => {
 		}
 	});
 
-	function fillGroupStage() {
-		hideTablesExcept(false, potsTables);
-		for (const potTable of Array.from(potsTables).slice(0, 4)) {
-			groupIdx = 0;
-			let potTeamNames = potTable.querySelectorAll('.potsTeam');
-			potTeamNames = shuffleTeams(potTeamNames);
+	function fillGroupStage(retryCount = 0) {
+		try {
+			hideTablesExcept(false, potsTables);
+			for (const potTable of Array.from(potsTables).slice(0, 4)) {
+				groupIdx = 0;
+				let potTeamNames = potTable.querySelectorAll('.potsTeam');
+				potTeamNames = shuffleTeams(potTeamNames);
 
-			let i = 0; // Variable para iterar sobre potTeamNames
-			while (i < potTeamNames.length) {
-				const potTeamName = potTeamNames[i];
-				const selectedTeam = potTeamName.innerText.trim();
-				const teamInfo = allTeams.find((team) => team.Team === selectedTeam);
-				const teamConfederation = teamInfo.TeamConfederation;
+				let i = 0; // Iterador sobre potTeamNames
+				let attempts = 0; // Contador de intentos para prevenir bucles infinitos
 
-				const uefaCount = groupsNations[groupIdx].filter((conf) => conf === 'UEFA').length;
+				while (i < potTeamNames.length) {
+					const potTeamName = potTeamNames[i];
+					const selectedTeam = potTeamName.innerText.trim();
+					const teamInfo = allTeams.find((team) => team.Team === selectedTeam);
+					const teamConfederation = teamInfo.TeamConfederation;
 
-				if ((teamConfederation !== 'UEFA' && groupsNations[groupIdx].includes(teamConfederation)) || (teamConfederation === 'UEFA' && uefaCount >= 2)) {
-					potTeamNames.splice(i, 1); // Eliminar el equipo de la posición actual
-					potTeamNames.push(potTeamName); // Mover el equipo al final
-				} else {
-					placeTeamInGroup(selectedTeam, groupIdx, teamInfo);
-					groupIdx++;
-					i++;
+					const uefaCount = groupsNations[groupIdx].filter((conf) => conf === 'UEFA').length;
+
+					if ((teamConfederation !== 'UEFA' && groupsNations[groupIdx].includes(teamConfederation)) || (teamConfederation === 'UEFA' && uefaCount >= 2)) {
+						if (groupIdx === 7) {
+							placeTeamInGroup(selectedTeam, groupIdx, teamInfo);
+							groupIdx++;
+							i++;
+							attempts = 0; // Reinicia los intentos después de un éxito
+						} else {
+							potTeamNames.splice(i, 1); // Eliminar el equipo de la posición actual
+							potTeamNames.push(potTeamName); // Mover el equipo al final
+							attempts++;
+
+							// Si los intentos exceden el límite, lanza un error
+							if (attempts > potTeamNames.length * 2) {
+								throw new Error('Cannot assign a team.');
+							}
+						}
+					} else {
+						placeTeamInGroup(selectedTeam, groupIdx, teamInfo);
+						groupIdx++;
+						i++;
+						attempts = 0; // Reinicia los intentos después de un éxito
+					}
 				}
-			}
 
-			potIndex++;
+				potIndex++;
+			}
+		} catch (error) {
+			console.error(`Error en fillGroupStage: ${error.message}`);
+
+			// Reintentar hasta 3 veces
+			if (retryCount < 5) {
+				console.log(`Reintentando... intento ${retryCount + 1}`);
+				fillGroupStage(retryCount + 1);
+			} else {
+				console.error('Máximo número de reintentos alcanzado. No se pudo completar.');
+			}
 		}
 	}
 
