@@ -210,15 +210,15 @@ loadTeams().then((Teams) => {
 				ball.classList.remove('hide');
 				chooseRandomTeam(maxNum--, teamNames, ball, doneTeams);
 
-				// if (RO16TeamIdx % 2 === 0 && doneTeams && !doneTeams.includes(ball.innerText.trim()) && KORound === 0) {
-				// 	let teamInfo = allTeams.find((team) => team.Team === ball.innerText.trim());
-				// 	if (teamInfo.TeamCountry !== teamNations[0]) {
-				// 		allSameNation = false;
-				// 	} else {
-				// 		ball.style.pointerEvents = 'none';
-				// 		ball.style.backgroundColor = '#8b8c89';
-				// 	}
-				// }
+				if (RO16TeamIdx % 2 === 0 && doneTeams && !doneTeams.includes(ball.innerText.trim()) && KORound === 0) {
+					let teamInfo = allTeams.find((team) => team.Team === ball.innerText.trim());
+					if (teamInfo.TeamCountry !== teamNations[0]) {
+						allSameNation = false;
+					} else {
+						ball.style.pointerEvents = 'none';
+						ball.style.backgroundColor = '#8b8c89';
+					}
+				}
 			}
 
 			if (allSameNation) {
@@ -335,11 +335,14 @@ loadTeams().then((Teams) => {
 			for (ball of potsBalls) {
 				let potTeamName = ball.innerText.trim();
 				let teamInfo = allTeams.find((team) => team.Team === potTeamName);
+				let teamConfederation = teamInfo.TeamConfederation;
 
-				// if (groupsNations[groupIdx].includes(teamNation)) {
-				// 	ball.style.pointerEvents = 'none';
-				// 	ball.style.backgroundColor = '#8b8c89';
-				// }
+				const uefaCount = groupsNations[groupIdx].filter((conf) => conf === 'UEFA').length;
+
+				if ((teamConfederation !== 'UEFA' && groupsNations[groupIdx].includes(teamConfederation)) || (teamConfederation === 'UEFA' && uefaCount >= 2)) {
+					ball.style.pointerEvents = 'none';
+					ball.style.backgroundColor = '#8b8c89';
+				}
 			}
 		});
 	});
@@ -714,6 +717,7 @@ loadTeams().then((Teams) => {
 
 				let teamInfo = allTeams.find((team) => team.Team === selectedTeam);
 				let teamNation = teamInfo.TeamCountry;
+				let teamConfederation = teamInfo.TeamConfederation;
 
 				potsBall.classList.add('hide');
 				disableBalls();
@@ -726,35 +730,38 @@ loadTeams().then((Teams) => {
 					groupStageTeams[potIndex + groupIdx * 4].innerText = selectedTeam;
 					groupStageImgs[potIndex + groupIdx * 4].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
 					r++;
-					groupsNations[groupIdx].push(teamNation);
+					groupsNations[groupIdx].push(teamConfederation);
 					enableBalls();
 
-					// if (r > 8 && groupIdx < 8) {
-					// 	const activePotsBalls = document.querySelectorAll('.potsBalls .potsBall:not(.hide)');
-					// 	let sameNationCount = 0;
-					// 	for (const ball of activePotsBalls) {
-					// 		let potTeamName = ball.innerText.trim();
+					if (r > 8 && groupIdx < 8) {
+						const activePotsBalls = document.querySelectorAll('.potsBalls .potsBall:not(.hide)');
+						let sameNationCount = 0;
+						for (const ball of activePotsBalls) {
+							let potTeamName = ball.innerText.trim();
 
-					// 		let teamInfo = allTeams.find((team) => team.Team === potTeamName);
-					// 		let teamNation = teamInfo.TeamCountry;
+							let teamInfo = allTeams.find((team) => team.Team === potTeamName);
+							let teamNation = teamInfo.TeamCountry;
+							let teamConfederation = teamInfo.TeamConfederation;
 
-					// 		if (groupsNations[groupIdx + 1].includes(teamNation)) {
-					// 			sameNationCount++;
-					// 			ball.style.pointerEvents = 'none';
-					// 			ball.style.backgroundColor = '#8b8c89';
-					// 		}
+							const uefaCount = groupsNations[groupIdx + 1].filter((conf) => conf === 'UEFA').length;
 
-					// 		// if (sameNationCount === activePotsBalls.length) {
-					// 		// 	// Si todas las bolas restantes son del mismo país que el ya seleccionado, activar todas las bolas
-					// 		// 	enableBalls();
-					// 		// } else {
-					// 		// 	if (groupsNations[groupIdx + 1].includes(teamNation)) {
-					// 		// 		ball.style.pointerEvents = 'none';
-					// 		// 		ball.style.backgroundColor = '#8b8c89';
-					// 		// 	}
-					// 		// }
-					// 	}
-					// }
+							if ((teamConfederation !== 'UEFA' && groupsNations[groupIdx + 1].includes(teamConfederation)) || (teamConfederation === 'UEFA' && uefaCount >= 2)) {
+								sameNationCount++;
+								ball.style.pointerEvents = 'none';
+								ball.style.backgroundColor = '#8b8c89';
+							}
+
+							// if (sameNationCount === activePotsBalls.length) {
+							// 	// Si todas las bolas restantes son del mismo país que el ya seleccionado, activar todas las bolas
+							// 	enableBalls();
+							// } else {
+							// 	if (groupsNations[groupIdx + 1].includes(teamConfederation)) {
+							// 		ball.style.pointerEvents = 'none';
+							// 		ball.style.backgroundColor = '#8b8c89';
+							// 	}
+							// }
+						}
+					}
 					groupIdx++;
 					GSDoneTeams.push(selectedTeam.trim());
 
@@ -782,7 +789,7 @@ loadTeams().then((Teams) => {
 				const teamToMove = Array.from(potTeams).find((team) => team.innerText.trim() === selectedTeam);
 
 				potsBall.classList.add('hide');
-				// disableBalls();
+				disableBalls();
 
 				if (RO16FixtureIdx % 2 === 0) {
 					teamToMoveY += 200;
@@ -879,15 +886,17 @@ loadTeams().then((Teams) => {
 				const potTeamName = potTeamNames[i];
 				const selectedTeam = potTeamName.innerText.trim();
 				const teamInfo = allTeams.find((team) => team.Team === selectedTeam);
-				const teamNation = teamInfo.TeamCountry;
+				const teamConfederation = teamInfo.TeamConfederation;
 
-				if (!groupsNations[groupIdx].includes(teamNation) || groupIdx === 7) {
+				const uefaCount = groupsNations[groupIdx].filter((conf) => conf === 'UEFA').length;
+
+				if ((teamConfederation !== 'UEFA' && groupsNations[groupIdx].includes(teamConfederation)) || (teamConfederation === 'UEFA' && uefaCount >= 2)) {
+					potTeamNames.splice(i, 1); // Eliminar el equipo de la posición actual
+					potTeamNames.push(potTeamName); // Mover el equipo al final
+				} else {
 					placeTeamInGroup(selectedTeam, groupIdx, teamInfo);
 					groupIdx++;
 					i++;
-				} else {
-					potTeamNames.splice(i, 1); // Eliminar el equipo de la posición actual
-					potTeamNames.push(potTeamName); // Mover el equipo al final
 				}
 			}
 
@@ -999,7 +1008,7 @@ loadTeams().then((Teams) => {
 		const normalizedTeam = normalizeTeamName(teamName);
 		groupStageTeams[potIndex + groupIdx * 4].innerText = teamName;
 		groupStageImgs[potIndex + groupIdx * 4].src = `clubs_world_cup_images/${normalizedTeam.replace(/\s+/g, '')}.png`;
-		groupsNations[groupIdx].push(teamInfo.TeamCountry);
+		groupsNations[groupIdx].push(teamInfo.TeamConfederation);
 	}
 
 	generateFixturesBtn.addEventListener('click', (e) => {
