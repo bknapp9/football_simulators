@@ -4,6 +4,7 @@
 			{
 				"Team": "Manchester City",
 				"TeamCountry": "England",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 85,
 				"CCLWins": 1,
 				"Stadium": [
@@ -129,6 +130,7 @@
 			{
 				"Team": "Real Madrid",
 				"TeamCountry": "Spain",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 97,
 				"CCLWins": 15,
 				"Stadium": [
@@ -266,6 +268,7 @@
 			{
 				"Team": "Bayern Munich",
 				"TeamCountry": "Germany",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 94,
 				"CCLWins": 6,
 				"Stadium": [
@@ -403,6 +406,7 @@
 			{
 				"Team": "PSG",
 				"TeamCountry": "France",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 80,
 				"CCLWins": 0,
 				"Stadium": [
@@ -552,6 +556,7 @@
 			{
 				"Team": "Flamengo",
 				"TeamCountry": "Brazil",
+				"TeamConfederation": "CONMEBOL",
 				"TeamRating": 47,
 				"CCLWins": 3,
 				"Stadium": [
@@ -701,6 +706,7 @@
 			{
 				"Team": "Palmeiras",
 				"TeamCountry": "Brazil",
+				"TeamConfederation": "CONMEBOL",
 				"TeamRating": 50,
 				"CCLWins": 3,
 				"Stadium": [
@@ -844,6 +850,7 @@
 			{
 				"Team": "River Plate",
 				"TeamCountry": "Argentina",
+				"TeamConfederation": "CONMEBOL",
 				"TeamRating": 49,
 				"CCLWins": 5,
 				"Stadium": [
@@ -993,6 +1000,7 @@
 			{
 				"Team": "Fluminense",
 				"TeamCountry": "Brazil",
+				"TeamConfederation": "CONMEBOL",
 				"TeamRating": 39,
 				"CCLWins": 1,
 				"Stadium": [
@@ -1142,6 +1150,7 @@
 			{
 				"Team": "Chelsea",
 				"TeamCountry": "England",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 85,
 				"CCLWins": 2,
 				"Stadium": [
@@ -1279,6 +1288,7 @@
 			{
 				"Team": "Borussia Dortmund",
 				"TeamCountry": "Germany",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 78,
 				"CCLWins": 2,
 				"Stadium": [
@@ -1422,6 +1432,7 @@
 			{
 				"Team": "Inter Milan",
 				"TeamCountry": "Italy",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 78,
 				"CCLWins": 3,
 				"Stadium": [
@@ -1565,6 +1576,7 @@
 			{
 				"Team": "Porto",
 				"TeamCountry": "Portugal",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 74,
 				"CCLWins": 2,
 				"Stadium": [
@@ -1696,6 +1708,7 @@
 			{
 				"Team": "Atletico Madrid",
 				"TeamCountry": "Spain",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 75,
 				"CCLWins": 0,
 				"Stadium": [
@@ -1839,6 +1852,7 @@
 			{
 				"Team": "Benfica",
 				"TeamCountry": "Portugal",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 68,
 				"CCLWins": 2,
 				"Stadium": [
@@ -1982,6 +1996,7 @@
 			{
 				"Team": "Juventus",
 				"TeamCountry": "Italy",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 77,
 				"CCLWins": 2,
 				"Stadium": [
@@ -2131,6 +2146,7 @@
 			{
 				"Team": "RB Salzburg",
 				"TeamCountry": "Austria",
+				"TeamConfederation": "UEFA",
 				"TeamRating": 8,
 				"CCLWins": 0,
 				"Stadium": [
@@ -2322,6 +2338,7 @@
 			{
 				"Team": "Al Hilal",
 				"TeamCountry": "Saudi Arabia",
+				"TeamConfederation": "AFC",
 				"TeamRating": 30,
 				"CCLWins": 4,
 				"Stadium": [
@@ -2489,6 +2506,7 @@
 			{
 				"Team": "Ulsan HD",
 				"TeamCountry": "South Korea",
+				"TeamConfederation": "AFC",
 				"TeamRating": 5,
 				"CCLWins": 2,
 				"Stadium": [
@@ -2656,6 +2674,7 @@
 			{
 				"Team": "Al Ahly",
 				"TeamCountry": "Egypt",
+				"TeamConfederation": "CAF",
 				"TeamRating": 5,
 				"CCLWins": 11,
 				"Stadium": [
@@ -2823,6 +2842,7 @@
 			{
 				"Team": "Wydad Casablanca",
 				"TeamCountry": "Morocco",
+				"TeamConfederation": "CAF",
 				"TeamRating": 10,
 				"CCLWins": 3,
 				"Stadium": [
@@ -2990,6 +3010,7 @@
 			{
 				"Team": "Monterrey",
 				"TeamCountry": "Mexico",
+				"TeamConfederation": "CONCACAF",
 				"TeamRating": 15,
 				"CCLWins": 5,
 				"Stadium": [
@@ -3157,6 +3178,7 @@
 			{
 				"Team": "Leon",
 				"TeamCountry": "Mexico",
+				"TeamConfederation": "CONCACAF",
 				"TeamRating": 15,
 				"CCLWins": 1,
 				"Stadium": [
@@ -3324,6 +3346,7 @@
 			{
 				"Team": "Boca Juniors",
 				"TeamCountry": "Argentina",
+				"TeamConfederation": "CONMEBOL",
 				"TeamRating": 44,
 				"CCLWins": 6,
 				"Stadium": [
@@ -3467,6 +3490,7 @@
 			{
 				"Team": "Botafogo",
 				"TeamCountry": "Brazil",
+				"TeamConfederation": "CONMEBOL",
 				"TeamRating": 50,
 				"CCLWins": 1,
 				"Stadium": [
@@ -3586,6 +3610,7 @@
 			{
 				"Team": "Urawa Red Diamonds",
 				"TeamCountry": "Japan",
+				"TeamConfederation": "AFC",
 				"TeamRating": 15,
 				"CCLWins": 3,
 				"Stadium": [
@@ -3753,6 +3778,7 @@
 			{
 				"Team": "Al Ain",
 				"TeamCountry": "United Arab Emirates",
+				"TeamConfederation": "AFC",
 				"TeamRating": 10,
 				"CCLWins": 1,
 				"Stadium": [
@@ -3920,6 +3946,7 @@
 			{
 				"Team": "Esperance de Tunis",
 				"TeamCountry": "Tunisia",
+				"TeamConfederation": "CAF",
 				"TeamRating": 10,
 				"CCLWins": 4,
 				"Stadium": [
@@ -4087,6 +4114,7 @@
 			{
 				"Team": "Mamelodi Sundowns",
 				"TeamCountry": "Sudafrica",
+				"TeamConfederation": "CAF",
 				"TeamRating": 2,
 				"CCLWins": 1,
 				"Stadium": [
@@ -4254,6 +4282,7 @@
 			{
 				"Team": "Pachuca",
 				"TeamCountry": "Sudafrica",
+				"TeamConfederation": "CAF",
 				"TeamRating": 15,
 				"CCLWins": 6,
 				"Stadium": [
@@ -4421,6 +4450,7 @@
 			{
 				"Team": "Seattle Sounders",
 				"TeamCountry": "United States",
+				"TeamConfederation": "CONCACAF",
 				"TeamRating": 12,
 				"CCLWins": 1,
 				"Stadium": [
@@ -4588,6 +4618,7 @@
 			{
 				"Team": "Auckland City",
 				"TeamCountry": "New Zeland",
+				"TeamConfederation": "OFC",
 				"TeamRating": 5,
 				"CCLWins": 11,
 				"Stadium": [
@@ -4755,6 +4786,7 @@
 			{
 				"Team": "Inter Miami",
 				"TeamCountry": "United States",
+				"TeamConfederation": "CONCACAF",
 				"TeamRating": 30,
 				"CCLWins": 0,
 				"Stadium": [
