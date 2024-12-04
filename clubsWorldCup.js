@@ -751,6 +751,11 @@ loadTeams().then((Teams) => {
 								ball.style.backgroundColor = '#8b8c89';
 							}
 
+							
+							if (sameNationCount == activePotsBalls.length) {
+								enableBalls();
+							}
+
 							// if (sameNationCount === activePotsBalls.length) {
 							// 	// Si todas las bolas restantes son del mismo país que el ya seleccionado, activar todas las bolas
 							// 	enableBalls();
